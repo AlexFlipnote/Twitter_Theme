@@ -11,12 +11,13 @@ Do you need more help? Join my server! **https://discord.gg/J4mwTJR**
 **Where can I talk with you?**<br>Here: https://discord.gg/J4mwTJR
 
 **How do I use the theme?**<br>
-- Download a plugin to Chrome or Firefox called **Stylish**
-<br>[ Links can be found here: ]<br>
-[Chrome](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en) [Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/)
-- When you have downloaded the plugin, simply go into the settings and do this:<br>
-![Preview](https://i.alexflipnote.xyz/97553d.png)
-- When everything is done, simply click **Save** and enjoy the theme!
+- Download a plugin to Chrome called **Stylebot** [Download link](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=en)
+- When you have downloaded the plugin, simply do this:<br>
+![Preview](https://i.alexflipnote.xyz/13388e.gif)
+- Enjoy the theme!
+>You can use any plugin that inserts CSS, just that I really like Sylebot
+
+**How do I get the code shown in the GIF?**<br>It's in [autotheme.css](autotheme.css)
 
 ( If you want the code, shown in the screenshot, check out **autotheme.css** )
 

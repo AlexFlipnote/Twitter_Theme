@@ -13,7 +13,7 @@ input, input:focus { border-color: transparent; color: #fff; }
 .keyboard-shortcuts .modal-table .shortcut-label { color: #ccc; }
 
 .btn {
-  border-radius: 0;
+  border-radius: 5px;
   border: 0;
   border-color: transparent;
 }
@@ -86,6 +86,35 @@ li.stream-item.highlighted,
 .tweet-counter { text-shadow: none; font-weight: bold; color: #2ecc71; }
 .tweet-counter.warn { color: #f1c40f; }
 .tweet-counter.superwarn { color: #e74c3c; }
+.RetweetDialog-footer { background-color: #282828; }
+.modal-container.tweet-showing .modal-tweet { background-color: #282828; }
+.RetweetDialog-commentBox { background-color: #232323; }
+#global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet { background-color: #282828; }
+#global-tweet-dialog.tweet-showing .modal-header { border-bottom: 0; }
+
+.icon-btn.enabled {
+  background: transparent;
+  border-width: 2px;
+}
+
+.PollingCardComposer {
+  background-color: #282828;
+  box-shadow: none;
+  border-radius: 0 0 0 0;
+}
+
+.tweet-form.is-cardComposerOn .TweetBoxAttachments, .tweet-form.has-thumbnail .TweetBoxAttachments { border: 0; }
+.PollingCardComposer-option div.PollingCardComposer-optionInput { background: #303030; }
+
+.geo-query-location {
+  background: #181818;
+  border-bottom: 0;
+  border-radius: 0;
+}
+.dropdown-menu .geo-query-location input[type=text] { background: transparent; }
+.tweet-box input[type=text] { border-color: transparent; }
+.tweet-form .thumbnail-container .thumbnail-wrapper { background: #282828; }
+.tweet-form .thumbnail-container { border-radius: 0 0 0 0; }
 
 .recap-header {
   border-bottom: 0;
@@ -335,6 +364,15 @@ div.ActivityItem-displayText.js-actionable-user {
   border-bottom: 0;
 }
 
+.ProfileClusterFollow {
+  background-color: #181818;
+  border-bottom: 0;
+}
+
+.Grid--withGutter>.Grid-cell { background: transparent; }
+
+.ProfileClusterFollow-title { color: #fff; }
+
 .FollowStatus {
   color: #fff;
   font-weight: bold;
@@ -470,8 +508,8 @@ input#user_name, input#user_location, input#user_url {
   border-bottom: 0;
 }
 .DMInboxItem:hover {
-    background-color: #303030!important;
-    text-decoration: none;
+  background-color: #303030!important;
+  text-decoration: none;
 }
 
 /* Follow Button */
