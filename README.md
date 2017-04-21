@@ -11,7 +11,7 @@ Do you need more help? Join my server! **https://discord.gg/J4mwTJR**
 **Where can I talk with you?**<br>Here: https://discord.gg/J4mwTJR
 
 **How do I use the theme?**<br>
-- Download a plugin to Chrome called **Sylebot** [Download link](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=en)
+- Download a plugin to Chrome called **Stylebot** [Download link](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=en)
 - When you have downloaded the plugin, simply do this:<br>
 ![Preview](https://i.alexflipnote.xyz/13388e.gif)
 - Enjoy the theme!
