@@ -435,6 +435,8 @@ input#user_name, input#user_location, input#user_url {
   background: transparent;
 }
 
+.DMDivider { background-color: #282828; color: #eee; }
+.DMActivity-body { background-color: #282828; }
 .RichEditor.RichEditor--emojiPicker div[contenteditable] {
   background-color: #282828;
   color: #fff;
