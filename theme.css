@@ -91,6 +91,8 @@ li.stream-item.highlighted,
 .RetweetDialog-commentBox { background-color: #232323; }
 #global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet { background-color: #282828; }
 #global-tweet-dialog.tweet-showing .modal-header { border-bottom: 0; }
+.ThreadedConversation-moreReplies { background-color: #181818; }
+.ThreadedConversation, .ThreadedConversation-moreReplies:after { border-bottom: 0; }
 
 .icon-btn.enabled {
   background: transparent;
