@@ -211,6 +211,89 @@ li.stream-item.highlighted,
 
 .PermalinkOverlay .permalink-tweet { background-color: #282828 }
 
+/* Moment */
+.MomentMakerPage-content {
+  background-color: #181818;
+}
+
+.MomentsPage.MomentsPermalinkPage .AppContent, .MomentsPage.MomentMakerPage .AppContent {
+  background-color: #303030;
+}
+
+.MomentMakerCapsuleCover {
+  background: #282828;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+
+.MomentCapsuleEditableMeta-title .rich-editor, .MomentCapsuleEditableMeta-description .rich-editor {
+  color: #fff;
+  background: #242424;
+}
+
+.MomentMakerCapsuleCover-empty, .MomentCapsuleSummary--portrait .MomentCapsuleSummary-title {
+  background-color: transparent;
+  color: #fff;
+}
+
+.MomentsPage.MomentsGuidePage .Footer, .MomentsPage.MomentsPermalinkPage .Footer {
+  margin-bottom: -10px;
+}
+
+.MomentMakerRecommendations-title {
+  color: #fff;
+  background-color: #282828;
+}
+
+.MomentFloatingMenu .MomentButton:last-child {
+  color: #fff;
+}
+
+.MomentFloatingMenu {
+  border: 0;
+  background-color: #2ecc71;
+}
+
+.MomentMakerRecommendations {
+  background-color: #303030;
+}
+
+.MomentMakerRecommendedCategories {
+  background-color: #181818;
+  border-radius: 10px;
+}
+
+.MomentCapsuleCover-title {
+  color: #fff;
+}
+
+.MomentMakerRecommendations-module {
+  background: transparent;
+  border: 0;
+}
+
+.MomentCapsuleItemTweet--withText {
+  background: #282828;
+}
+
+.MomentUserByline-fullname {
+  color: #fff;
+}
+
+.MomentMakerRecommendations-more {
+  background-color: #181818;
+  color: #fff;
+  border-top: 0;
+  border-radius: 10px;
+}
+
+.MomentMakerRecommendations-scrollTopButton {
+  background: #181818;
+  border: 0;
+  color: #fff;
+}
+
 /* List */
 .GridTimeline-emptyText { color: #fff; }
 .ProfileListsTimeline .GridTimeline-end:not(.has-items) {
