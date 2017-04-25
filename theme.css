@@ -93,6 +93,9 @@ li.stream-item.highlighted,
 #global-tweet-dialog.tweet-showing .modal-header { border-bottom: 0; }
 .ThreadedConversation-moreReplies { background-color: #181818; }
 .ThreadedConversation, .ThreadedConversation-moreReplies:after { border-bottom: 0; }
+.inline-reply-tweetbox { background-color: #303030; }
+.permalink .inline-reply-tweetbox { border-radius: 0; border-top: 0; }
+.ThreadedConversation, .ThreadedConversation--loneTweet { margin: 0; }
 
 .icon-btn.enabled {
   background: transparent;
