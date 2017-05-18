@@ -139,11 +139,6 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   background-color: #353535;
 }
 
-.RichEditor.RichEditor--emojiPicker div[contenteditable] {
-  background: transparent;
-  color: #fff;
-}
-
 .modal-header {
   border-radius: 0 0 0 0;
   background: #181818;
@@ -569,6 +564,22 @@ input#user_name, input#user_location, input#user_url {
   background-color: #282828;
   color: #fff;
 }
+
+.EmojiPicker-query {
+  background-image: none;
+  background-color: #181818;
+  border-radius: 0;
+  border-bottom: 0;
+}
+.EmojiPicker-query input[type=text].EmojiPicker-queryInput {
+  background: transparent;
+  color: #fff;
+}
+.EmojiPicker-categoryHeader {
+  border-bottom: 0;
+  color: #ddd;
+}
+.EmojiPicker-diversityRow { border-top: 0; }
 
 .u-borderUserColorLighter, .RichEditor.is-fakeFocus { border-color: transparent!important; }
 .DMConversation-composer { border-top: 0; box-shadow: inset 0 0 0 rgba(0,0,0,.1); }
