@@ -82,6 +82,8 @@ li.stream-item.highlighted,
 }
 
 /* Tweets */
+span[data-query-source="hashtag_click"] b { color: #fff; }
+span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply pretty-link js-nav"] s { color: #3498db; }
 .rich-editor em { background: #e74c3c; }
 .tweet-counter { text-shadow: none; font-weight: bold; color: #2ecc71; }
 .tweet-counter.warn { color: #f1c40f; }
