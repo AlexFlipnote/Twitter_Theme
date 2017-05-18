@@ -312,7 +312,7 @@ li.stream-item.highlighted,
 
 .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover { background: transparent; }
 
-.QuoteTweet-text .pretty-link s, .QuoteTweet-text .pretty-link b {
+.QuoteTweet-text .pretty-link s {
   color: #fff;
 }
 
@@ -654,6 +654,20 @@ input#user_name, input#user_location, input#user_url {
   border-top: 0;
   border-left: 0;
   border-right: 0;
+}
+
+.permalink, .permalink:hover {
+  border: 0;
+  border-radius: 0;
+}
+
+.permalink .in-reply-to .stream-item:first-child .tweet:hover {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.permalink .inline-reply-tweetbox {
+  background-color: #303030;
 }
 
 /* Analytics */
