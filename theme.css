@@ -1,5 +1,5 @@
 /* Global */
-body { background-color: #303030; }
+body, body.ms-windows { background-color: #303030; }
 p { color: #fff; }
 hr { visibility: hidden; }
 input, input:focus { border-color: transparent; color: #fff; }
@@ -51,7 +51,7 @@ h4.find-friends-top-subheader, h4.find-friends-bottom-subheader { color: #fff; }
   color: #fff;
   background: #181818;
 }
-.FacebookConnect-title, b, strong { color: #fff; }
+.FacebookConnect-title { color: #fff; }
 .account, .tweet, .app { border-bottom: 0; }
 .module ul:first-child li:first-child .list-link, .module .flex-module:first-child {
   border-top: 0;
@@ -94,6 +94,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 #global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet { background-color: #282828; }
 #global-tweet-dialog.tweet-showing .modal-header { border-bottom: 0; }
 .ThreadedConversation-moreReplies { background-color: #181818; }
+.ThreadedConversation-showMoreThreadsButton { background: #181818; }
 .ThreadedConversation, .ThreadedConversation-moreReplies:after { border-bottom: 0; }
 .inline-reply-tweetbox { background-color: #303030; }
 .permalink .inline-reply-tweetbox { border-radius: 0; border-top: 0; }
@@ -308,8 +309,9 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 }
 
 .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover { background: transparent; }
+.QuoteTweet--slim .QuoteTweet-text b { color: #fff; }
 
-.QuoteTweet-text .pretty-link s {
+.QuoteTweet-text .pretty-link s, .QuoteTweet-text .pretty-link b {
   color: #fff;
 }
 
@@ -444,6 +446,37 @@ div.ActivityItem-displayText.js-actionable-user {
 .ProfileCanopy-navBar, .ProfileNav-item--userActions {
   background-color: #252525;
 }
+
+.ProfileHeaderCard, .ProfileHeaderCard span {
+  color: #fff;
+}
+
+.ProfilePage.is-editing .ProfilePage-editingOverlay {
+  background-color: #000;
+}
+
+.BirthdateSelect-button {
+  background-color: #303030;
+}
+
+.ProfilePage-cancelButton, .ProfilePage-cancelButton:hover, .ProfilePage-saveButton, .ProfilePage-saveButton:hover {
+  transition: all 250ms ease;
+}
+
+.ProfilePage-cancelButton {
+  background: #e74c3c;
+  color: #fff;
+  border: 0;
+}
+
+.ProfilePage-saveButton {
+  border: 0;
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.ProfilePage-saveButton:hover { background-color: #27ae60; }
+.ProfilePage-cancelButton:hover { background-color: #c0392b; }
 
 .ProfileCard-bg {
   border-bottom: 0;
@@ -614,6 +647,10 @@ input#user_name, input#user_location, input#user_url {
 }
 
 /* Follow Button */
+.UserSmallListItem .user-actions-follow-button button, .UserSmallListItem .user-actions-follow-button button:hover { transition: all 250ms ease;     }
+.UserSmallListItem .user-actions-follow-button button { background: #303030; }
+.UserSmallListItem .user-actions-follow-button button:hover { background: #404040; }
+
 .follow-btn.small-follow-btn {
   background: #2ecc71;
 }
