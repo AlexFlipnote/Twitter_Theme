@@ -512,6 +512,10 @@ div.ActivityItem-displayText.js-actionable-user {
 
 .ProfileClusterFollow-title { color: #fff; }
 
+.ProfileNameTruncated .UserBadges .Icon {
+  padding-left: 2px;    
+}
+
 .FollowStatus {
   color: #fff!important;
   font-weight: bold!important;
