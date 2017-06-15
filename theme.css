@@ -477,7 +477,7 @@ div.ActivityItem-displayText.js-actionable-user {
 }
 
 .BirthdateSelect-button {
-  background-color: #303030;
+  background-color: #303030!important;
 }
 
 .ProfilePage-cancelButton, .ProfilePage-cancelButton:hover, .ProfilePage-saveButton, .ProfilePage-saveButton:hover {
