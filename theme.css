@@ -144,6 +144,11 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   background-color: #353535;
 }
 
+.RichEditor {
+  border: 0;
+  background: transparent!important;
+}
+
 .modal-header {
   border-radius: 0 0 0 0;
   background: #181818;
@@ -179,7 +184,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   color: #fff;
 }
 
-.modal-header .modal-title { color: #fff; }
+.modal-header .modal-title { color: #fff!important; }
 .tweet { background-color: #282828; }
 .fullname, .GalleryTweet .account-group .fullname, .GalleryTweet .account-group:hover .fullname { color: #fff; }
 .tweet .js-tweet-text { color: #fff; }
