@@ -513,10 +513,11 @@ div.ActivityItem-displayText.js-actionable-user {
 .ProfileClusterFollow-title { color: #fff; }
 
 .FollowStatus {
-  color: #fff;
-  font-weight: bold;
-  background-color: rgba(46, 204, 113, 0.5);
-  margin: 0.3em
+  color: #fff!important;
+  font-weight: bold!important;
+  padding: 3px!important;
+  background-color: rgba(46, 204, 113, 0.5)!important;
+  margin: 0.3em!important;
 }
 
 .ProfileCard {
