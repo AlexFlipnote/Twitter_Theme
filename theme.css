@@ -100,7 +100,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .permalink .inline-reply-tweetbox { border-radius: 0; border-top: 0; }
 .ThreadedConversation, .ThreadedConversation--loneTweet { margin: 0; }
 
-.Gallery-content {
+.Gallery-content, .PermalinkOverlay-spinnerContainer {
   background-color: rgba(48, 48, 48, 0.5);
 }
 
