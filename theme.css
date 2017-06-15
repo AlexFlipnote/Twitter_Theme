@@ -100,6 +100,10 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .permalink .inline-reply-tweetbox { border-radius: 0; border-top: 0; }
 .ThreadedConversation, .ThreadedConversation--loneTweet { margin: 0; }
 
+.Gallery-content {
+  background-color: rgba(48, 48, 48, 0.5);
+}
+
 .icon-btn.enabled {
   background: transparent;
   border-width: 2px;
@@ -182,6 +186,10 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .stats .stat-count a { color: #fff; }
 .TwitterCard-container--clickable:hover {
   background-color: #282828;
+}
+
+.QuoteTweet-container {
+  background-color: #303030;
 }
 
 .QuoteTweet-fullname, .TwitterCard .SummaryCard-content .TwitterCard-title {
@@ -436,6 +444,14 @@ div.ActivityItem-displayText.js-actionable-user {
 
 .DashboardProfileCard-content {
   background-color: #282828;
+}
+
+.wtf-module .import-prompt, .Footer .Footer-adsModule {
+  background: #242424;
+}
+
+.dashboard h3 {
+  color: #fff;
 }
 
 .stream-item:not(.no-header-background-module) {
