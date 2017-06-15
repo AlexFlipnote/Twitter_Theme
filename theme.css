@@ -473,7 +473,7 @@ div.ActivityItem-displayText.js-actionable-user {
 }
 
 .ProfilePage.is-editing .ProfilePage-editingOverlay {
-  background-color: #000;
+  background-color: #000!important;
 }
 
 .BirthdateSelect-button {
@@ -513,7 +513,7 @@ div.ActivityItem-displayText.js-actionable-user {
 .ProfileClusterFollow-title { color: #fff; }
 
 .ProfileNameTruncated .UserBadges .Icon {
-  padding-left: 2px;    
+  padding-left: 2px;
 }
 
 .FollowStatus {
