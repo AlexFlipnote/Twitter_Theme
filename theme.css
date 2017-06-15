@@ -447,7 +447,7 @@ div.ActivityItem-displayText.js-actionable-user {
 }
 
 .wtf-module .import-prompt, .Footer .Footer-adsModule {
-  background: #242424;
+  background: #242424!important;
 }
 
 .dashboard h3 {
@@ -464,7 +464,7 @@ div.ActivityItem-displayText.js-actionable-user {
 }
 
 .ProfileHeaderCard, .ProfileHeaderCard span {
-  color: #fff;
+  color: #fff!important;
 }
 
 .ProfilePage.is-editing .ProfilePage-editingOverlay {
