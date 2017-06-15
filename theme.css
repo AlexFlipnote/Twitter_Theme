@@ -1,5 +1,5 @@
 /* Global */
-body, body.ms-windows { background-color: #303030; }
+body, body.ms-windows { background-color: #303030!important; }
 p { color: #fff; }
 hr { visibility: hidden; }
 input, input:focus { border-color: transparent; color: #fff; }
