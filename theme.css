@@ -430,6 +430,10 @@ div.ActivityItem-displayText.js-actionable-user {
   color: #fff;
 }
 
+.DashboardProfileCard-avatarLink {
+  background-color: transparent;
+}
+
 .ListCreationModule-title, .ListCreationModule-description { color: #fff; }
 .ListCreationModule {
   background-color: #282828;
@@ -611,6 +615,10 @@ input#user_name, input#user_location, input#user_url {
   background-color: #181818;
   border-radius: 0;
   border-bottom: 0;
+}
+
+.DirectMessage--received .DirectMessage-text {
+  background: #181818;
 }
 
 .DMComposer-container {
