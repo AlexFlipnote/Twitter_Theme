@@ -345,6 +345,20 @@ div.ActivityItem-displayText.js-actionable-user {
   background-color: #303030;
 }
 
+.DashUserDropdown.dropdown-menu li>a, .DashUserDropdown.dropdown-menu button {
+  color: #fff;
+}
+
+.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink {
+  width: 100%;
+  text-align: center;
+}
+
+.DashUserDropdown-userInfo {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .nav li a, .dropdown button.dropdown-link {
   color: #fff;
 }
@@ -407,6 +421,10 @@ div.ActivityItem-displayText.js-actionable-user {
   text-align: center;
   color: #fff;
   background-color: #2ecc71;
+}
+
+p.ProfileCard-bio {
+  color: #ccc;
 }
 
 .hovercard.profile-card .profile-card-listName {
@@ -547,6 +565,10 @@ div.ActivityItem-displayText.js-actionable-user {
   background-color: #282828;
   border: 0;
   border-radius: 0;
+}
+
+.ProfileSidebar .flex-module-header h3 {
+  color: #fff;    
 }
 
 .ProfileHeading-toggleItem.is-active {
