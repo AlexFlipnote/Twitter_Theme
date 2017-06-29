@@ -26,6 +26,9 @@ input, input:focus { border-color: transparent; color: #fff; }
 
 /* Settings */
 .DashboardProfileCard { background: #282828; }
+.app .content strong { color: #fff; }
+.app .creator { color: #ccc; }
+.app .creator a { color: #3498db; }
 .form-horizontal .control-label, .radio, .checkbox { color: #fff; }
 .wrapper-settings .header-inner h2, #user-data-dashboard #content-main-heading { color: #fff; }
 .settings-header, .t1-label { color: #fff; }
