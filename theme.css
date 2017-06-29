@@ -1,5 +1,8 @@
 /* Global */
-body, body.ms-windows { background-color: #303030!important; }
+html, body, body.ms-windows { background-color: #303030!important; }
+.footer { background: #303030!important; }
+#header { background: #181818; border-bottom: 0; }
+
 p { color: #fff; }
 hr { visibility: hidden; }
 input, input:focus { border-color: transparent; color: #fff; }
@@ -568,7 +571,7 @@ p.ProfileCard-bio {
 }
 
 .ProfileSidebar .flex-module-header h3 {
-  color: #fff;    
+  color: #fff;
 }
 
 .ProfileHeading-toggleItem.is-active {
@@ -798,4 +801,21 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem>a {
 .SharedNavBar--analytics li.SharedNavBar-navItem.is-active>a, .SharedNavBar--analytics li.SharedNavBar-navItem>a:focus,
 .SharedNavBar--analytics li.SharedNavBar-navItem>a:hover, .SharedNavBar--analytics li.SharedNavBar-navItem>a:visited {
   color: #fff;
+}
+
+/* Authorize page */
+.auth h2 { color: #fff; }
+.permissions li { color: #ccc; }
+.permissions.allow strong { color: #2ecc71; }
+.permissions.deny strong { color: #e74c3c; }
+.oauth #bd { border: 0; }
+#session h2 a { background: transparent; }
+.footer { background: #303030; }
+#session h2 img { border: 0; }
+#header .logo a { border-bottom: 0; }
+.app-info h3 img { border: 0; }
+#bd .app-info h3 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
 }
