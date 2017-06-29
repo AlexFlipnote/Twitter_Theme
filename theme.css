@@ -819,3 +819,22 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem>a {
   font-weight: bold;
   font-size: 20px;
 }
+
+.action-information {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+#oauth_pin p {
+  background-color: #181818;
+  color: #fff;
+  text-align: center;
+}
+
+#oauth_pin code {
+  color: #fff;
+  font-family: monospace;
+}
