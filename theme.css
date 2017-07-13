@@ -73,6 +73,8 @@ h4.find-friends-top-subheader, h4.find-friends-bottom-subheader { color: #fff; }
   border-left: 0;
   border-right: 0;
 }
+.PlayableMedia-title { color: #fff; }
+.PlayableMedia-description, .PlayableMedia--vine .PlayableMedia-externalUrl { color: #ccc; }
 .content-inner.no-stream-end, .find-friends-sources,
 li.stream-item.highlighted,
 .find-friends-top-subheader, .find-friends-bottom-subheader {
@@ -355,14 +357,19 @@ div.ActivityItem-displayText.js-actionable-user {
   color: #fff;
 }
 
+.DashUserDropdown.dropdown-menu li>a, .DashUserDropdown.dropdown-menu li>a:hover { transition: all 250ms ease; }
+
 .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink {
   width: 100%;
   text-align: center;
 }
 
+.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover { background: #181818; }
+
 .DashUserDropdown-userInfo {
   padding-left: 0;
   padding-right: 0;
+  margin: 0;
 }
 
 .nav li a, .dropdown button.dropdown-link {
@@ -455,6 +462,8 @@ p.ProfileCard-bio {
   color: #fff;
 }
 
+.LiveVideoHomePageModule-eventTitle { color: #eee; }
+
 .DashboardProfileCard-avatarLink {
   background-color: transparent;
 }
@@ -537,7 +546,7 @@ p.ProfileCard-bio {
   border-bottom: 0;
 }
 
-.Grid--withGutter>.Grid-cell { background: transparent; }
+.Grid--withGutter>.Grid-cell { background: transparent!important; }
 
 .ProfileClusterFollow-title { color: #fff; }
 
@@ -608,10 +617,6 @@ input#user_name, input#user_location, input#user_url {
 .RichEditor div[contenteditable].fake-focus {
   background-color: #282828;
   color: #fff;
-}
-
-.Grid--withGutter>.Grid-cell {
-  background-color: #252525;
 }
 
 .UserActions-editButton {
@@ -726,6 +731,15 @@ input#user_name, input#user_location, input#user_url {
 .AdaptiveFiltersBar-target--link { color: #fff; }
 .AdaptiveSearchPage .AppContent { background-color: #303030; }
 .AdaptiveSearchPage-moduleTitle { color: #fff; }
+.AdaptiveRelatedSearches { background: #282828; border: 0; }
+.AdaptiveRelatedSearches { background: #282828; border: 0; }
+.AdaptiveNewsRelatedHeadlines { background: #282828; border: 0; }
+.AdaptiveNewsRelatedHeadlines-title { color: #ddd; }
+.AdaptiveNewsLargeImageHeadline-body { background: #181818; border: 0; }
+.AdaptiveNewsLargeImageHeadline-title { color: #fff; }
+.AdaptiveNewsHeadlineDetails-user:hover { color: #fff; }
+.AdaptiveNewsLargeImageHeadline .AdaptiveSearchPage-moduleHeader { margin-top: 15px; }
+
 .WhoToFollow-title { color: #fff; }
 .SidebarFilterModule.is-collapsed {
   background-color: #181818;
