@@ -1027,3 +1027,8 @@ html, body:not([class]) {
 .stream-item.separated-module+.stream-item:not(.no-header-background-module) {
     border-color: transparent;
 }
+
+.ProfileAvatar {
+    background-color: transparent;
+    border-color: transparent;
+}
