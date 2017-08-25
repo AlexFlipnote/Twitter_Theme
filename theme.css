@@ -1010,3 +1010,20 @@ html, body:not([class]) {
 .WtfLargeCarouselStreamItem-title {
     color: #ddd;
 }
+
+.PromptbirdPrompt--inline, .PromptbirdPrompt--inlinePointer {
+    border-color: #222;
+    background-color: #222;
+}
+
+.PromptbirdPrompt-title {
+    color: #fff;
+}
+
+.PromptbirdPrompt-streamItem.separated-module+.stream-item:not(.no-header-background-module) {
+    border-color: #222;
+}
+
+.stream-item.separated-module+.stream-item:not(.no-header-background-module) {
+    border-color: transparent;
+}
