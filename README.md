@@ -5,10 +5,10 @@ A theme that changes the standard Twitter CSS
 ***Twitter_Theme*** theme is made by **AlexFlipnote#0021**<br>
 The theme is made for people who love the dark mode on phone, but can't get it to Desktop version.
 
-Do you need more help? Join my server! **https://discord.gg/J4mwTJR**
+Do you need more help? Join my server! **https://discord.gg/DpxkY3x**
 
 ## FAQ
-**Where can I talk with you?**<br>Here: https://discord.gg/J4mwTJR
+**Where can I talk with you?**<br>Here: https://discord.gg/DpxkY3x
 
 **How do I use the theme?**<br>
 - Download a plugin to Chrome called **Stylebot** [Download link](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=en)
