@@ -24,8 +24,7 @@
 
 .DashUserDropdown-userInfo {
   margin: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0;
 }
 
 .nav li a, .dropdown button.dropdown-link {
@@ -35,4 +34,16 @@
 .dropdown-caret .caret-inner {
   border-bottom: 9px solid $dark-tertiary;
   border-bottom-color: $dark-tertiary;
+}
+
+.dropdown-menu .dropdown-link { color: #fff; }
+
+.nav .session .dropdown-toggle {
+  background: transparent;
+  border-radius: 0;
+  padding-top: 5px;
+
+  &::before {
+    box-shadow: 0;
+  }
 }

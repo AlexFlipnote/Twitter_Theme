@@ -1,4 +1,5 @@
 @import '../assets/colours';
+@import '../assets/animation';
 
 .NotificationsHeadingContent {
   background-color: $dark-highlight;
@@ -13,8 +14,17 @@
   color: #fff;
 }
 
-div.ActivityItem-displayText.js-actionable-user {
+.ActivityItem-displayText {
   color: #fff;
+}
+
+.ActivityItem.has-clickAction {
+  @include transition('all 200ms ease');
+
+  &:hover {
+    @include transition('all 200ms ease');
+    background: $dark-highlight;
+  }
 }
 
 .content-header, .content-no-header {

@@ -37,6 +37,12 @@
   &:hover { background-color: $green; }
 }
 
+.ProfileAvatarEditing {
+  background: transparent;
+  border: 0;
+  margin: 5px;
+}
+
 .ProfileCard-bg {
   border-bottom: 0;
 }
@@ -74,9 +80,8 @@
   color: #fff;
 }
 
-.ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo,
-.ProfileSidebar .RelatedUsers, .ProfilePage .AppContent, .WhoToFollow.is-visible,
-.ProfileHeading-content {
+.ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers, .ProfilePage .AppContent,
+.ProfileHeading-content, .ProfileSidebar .TweetImpressionsModule, .WhoToFollow.is-visible {
   background-color: $dark-secondary;
   border: 0;
   border-radius: 0;

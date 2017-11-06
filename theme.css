@@ -19,7 +19,7 @@ input, input:focus {
   color: #fff; }
 
 .global-nav .people .count .count-inner {
-  border: 2px solid #303030; }
+  border: 0; }
 
 .global-nav-inner {
   background-color: #181818; }
@@ -71,6 +71,20 @@ input, input:focus {
 .permalink-inner .permalink-tweet-container, .stream-end-inner, .PermalinkOverlay .permalink-tweet,
 .module .flex-module, .TwitterCard-container--clickable {
   border-radius: 0; }
+
+.DashboardProfileCard-avatarImage {
+  border: 0; }
+
+.DashboardProfileCard .ProfileCardStats {
+  border-top: 1px #ccc solid;
+  margin-top: 5px;
+  padding-top: 5px; }
+
+.DashboardProfileCard-userFields {
+  left: 0;
+  padding-left: 100px;
+  top: 100px;
+  width: 190px; }
 
 .permalink.has-replies .inline-reply-tweetbox, .home-tweet-box, .permalink-inner,
 .new-tweets-bar, .new-tweets-bar:hover, .stream-item:not(.no-header-background-module),
@@ -258,8 +272,7 @@ p.ProfileCard-bio {
 
 .DashUserDropdown-userInfo {
   margin: 0;
-  padding-left: 0;
-  padding-right: 0; }
+  padding: 0; }
 
 .nav li a, .dropdown button.dropdown-link {
   color: #fff; }
@@ -267,6 +280,16 @@ p.ProfileCard-bio {
 .dropdown-caret .caret-inner {
   border-bottom: 9px solid #303030;
   border-bottom-color: #303030; }
+
+.dropdown-menu .dropdown-link {
+  color: #fff; }
+
+.nav .session .dropdown-toggle {
+  background: transparent;
+  border-radius: 0;
+  padding-top: 5px; }
+  .nav .session .dropdown-toggle::before {
+    box-shadow: 0; }
 
 .GridTimeline-emptyText {
   color: #fff; }
@@ -354,8 +377,22 @@ p.ProfileCard-bio {
 .QuoteTweet-text .pretty-link s, .QuoteTweet-text .pretty-link b {
   color: #fff; }
 
-div.ActivityItem-displayText.js-actionable-user {
+.ActivityItem-displayText {
   color: #fff; }
+
+.ActivityItem.has-clickAction {
+  transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease; }
+  .ActivityItem.has-clickAction:hover {
+    transition: all 200ms ease;
+    -webkit-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    background: #181818; }
 
 .content-header, .content-no-header {
   border: 0;
@@ -390,6 +427,11 @@ div.ActivityItem-displayText.js-actionable-user {
   .ProfilePage-saveButton:hover {
     background-color: #2ecc71; }
 
+.ProfileAvatarEditing {
+  background: transparent;
+  border: 0;
+  margin: 5px; }
+
 .ProfileCard-bg {
   border-bottom: 0; }
 
@@ -423,9 +465,8 @@ div.ActivityItem-displayText.js-actionable-user {
 .ProfileHeaderCard-vineProfileText, .ProfileHeaderCard-periscopeProfileText {
   color: #fff; }
 
-.ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo,
-.ProfileSidebar .RelatedUsers, .ProfilePage .AppContent, .WhoToFollow.is-visible,
-.ProfileHeading-content {
+.ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers, .ProfilePage .AppContent,
+.ProfileHeading-content, .ProfileSidebar .TweetImpressionsModule, .WhoToFollow.is-visible {
   background-color: #282828;
   border: 0;
   border-radius: 0; }
@@ -747,7 +788,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   border-bottom: 0; }
 
 .ThreadedConversation-moreReplies {
-  background-color: #181818; }
+  background-color: #282828; }
 
 .ThreadedConversation-showMoreThreadsButton {
   background: #181818; }
