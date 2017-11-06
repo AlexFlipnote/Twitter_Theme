@@ -1,0 +1,3 @@
+# My shitty ignore stuff
+*.css.map
+.sass-cache

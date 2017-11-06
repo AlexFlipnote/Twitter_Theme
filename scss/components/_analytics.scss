@@ -1,0 +1,35 @@
+@import '../assets/colours';
+
+.SharedNavBar--analytics {
+  background: $dark-highlight;
+  border-bottom: 0;
+  color: #fff;
+}
+
+.ProfileHeader {
+  background: $dark-highlight;
+
+  .ProfileHeader-name { color: #fff; }
+}
+
+.home-group-header {
+  background: $dark-highlight;
+  text-align: center;
+}
+
+.home-pagesummary .DataPoint .DataPoint-info { color: #fff; }
+
+.home-subtitle, .home-panel-title, .home-summary-panel .DataPoint-info,
+.home-panel-content .tweet-container .tweet-details .tweet-text, .home-panel-info-insight,
+.tweet-container .tweet-details .tweet-profile-link:hover .tweet-name, .tweet-container .tweet-details .tweet-name {
+  color: #fff;
+}
+
+li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem>a {
+  color: #fff;
+}
+
+.SharedNavBar--analytics li.SharedNavBar-navItem.is-active>a, .SharedNavBar--analytics li.SharedNavBar-navItem>a:focus,
+.SharedNavBar--analytics li.SharedNavBar-navItem>a:hover, .SharedNavBar--analytics li.SharedNavBar-navItem>a:visited {
+  color: #fff;
+}

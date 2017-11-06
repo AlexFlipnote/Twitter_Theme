@@ -1,0 +1,84 @@
+@import '../assets/colours';
+
+.DashboardProfileCard { background: #282828; }
+.app {
+  .content {
+    strong { color: #fff; }
+  }
+
+  .creator {
+    color: #ccc;
+    a { color: #3498db; }
+  }
+
+}
+
+.find-friends-list {
+  b { color: #fff; }
+  li { background-color: transparent; }
+  &:hover { background-color: $dark-highlight; }
+}
+
+.form-horizontal .control-label, .radio, .checkbox { color: #fff; }
+.wrapper-settings .header-inner h2, #user-data-dashboard #content-main-heading { color: #fff; }
+.settings-header, .t1-label { color: #fff; }
+.find-friends-top-subheader, .find-friends-bottom-subheader { color: #fff; }
+.content-header .subheader, .app-password .description { color: #fff; }
+.MutedKeywordsFooter-emptyMessage { color: #fff; }
+.form-horizontal input, .form-horizontal select {
+  background: $dark-quaternary;
+  border: 0;
+  color: #fff;
+}
+
+#user-data-dashboard .account-history .controls>div, .t1-form {
+  color: #fff;
+}
+
+.module .active .list-link { background: $dark-highlight; color: #fff; }
+.module .list-link:hover { background: $dark-secondary; }
+.module .list-link {
+  background: transparent;
+  border: 0;
+  color: #fff;
+}
+
+.input-block {
+  background: $dark-highlight;
+  color: #fff;
+}
+
+.FacebookConnect-title { color: #fff; }
+.account, .tweet, .app { border-bottom: 0; }
+.module ul:first-child li:first-child .list-link, .module .flex-module:first-child {
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.MutedKeywordsFooter {
+  background-color: $dark-tertiary;
+  border: 0;
+}
+
+.modal-body p { color: #fff; }
+.content-inner {
+  border-left: 0;
+  border-right: 0;
+}
+
+.PlayableMedia-title { color: #fff; }
+.PlayableMedia-description, .PlayableMedia--vine .PlayableMedia-externalUrl { color: #ccc; }
+.content-inner.no-stream-end, .find-friends-sources, .stream-item.highlighted,
+.find-friends-top-subheader, .find-friends-bottom-subheader {
+  background-color: $dark-quaternary;
+  border-bottom: 0;
+  border-radius: 0;
+}
+
+.ActivityItem { border-bottom: 0; }
+.content-header .header-inner, .content-no-header .no-header-inner {
+  background: $dark-highlight;
+  border-bottom: 0;
+  border-radius: 0;
+}

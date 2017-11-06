@@ -1,0 +1,286 @@
+@import '../assets/colours';
+@import '../assets/animation';
+
+span[data-query-source="hashtag_click"] b { color: #fff; }
+span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply pretty-link js-nav"] s { color: $blue; }
+.rich-editor em { background: $red; }
+
+.tweet-counter {
+  color: $green;
+  font-weight: bold;
+  text-shadow: none;
+
+  &.warn { color: $yellow; }
+  &.superwarn { color: $red; }
+}
+
+.RetweetDialog-footer { background-color: $dark-secondary; }
+.modal-container.tweet-showing .modal-tweet { background-color: $dark-secondary; }
+.RetweetDialog-commentBox { background-color: $dark-secondary; }
+#global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet { background-color: $dark-secondary; transition: all 300ms ease; }
+#global-tweet-dialog.tweet-showing .modal-header { border-bottom: 0; }
+.ThreadedConversation-moreReplies { background-color: $dark-highlight; }
+.ThreadedConversation-showMoreThreadsButton { background: $dark-highlight; }
+.ThreadedConversation, .ThreadedConversation-moreReplies::after { border-bottom: 0; }
+.inline-reply-tweetbox { background-color: $dark-secondary; }
+.permalink .inline-reply-tweetbox { border-radius: 0; border-top: 0; }
+.ThreadedConversation, .ThreadedConversation--loneTweet { margin: 0; }
+
+.Gallery-content, .PermalinkOverlay-spinnerContainer {
+  background-color: rgba(48, 48, 48, .5);
+}
+
+.icon-btn.enabled {
+  background: transparent;
+  border-width: 2px;
+}
+
+.PollingCardComposer {
+  background-color: $dark-secondary;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.tweet-form.is-cardComposerOn .TweetBoxAttachments, .tweet-form.has-thumbnail .TweetBoxAttachments { border: 0; }
+.PollingCardComposer-option div.PollingCardComposer-optionInput { background: $dark-tertiary; }
+
+.geo-query-location {
+  background: $dark-highlight;
+  border-bottom: 0;
+  border-radius: 0;
+}
+
+.dropdown-menu .geo-query-location input[type=text] { background: transparent; }
+.tweet-box input[type=text] { border-color: transparent; }
+.tweet-form .thumbnail-container {
+  border-radius: 0;
+  .thumbnail-wrapper { background: $dark-secondary; }
+}
+
+.recap-header {
+  border-bottom: 0;
+  color: #fff;
+}
+
+.stream-item+.stream-item.separated-module:not(.no-header-background-module) {
+  border-top: 0;
+}
+
+#global-tweet-dialog .modal-header {
+  background-color: $dark-highlight;
+  border-bottom: 0;
+}
+
+.RichEditor {
+  background: transparent !important;
+  border: 0;
+
+  .typeahead { background-color: $dark-quaternary; }
+}
+
+.modal-header {
+  background: $dark-highlight;
+  border-bottom: 0;
+  border-radius: 0;
+
+  .modal-title { color: #fff !important; }
+}
+
+.modal-body {
+  background: $dark-secondary;
+  border-radius: 0;
+  color: #fff;
+}
+
+.modal-footer {
+  background: $dark-tertiary;
+  border-top: 0;
+  text-align: center;
+}
+
+#global-tweet-dialog .modal-tweet-form-container {
+  background-color: $dark-secondary;
+  color: #fff;
+}
+
+.tweet-btn {
+  @include transition('all 200ms ease');
+  border: 0;
+  color: #fff;
+
+  &:hover {
+    @include transition('all 200ms ease');
+    @include transform(translateY(-.3em));
+    color: #fff;
+  }
+}
+
+.tweet {
+  @include transition('all 300ms ease');
+  background-color: $dark-secondary;
+
+  .js-tweet-text { color: #fff; }
+  .stats {
+    background: #222;
+    border-radius: 4px;
+
+    .js-stat-count {
+      background: #333;
+      margin-right: 0;
+
+      a { padding: 13px 10px; } // scss-lint:disable NestingDepth
+    }
+
+    li:first-child a { padding-left: 13px; }
+  }
+}
+
+.fullname, .GalleryTweet .account-group .fullname, .GalleryTweet .account-group:hover .fullname { color: #fff; }
+.stats .stat-count a { color: #fff; }
+.TwitterCard-container--clickable:hover {
+  background-color: $dark-secondary;
+}
+
+.QuoteTweet-container {
+  background-color: $dark-tertiary;
+  border-radius: 4px;
+}
+
+.QuoteTweet-fullname, .TwitterCard .SummaryCard-content .TwitterCard-title {
+  color: #fff;
+}
+
+.QuoteTweet-text, .TwitterCard .SummaryCard--small .SummaryCard-content p { color: #eee; }
+
+.conversation-module .conversation-tweet-item .tweet:hover, .tweet:hover {
+  @include transition('all 300ms ease');
+  background-color: $dark-tertiary;
+  border-bottom: 0;
+}
+
+.home-tweet-box, .permalink-inner {
+  background-color: $dark-highlight;
+}
+
+.top-timeline-tweetbox .timeline-tweet-box { border: 0; }
+.new-tweets-bar, .new-tweets-bar:hover {
+  background-color: $dark-tertiary;
+  color: #fff;
+}
+
+.PermalinkOverlay .permalink-tweet { background-color: $dark-secondary; }
+
+// Polls
+html, body:not([class]) {
+  background-color: transparent !important;
+}
+
+.TwitterCard .PollXChoice-optionContainer span {
+  color: #fff;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.TwitterCard .EdgeButton--secondary, .TwitterCard .EdgeButton--secondary.PollXChoice-hideButton {
+  background-color: $blue;
+  color: #fff;
+  font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.TwitterCard [class*="PollXChoice-footer--"] {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.TwitterCard .PollXChoice-choice--selected {
+  filter: brightness(10);
+}
+
+.TwitterCard .PollXChoice-optionContainer:first-child {
+  margin-top: 2px;
+}
+
+.TwitterCard .PollXChoice-choice {
+  margin-left: 5px;
+}
+
+.TwitterCard .PollXChoice-choice--radio {
+  background-color: #ddd;
+  border-color: #999 !important;
+}
+
+.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--input:checked+.PollXChoice-choice--radio {
+  border-color: #0ea669 !important;
+}
+
+.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart {
+  background: #222;
+}
+
+// Compose
+#global-tweet-dialog .modal-tweet-form-container, #Tweetstorm-dialog .modal-body {
+  background: #222;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+#global-tweet-dialog-dialog {
+  border-radius: 4px;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, .3);
+}
+
+#global-tweet-dialog .modal-header, #Tweetstorm-dialog .modal-header {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.stream-end-item, .stream-end, .stream-loading, .stream-placeholder {
+  border: 0;
+}
+
+.wtf-module .UserSmallListItem, .wtf-module .import-prompt .cta {
+  border-color: #222;
+}
+
+.WtfLargeCarouselStreamItem-title {
+  color: #ddd;
+}
+
+.PromptbirdPrompt--inline, .PromptbirdPrompt--inlinePointer {
+  background-color: #222;
+  border-color: #222;
+}
+
+.PromptbirdPrompt-title {
+  color: #fff;
+}
+
+.PromptbirdPrompt-streamItem.separated-module+.stream-item:not(.no-header-background-module) {
+  border-color: #222;
+}
+
+.stream-item.separated-module+.stream-item:not(.no-header-background-module) {
+  border-color: transparent;
+}
+
+.ProfileAvatar {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+// Permalink container
+.hovercard .arrow, .dropdown-divider {
+  background-color: $dark-secondary;
+  border-color: $dark-secondary;
+}
+
+.ThreadedConversation-showMoreThreads { border-color: #222; }
+.permalink .stats .avatar-row a:first-child { border: 0; }
+.stream .tweet:hover { background-color: $dark-secondary; }
+.stats .stat-count strong { color: #999; }
+
+.Icon.Icon--large.Icon--logo { color: #fff; }
+.permalink-container { box-shadow: 0 6px 8px 0 rgba(0, 0, 0, .3); }
+.hovercard.profile-card .ProfileCard-avatarLink, .ProfileCard-content { background-color: transparent; }
+.hovercard.profile-card .ProfileCard-avatarImage { border: 0; }
+.js-macaw-cards-iframe-container iframe { border-radius: 4px; }
+.ProfileHeaderCard span.Icon--verified { color: #1da1f2 !important; }

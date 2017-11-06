@@ -1,0 +1,38 @@
+@import '../assets/colours';
+@import '../assets/animation';
+
+.Trends .trend-location, .wtf-module h3 { color: #fff; }
+
+.dropdown.open .dropdown-menu {
+  background-color: $dark-tertiary;
+}
+
+.DashUserDropdown.dropdown-menu li>a, .DashUserDropdown.dropdown-menu button {
+  color: #fff;
+}
+
+.DashUserDropdown.dropdown-menu li>a, .DashUserDropdown.dropdown-menu li>a:hover {
+  @include transition('all 250ms ease');
+}
+
+.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink {
+  text-align: center;
+  width: 100%;
+}
+
+.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover { background: $dark-highlight; }
+
+.DashUserDropdown-userInfo {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav li a, .dropdown button.dropdown-link {
+  color: #fff;
+}
+
+.dropdown-caret .caret-inner {
+  border-bottom: 9px solid $dark-tertiary;
+  border-bottom-color: $dark-tertiary;
+}

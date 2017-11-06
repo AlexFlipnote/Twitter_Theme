@@ -1,0 +1,44 @@
+@import '../assets/colours';
+
+.DashboardProfileCard-name {
+  color: #fff;
+}
+
+.LiveVideoHomePageModule-eventTitle { color: #eee; }
+
+.DashboardProfileCard-avatarLink {
+  background-color: transparent;
+}
+
+.ListCreationModule-title, .ListCreationModule-description { color: #fff; }
+.ListCreationModule {
+  background-color: $dark-secondary;
+  border: 0;
+  border-radius: 0;
+}
+
+.module .flex-module {
+  background-color: $dark-secondary;
+}
+
+.Trends {
+  background-color: $dark-secondary;
+  border: 0;
+  border-radius: 0;
+}
+
+.DashboardProfileCard-content {
+  background-color: $dark-secondary;
+}
+
+.wtf-module .import-prompt, .Footer .Footer-adsModule {
+  background: $dark-secondary !important;
+}
+
+.dashboard h3 {
+  color: #fff;
+}
+
+.stream-item:not(.no-header-background-module) {
+  background-color: $dark-secondary;
+}

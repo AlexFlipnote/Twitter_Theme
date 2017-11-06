@@ -1,0 +1,83 @@
+@import '../assets/colours';
+
+.MomentMakerPage-content {
+  background-color: $dark-highlight;
+}
+
+.MomentsPage.MomentsPermalinkPage .AppContent, .MomentsPage.MomentMakerPage .AppContent {
+  background-color: $dark-tertiary;
+}
+
+.MomentMakerCapsuleCover {
+  background: $dark-secondary;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.MomentCapsuleEditableMeta-title .rich-editor, .MomentCapsuleEditableMeta-description .rich-editor {
+  background: $dark-primary;
+  color: #fff;
+}
+
+.MomentMakerCapsuleCover-empty, .MomentCapsuleSummary--portrait .MomentCapsuleSummary-title {
+  background-color: transparent;
+  color: #fff;
+}
+
+.MomentsPage.MomentsGuidePage .Footer, .MomentsPage.MomentsPermalinkPage .Footer {
+  margin-bottom: -10px;
+}
+
+.MomentMakerRecommendations-title {
+  background-color: $dark-secondary;
+  color: #fff;
+}
+
+.MomentFloatingMenu {
+  background-color: $green;
+  border: 0;
+
+  .MomentButton:last-child {
+    color: #fff;
+  }
+}
+
+.MomentMakerRecommendations {
+  background-color: $dark-tertiary;
+}
+
+.MomentMakerRecommendedCategories {
+  background-color: $dark-highlight;
+  border-radius: 10px;
+}
+
+.MomentCapsuleCover-title {
+  color: #fff;
+}
+
+.MomentMakerRecommendations-module {
+  background: transparent;
+  border: 0;
+}
+
+.MomentCapsuleItemTweet--withText {
+  background: $dark-secondary;
+}
+
+.MomentUserByline-fullname {
+  color: #fff;
+}
+
+.MomentMakerRecommendations-more {
+  background-color: $dark-highlight;
+  border-radius: 10px;
+  border-top: 0;
+  color: #fff;
+}
+
+.MomentMakerRecommendations-scrollTopButton {
+  background: $dark-highlight;
+  border: 0;
+  color: #fff;
+}

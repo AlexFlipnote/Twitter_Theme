@@ -1,0 +1,48 @@
+@import '../assets/colours';
+
+.auth h2 { color: #fff; }
+.permissions {
+  li { color: #ccc; }
+
+  &.allow strong { color: $green; }
+  &.deny strong { color: $red; }
+}
+
+.oauth #bd { border: 0; }
+#session h2 a { background: transparent; }
+.footer { background: $dark-tertiary; }
+#session h2 img { border: 0; }
+#header .logo a { border-bottom: 0; }
+.app-info h3 img { border: 0; }
+#bd .app-info h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.action-information {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#oauth_pin {
+  p {
+    background-color: $dark-highlight;
+    color: #fff;
+    text-align: center;
+  }
+
+  code {
+    color: #fff;
+    font-family: monospace;
+  }
+}
+
+.EdgeButton--secondary {
+  background: $dark-secondary;
+
+  &:hover { background: $dark-quaternary; }
+}

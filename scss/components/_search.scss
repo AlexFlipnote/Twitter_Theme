@@ -1,0 +1,80 @@
+@import '../assets/colours';
+
+.top-timeline-tweetbox .timeline-tweet-box .tweet-form.condensed .tweet-box {
+  background-color: $dark-secondary;
+  border-radius: 0;
+  color: #fff;
+}
+
+.typeahead .fullname, .typeahead strong {
+  color: #fff;
+}
+
+.global-nav .search-input {
+  background-color: $dark-tertiary;
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+
+  &:focus {
+    background-color: $dark-quaternary;
+    color: #fff;
+  }
+}
+
+.typeahead-category-title {
+  color: #fff;
+}
+
+.form-search .typeahead {
+  background-color: $dark-tertiary;
+  color: #fff;
+}
+
+.RichEditor, .TweetBoxAttachments {
+  border: 0;
+  border-color: transparent;
+}
+
+.FoundMediaSearch-query {
+  background-color: $dark-highlight;
+  background-image: none;
+  border: 0;
+  border-radius: 0;
+
+  input[type=text].FoundMediaSearch-queryInput {
+    background-color: $dark-tertiary;
+  }
+}
+
+.FoundMediaSearch-focusable { border: 3px solid rgba(0, 0, 0, .01); }
+
+.AdaptiveFiltersBar { background-color: $dark-highlight; }
+.AdaptiveFiltersBar-target--link { color: #fff; }
+.AdaptiveSearchPage .AppContent { background-color: #303030; }
+.AdaptiveSearchPage-moduleTitle { color: #fff; }
+.AdaptiveRelatedSearches { background: $dark-secondary; border: 0; }
+.AdaptiveNewsRelatedHeadlines { background: $dark-secondary; border: 0; }
+.AdaptiveNewsRelatedHeadlines-title { color: #ddd; }
+.AdaptiveNewsLargeImageHeadline-body { background: $dark-highlight; border: 0; }
+.AdaptiveNewsLargeImageHeadline-title { color: #fff; }
+.AdaptiveNewsHeadlineDetails-user:hover { color: #fff; }
+.AdaptiveNewsLargeImageHeadline .AdaptiveSearchPage-moduleHeader { margin-top: 15px; }
+
+.WhoToFollow-title { color: #fff; }
+.SidebarFilterModule.is-collapsed {
+  background-color: $dark-highlight;
+  border: 0;
+  border-radius: 0;
+}
+
+.AdaptiveSearchTimeline .stream .stream-item:first-child {
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+  .tweet {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+  }
+}

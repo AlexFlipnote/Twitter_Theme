@@ -1,0 +1,135 @@
+@import '../assets/colours';
+@import '../assets/animation';
+
+.ProfileCanopy-navBar, .ProfileNav-item--userActions {
+  background-color: $dark-secondary;
+}
+
+.ProfileHeaderCard, .ProfileHeaderCard span {
+  color: #fff !important;
+}
+
+.ProfilePage.is-editing .ProfilePage-editingOverlay {
+  background-color: #000 !important;
+}
+
+.BirthdateSelect-button {
+  background-color: $dark-tertiary !important;
+}
+
+.ProfilePage-cancelButton, .ProfilePage-cancelButton:hover, .ProfilePage-saveButton, .ProfilePage-saveButton:hover {
+  transition: all 250ms ease;
+}
+
+.ProfilePage-cancelButton {
+  background: $darkred;
+  border: 0;
+  color: #fff;
+
+  &:hover { background-color: $red; }
+}
+
+.ProfilePage-saveButton {
+  background-color: $darkgreen;
+  border: 0;
+  color: #fff;
+
+  &:hover { background-color: $green; }
+}
+
+.ProfileCard-bg {
+  border-bottom: 0;
+}
+
+.ProfileClusterFollow {
+  background-color: $dark-highlight;
+  border-bottom: 0;
+}
+
+.Grid--withGutter>.Grid-cell { background: transparent !important; }
+
+.ProfileClusterFollow-title { color: #fff; }
+
+.ProfileNameTruncated .UserBadges .Icon {
+  padding-left: 2px;
+}
+
+.FollowStatus {
+  background-color: rgba(46, 204, 113, .5) !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  margin: .3em !important;
+  padding: 3px !important;
+}
+
+.ProfileCard {
+  background-color: $dark-highlight;
+  border: 0;
+  border-radius: 0;
+}
+
+.ProfileHeaderCard-name, .ProfileHeaderCard-bio, .ProfileHeaderCard-birthdateText, .ProfileHeaderCard-joinDateText, .ProfileHeaderCard-locationText,
+.ProfileHeaderCard-onlineHoursText, .ProfileHeaderCard-responsivenessLevelText, .ProfileHeaderCard-urlText,
+.ProfileHeaderCard-vineProfileText, .ProfileHeaderCard-periscopeProfileText {
+  color: #fff;
+}
+
+.ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo,
+.ProfileSidebar .RelatedUsers, .ProfilePage .AppContent, .WhoToFollow.is-visible,
+.ProfileHeading-content {
+  background-color: $dark-secondary;
+  border: 0;
+  border-radius: 0;
+}
+
+.ProfileSidebar .flex-module-header h3 {
+  color: #fff;
+}
+
+.ProfileHeading-toggleItem.is-active {
+  color: #fff;
+}
+
+.TweetImpressionsModule-heading {
+  color: #fff;
+  font-weight: bold;
+}
+
+.u-floatLeft, .u-floatRight {
+  color: #fff;
+}
+
+.u-bgUserColorLightest, .u-bgUserColorLighter {
+  background-color: $dark-highlight !important;
+}
+
+.u-borderUserColorLight {
+  border-color: transparent !important;
+}
+
+input#user_name, input#user_location, input#user_url {
+  color: #fff;
+}
+
+.u-borderUserColorLight, .u-borderUserColorLightFocus:focus,
+.u-borderUserColorLightHover:hover, .u-borderUserColorLightHover:focus,
+.RichEditor div[contenteditable], .RichEditor div[contenteditable]:focus,
+.RichEditor div[contenteditable].fake-focus {
+  background-color: $dark-secondary;
+  color: #fff;
+}
+
+.UserActions-editButton {
+  @include transition('all 200ms ease');
+  background: $blue;
+  border: 0;
+  color: #fff;
+  transition: all 200ms ease;
+
+  &:hover {
+    @include transition('all 200ms ease');
+    @include transform(translateY(-.3em));
+    background: $darkblue;
+    color: #fff;
+  }
+}

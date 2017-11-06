@@ -1,0 +1,23 @@
+@import '../assets/colours';
+
+.NotificationsHeadingContent {
+  background-color: $dark-highlight;
+  border-bottom: 0;
+  border-radius: 0;
+}
+
+.ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover { background: transparent; }
+.QuoteTweet--slim .QuoteTweet-text b { color: #fff; }
+
+.QuoteTweet-text .pretty-link s, .QuoteTweet-text .pretty-link b {
+  color: #fff;
+}
+
+div.ActivityItem-displayText.js-actionable-user {
+  color: #fff;
+}
+
+.content-header, .content-no-header {
+  border: 0;
+  border-radius: 0;
+}
