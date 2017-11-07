@@ -19,12 +19,22 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .RetweetDialog-commentBox { background-color: $dark-secondary; }
 #global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet { background-color: $dark-secondary; transition: all 300ms ease; }
 #global-tweet-dialog.tweet-showing .modal-header { border-bottom: 0; }
-.ThreadedConversation-moreReplies { background-color: $dark-secondary; }
 .ThreadedConversation-showMoreThreadsButton { background: $dark-highlight; }
 .ThreadedConversation, .ThreadedConversation-moreReplies::after { border-bottom: 0; }
 .inline-reply-tweetbox { background-color: $dark-secondary; }
 .permalink .inline-reply-tweetbox { border-radius: 0; border-top: 0; }
 .ThreadedConversation, .ThreadedConversation--loneTweet { margin: 0; }
+
+.ThreadedConversation-moreReplies { background-color: $dark-secondary; }
+.ThreadedConversation-unavailableTweet {
+  background-color: $darkred;
+
+  .ThreadedConversation-unavailableText {
+    color: #fff;
+
+    &::after { content: ':('; }
+  }
+}
 
 .Gallery-content, .PermalinkOverlay-spinnerContainer {
   background-color: rgba(48, 48, 48, .5);

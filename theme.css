@@ -787,9 +787,6 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 #global-tweet-dialog.tweet-showing .modal-header {
   border-bottom: 0; }
 
-.ThreadedConversation-moreReplies {
-  background-color: #282828; }
-
 .ThreadedConversation-showMoreThreadsButton {
   background: #181818; }
 
@@ -805,6 +802,16 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 
 .ThreadedConversation, .ThreadedConversation--loneTweet {
   margin: 0; }
+
+.ThreadedConversation-moreReplies {
+  background-color: #282828; }
+
+.ThreadedConversation-unavailableTweet {
+  background-color: #c0392b; }
+  .ThreadedConversation-unavailableTweet .ThreadedConversation-unavailableText {
+    color: #fff; }
+    .ThreadedConversation-unavailableTweet .ThreadedConversation-unavailableText::after {
+      content: ':('; }
 
 .Gallery-content, .PermalinkOverlay-spinnerContainer {
   background-color: rgba(48, 48, 48, 0.5); }
