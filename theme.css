@@ -787,7 +787,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 #global-tweet-dialog.tweet-showing .modal-header {
   border-bottom: 0; }
 
-.ThreadedConversation-showMoreThreadsButton {
+.ThreadedConversation-showMoreThreadsButton, .ThreadedConversation-showMoreThreads {
   background: #181818; }
 
 .ThreadedConversation, .ThreadedConversation-moreReplies::after {
@@ -796,12 +796,44 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .inline-reply-tweetbox {
   background-color: #282828; }
 
-.permalink .inline-reply-tweetbox {
-  border-radius: 0;
-  border-top: 0; }
+.permalink {
+  background: #212121;
+  border: 0; }
+  .permalink .stats .avatar-row a:first-child {
+    border: 0; }
+  .permalink .inline-reply-tweetbox {
+    background-color: #212121;
+    border-radius: 0;
+    border-top: 0; }
+
+.tweet-form div.rich-editor.is-showPlaceholder::before, .tweet-form div.rich-editor:empty::before {
+  color: #fff; }
+
+.Tombstone {
+  background: transparent;
+  border: 0;
+  border-radius: 0; }
+  .Tombstone span {
+    color: #e74c3c;
+    font-weight: bold; }
+  .Tombstone button {
+    background: #e74c3c;
+    border-radius: 4px;
+    color: #fff;
+    padding: .5em 1em; }
 
 .ThreadedConversation, .ThreadedConversation--loneTweet {
   margin: 0; }
+
+.PlayableMedia-container {
+  border: 0; }
+
+.ThreadedConversation--header {
+  background-color: #282828;
+  border-bottom: 0;
+  border-top: 0;
+  color: #fff;
+  margin-top: 0; }
 
 .ThreadedConversation-moreReplies {
   background-color: #282828; }
@@ -1047,9 +1079,6 @@ html, body:not([class]) {
 
 .ThreadedConversation-showMoreThreads {
   border-color: #222; }
-
-.permalink .stats .avatar-row a:first-child {
-  border: 0; }
 
 .stream .tweet:hover {
   background-color: #282828; }
