@@ -1145,6 +1145,26 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
 
 .oauth #bd {
   border: 0; }
+.oauth .buttons #allow, .oauth .buttons #cancel {
+  transition: all 250ms ease;
+  -webkit-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -o-transition: all 250ms ease; }
+  .oauth .buttons #allow:hover, .oauth .buttons #cancel:hover {
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease; }
+.oauth .buttons #allow {
+  background: #2ecc71; }
+  .oauth .buttons #allow:hover {
+    background: #27ae60; }
+.oauth .buttons #cancel {
+  background: #e74c3c; }
+  .oauth .buttons #cancel:hover {
+    background: #c0392b; }
 
 #session h2 a {
   background: transparent; }

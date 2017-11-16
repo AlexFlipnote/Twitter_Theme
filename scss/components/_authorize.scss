@@ -1,4 +1,5 @@
 @import '../assets/colours';
+@import '../assets/animation';
 
 .auth h2 { color: #fff; }
 .permissions {
@@ -8,7 +9,17 @@
   &.deny strong { color: $red; }
 }
 
-.oauth #bd { border: 0; }
+.oauth {
+  #bd { border: 0; }
+  .buttons #allow, .buttons #cancel {
+    @include transition('all 250ms ease');
+    &:hover { @include transition('all 250ms ease'); }
+  }
+
+  .buttons #allow { background: $green; &:hover { background: $darkgreen; } }
+  .buttons #cancel { background: $red; &:hover { background: $darkred; } }
+}
+
 #session h2 a { background: transparent; }
 .footer { background: $dark-tertiary; }
 #session h2 img { border: 0; }
