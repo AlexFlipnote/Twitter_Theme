@@ -20,6 +20,17 @@
   .buttons #cancel { background: $red; &:hover { background: $darkred; } }
 }
 
+.notice {
+  border: 0;
+  border-radius: 0;
+
+  &.error {
+    background: $red;
+    border-color: none;
+    h2 { color: #fff; }
+  }
+}
+
 #session h2 a { background: transparent; }
 .footer { background: $dark-tertiary; }
 #session h2 img { border: 0; }

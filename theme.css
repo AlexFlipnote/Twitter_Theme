@@ -1166,6 +1166,15 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
   .oauth .buttons #cancel:hover {
     background: #c0392b; }
 
+.notice {
+  border: 0;
+  border-radius: 0; }
+  .notice.error {
+    background: #e74c3c;
+    border-color: none; }
+    .notice.error h2 {
+      color: #fff; }
+
 #session h2 a {
   background: transparent; }
 
