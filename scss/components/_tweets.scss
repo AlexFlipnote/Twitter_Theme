@@ -311,6 +311,19 @@ html, body:not([class]) {
   border-color: #222;
 }
 
+.stream-item.dismissed { border-bottom: 0; }
+
+.stream-item.no-header-background-module .dismiss-module {
+  background: $dark-primary;
+  border-left: 0;
+  border-right: 0;
+}
+
+.dismiss-module .feedback-action {
+  border-bottom: 0;
+  color: #fff;
+}
+
 .stream-item.separated-module+.stream-item:not(.no-header-background-module) {
   border-color: transparent;
 }
