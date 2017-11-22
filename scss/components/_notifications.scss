@@ -28,7 +28,7 @@
 }
 
 .stream-item {
-  .highlighted { background-color: $dark-quaternary; }
+  &.highlighted { background-color: $dark-quaternary; }
 }
 
 .content-header, .content-no-header {
