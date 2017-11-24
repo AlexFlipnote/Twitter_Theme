@@ -394,7 +394,7 @@ p.ProfileCard-bio {
     -o-transition: all 200ms ease;
     background: #181818; }
 
-.stream-item.highlighted {
+li.stream-item.highlighted.highlighted {
   background-color: #353535; }
 
 .content-header, .content-no-header {

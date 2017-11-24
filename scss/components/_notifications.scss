@@ -27,7 +27,7 @@
   }
 }
 
-.stream-item {
+li.stream-item.highlighted {
   &.highlighted { background-color: $dark-quaternary; }
 }
 
