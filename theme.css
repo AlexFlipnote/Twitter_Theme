@@ -804,8 +804,8 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   border: 0; }
   .permalink .stats .avatar-row a:first-child {
     border: 0; }
-  .permalink .inline-reply-tweetbox {
-    background-color: #212121;
+  .permalink .inline-reply-tweetbox, .permalink .inline-reply-tweetbox-container {
+    background-color: #212121 !important;
     border-radius: 0;
     border-top: 0; }
 

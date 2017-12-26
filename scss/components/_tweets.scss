@@ -28,8 +28,8 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   border: 0;
 
   .stats .avatar-row a:first-child { border: 0; }
-  .inline-reply-tweetbox {
-    background-color: $dark-primary;
+  .inline-reply-tweetbox, .inline-reply-tweetbox-container {
+    background-color: $dark-primary !important;
     border-radius: 0;
     border-top: 0;
   }
