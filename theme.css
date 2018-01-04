@@ -774,6 +774,9 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   .tweet-counter.superwarn {
     color: #e74c3c; }
 
+.modal-content {
+  background: #282828; }
+
 .RetweetDialog-footer {
   background-color: #282828; }
 
