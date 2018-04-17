@@ -194,6 +194,7 @@ p.ProfileCard-bio {
     color: #fff; }
 
 .EmojiPicker-categoryHeader {
+  background-color: #282828;
   border-bottom: 0;
   color: #ddd; }
 
@@ -527,6 +528,97 @@ input#user_name, input#user_location, input#user_url {
     background: #2980b9;
     color: #fff; }
 
+.top-timeline-tweetbox .timeline-tweet-box .tweet-form.condensed .tweet-box {
+  background-color: #282828;
+  border-radius: 0;
+  color: #fff; }
+
+.typeahead .fullname, .typeahead strong {
+  color: #fff; }
+
+.global-nav .search-input {
+  background-color: #303030;
+  border: 0;
+  border-radius: 0;
+  color: #fff; }
+  .global-nav .search-input:focus {
+    background-color: #353535;
+    color: #fff; }
+
+.typeahead-category-title {
+  color: #fff; }
+
+.form-search .typeahead {
+  background-color: #303030;
+  color: #fff; }
+
+.RichEditor, .TweetBoxAttachments {
+  border: 0;
+  border-color: transparent; }
+
+.FoundMediaSearch-query {
+  background-color: #181818;
+  background-image: none;
+  border: 0;
+  border-radius: 0; }
+  .FoundMediaSearch-query input[type=text].FoundMediaSearch-queryInput {
+    background-color: #303030; }
+
+.FoundMediaSearch-focusable {
+  border: 3px solid rgba(0, 0, 0, 0.01); }
+
+.AdaptiveFiltersBar {
+  background-color: #181818; }
+
+.AdaptiveFiltersBar-target--link {
+  color: #fff; }
+
+.AdaptiveSearchPage .AppContent {
+  background-color: #303030; }
+
+.AdaptiveSearchPage-moduleTitle {
+  color: #fff; }
+
+.AdaptiveRelatedSearches {
+  background: #282828;
+  border: 0; }
+
+.AdaptiveNewsRelatedHeadlines {
+  background: #282828;
+  border: 0; }
+
+.AdaptiveNewsRelatedHeadlines-title {
+  color: #ddd; }
+
+.AdaptiveNewsLargeImageHeadline-body {
+  background: #181818;
+  border: 0; }
+
+.AdaptiveNewsLargeImageHeadline-title {
+  color: #fff; }
+
+.AdaptiveNewsHeadlineDetails-user:hover {
+  color: #fff; }
+
+.AdaptiveNewsLargeImageHeadline .AdaptiveSearchPage-moduleHeader {
+  margin-top: 15px; }
+
+.WhoToFollow-title {
+  color: #fff; }
+
+.SidebarFilterModule.is-collapsed {
+  background-color: #181818;
+  border: 0;
+  border-radius: 0; }
+
+.AdaptiveSearchTimeline .stream .stream-item:first-child {
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
+  .AdaptiveSearchTimeline .stream .stream-item:first-child .tweet {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important; }
+
 .DashboardProfileCard {
   background: #282828; }
 
@@ -664,97 +756,6 @@ input#user_name, input#user_location, input#user_url {
 
 .stream-item:not(.no-header-background-module) {
   background-color: #282828; }
-
-.top-timeline-tweetbox .timeline-tweet-box .tweet-form.condensed .tweet-box {
-  background-color: #282828;
-  border-radius: 0;
-  color: #fff; }
-
-.typeahead .fullname, .typeahead strong {
-  color: #fff; }
-
-.global-nav .search-input {
-  background-color: #303030;
-  border: 0;
-  border-radius: 0;
-  color: #fff; }
-  .global-nav .search-input:focus {
-    background-color: #353535;
-    color: #fff; }
-
-.typeahead-category-title {
-  color: #fff; }
-
-.form-search .typeahead {
-  background-color: #303030;
-  color: #fff; }
-
-.RichEditor, .TweetBoxAttachments {
-  border: 0;
-  border-color: transparent; }
-
-.FoundMediaSearch-query {
-  background-color: #181818;
-  background-image: none;
-  border: 0;
-  border-radius: 0; }
-  .FoundMediaSearch-query input[type=text].FoundMediaSearch-queryInput {
-    background-color: #303030; }
-
-.FoundMediaSearch-focusable {
-  border: 3px solid rgba(0, 0, 0, 0.01); }
-
-.AdaptiveFiltersBar {
-  background-color: #181818; }
-
-.AdaptiveFiltersBar-target--link {
-  color: #fff; }
-
-.AdaptiveSearchPage .AppContent {
-  background-color: #303030; }
-
-.AdaptiveSearchPage-moduleTitle {
-  color: #fff; }
-
-.AdaptiveRelatedSearches {
-  background: #282828;
-  border: 0; }
-
-.AdaptiveNewsRelatedHeadlines {
-  background: #282828;
-  border: 0; }
-
-.AdaptiveNewsRelatedHeadlines-title {
-  color: #ddd; }
-
-.AdaptiveNewsLargeImageHeadline-body {
-  background: #181818;
-  border: 0; }
-
-.AdaptiveNewsLargeImageHeadline-title {
-  color: #fff; }
-
-.AdaptiveNewsHeadlineDetails-user:hover {
-  color: #fff; }
-
-.AdaptiveNewsLargeImageHeadline .AdaptiveSearchPage-moduleHeader {
-  margin-top: 15px; }
-
-.WhoToFollow-title {
-  color: #fff; }
-
-.SidebarFilterModule.is-collapsed {
-  background-color: #181818;
-  border: 0;
-  border-radius: 0; }
-
-.AdaptiveSearchTimeline .stream .stream-item:first-child {
-  border-top: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0; }
-  .AdaptiveSearchTimeline .stream .stream-item:first-child .tweet {
-    border-top-left-radius: 0 !important;
-    border-top-right-radius: 0 !important; }
 
 span[data-query-source="hashtag_click"] b {
   color: #fff; }
@@ -1232,5 +1233,49 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
   background: #282828; }
   .EdgeButton--secondary:hover {
     background: #353535; }
+
+.js-app.application .app-header {
+  background-color: #181818; }
+.js-app.application .column-nav-item, .js-app.application .app-navigator, .js-app.application .app-title {
+  background: transparent; }
+
+.js-app-columns-container.app-columns-container {
+  background-color: #303030; }
+  .js-app-columns-container.app-columns-container .detail-view-inline, .js-app-columns-container.app-columns-container .detail-view-inline-text {
+    background-color: #282828; }
+  .js-app-columns-container.app-columns-container .column-header, .js-app-columns-container.app-columns-container .scroll-conversation {
+    background-color: #282828;
+    border-bottom: 0; }
+  .js-app-columns-container.app-columns-container .inline-reply, .js-app-columns-container.app-columns-container .compose-text-container {
+    background: #212121; }
+  .js-app-columns-container.app-columns-container textarea.compose-text {
+    background: #181818; }
+
+.js-account-manager-container.column-panel {
+  background: #212121; }
+  .js-account-manager-container.column-panel .bg-color-twitter-white, .js-account-manager-container.column-panel .js-account-settings-row, .js-account-manager-container.column-panel .drawer-header {
+    background: transparent;
+    border-bottom: 0;
+    border-top: 0; }
+  .js-account-manager-container.column-panel .icon {
+    color: #1da1f2; }
+  .js-account-manager-container.column-panel .drawer-header-title {
+    color: #fff; }
+  .js-account-manager-container.column-panel .color-twitter-dark-black, .js-account-manager-container.column-panel .color-twitter-darker-gray {
+    color: #ddd; }
+
+.js-modal-panel.mdl {
+  background-color: transparent; }
+  .js-modal-panel.mdl .mdl-header-title {
+    color: #fff; }
+  .js-modal-panel.mdl .mdl-header {
+    background-color: #181818;
+    border-bottom: 0; }
+  .js-modal-panel.mdl .mdl-inner {
+    background-color: #212121; }
+  .js-modal-panel.mdl span, .js-modal-panel.mdl .icon-close {
+    color: #fff; }
+  .js-modal-panel.mdl .lst-launcher a:hover {
+    background: #181818; }
 
 /*# sourceMappingURL=theme.css.map */

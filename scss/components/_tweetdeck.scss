@@ -1,0 +1,52 @@
+@import '../assets/colours';
+
+.js-app.application {
+  .app-header { background-color: $dark-highlight; }
+  .column-nav-item, .app-navigator, .app-title { background: transparent; }
+}
+
+.js-app-columns-container.app-columns-container {
+  background-color: $dark-tertiary;
+
+  .detail-view-inline, .detail-view-inline-text { background-color: $dark-secondary; }
+  .column-header, .scroll-conversation {
+    background-color: $dark-secondary;
+    border-bottom: 0;
+  }
+
+  .inline-reply, .compose-text-container { background: $dark-primary; }
+  textarea.compose-text { background: $dark-highlight; }
+}
+
+.js-account-manager-container.column-panel {
+  background: $dark-primary;
+
+  .bg-color-twitter-white, .js-account-settings-row, .drawer-header {
+    background: transparent;
+    border-bottom: 0;
+    border-top: 0;
+  }
+
+  .icon { color: #1da1f2; }
+  .drawer-header-title { color: #fff; }
+  .color-twitter-dark-black, .color-twitter-darker-gray { color: #ddd; }
+}
+
+.js-modal-panel.mdl {
+  background-color: transparent;
+
+  .mdl-header-title { color: #fff; }
+  .mdl-header {
+    background-color: $dark-highlight;
+    border-bottom: 0;
+  }
+
+  .mdl-inner { background-color: $dark-primary;}
+  span, .icon-close { color: #fff; }
+
+  .lst-launcher a {
+    &:hover {
+      background: $dark-highlight;
+    }
+  }
+}
