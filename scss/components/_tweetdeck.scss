@@ -15,7 +15,10 @@
   }
 
   .inline-reply, .compose-text-container { background: $dark-primary; }
-  textarea.compose-text { background: $dark-highlight; }
+  textarea.compose-text {
+    background: $dark-highlight;
+    color: #fff;
+  }
 }
 
 .js-account-manager-container.column-panel {

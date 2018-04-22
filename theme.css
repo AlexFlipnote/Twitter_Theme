@@ -1249,7 +1249,8 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
   .js-app-columns-container.app-columns-container .inline-reply, .js-app-columns-container.app-columns-container .compose-text-container {
     background: #212121; }
   .js-app-columns-container.app-columns-container textarea.compose-text {
-    background: #181818; }
+    background: #181818;
+    color: #fff; }
 
 .js-account-manager-container.column-panel {
   background: #212121; }
