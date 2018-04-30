@@ -104,7 +104,8 @@
   color: #fff;
 }
 
-.u-bgUserColorLightest, .u-bgUserColorLighter {
+.u-bgUserColorLightest, .u-bgUserColorLighter,
+.DMConversation-composer.u-bgUserColorLightest {
   background-color: $dark-highlight !important;
 }
 

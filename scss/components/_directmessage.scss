@@ -11,6 +11,10 @@
   background: $dark-highlight;
 }
 
+.DirectMessage-location, .DirectMessage-card {
+  background: transparent !important;
+}
+
 .DMComposer-container {
   background: transparent;
 }
@@ -42,7 +46,8 @@
 
 .EmojiPicker-diversityRow { border-top: 0; }
 
-.u-borderUserColorLighter, .RichEditor.is-fakeFocus {
+.u-borderUserColorLighter, .RichEditor.is-fakeFocus,
+.DMComposer-container.u-borderUserColorLighter {
   border-color: transparent !important;
   box-shadow: none !important;
 }
