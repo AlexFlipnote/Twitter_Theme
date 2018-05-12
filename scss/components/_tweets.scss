@@ -18,6 +18,15 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   background: $dark-secondary;
 }
 
+.Gallery-content {
+  .tweet {
+    background: transparent !important;
+    &:hover { background: $dark-highlight; }
+  }
+
+  .stream-item-footer { border-top: 0; }
+}
+
 .RetweetDialog-footer { background-color: $dark-secondary; }
 .modal-container.tweet-showing .modal-tweet { background-color: $dark-secondary; }
 .RetweetDialog-commentBox { background-color: $dark-secondary; }

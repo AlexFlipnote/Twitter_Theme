@@ -1,2 +1,1294 @@
-body,body.ms-windows{background-color:#303030 !important}.footer{background:#303030 !important}#header{background:#181818;border-bottom:0}p{color:#fff}hr{visibility:hidden}input,input:focus{border-color:transparent;color:#fff}.global-nav .people .count .count-inner{border:0}.global-nav-inner{background-color:#181818}.message{background-color:#181818}.message .message-text{color:#fff}.modal{border-radius:0}.stream-end,.stream-end-inner{background:transparent;border:0}.keyboard-shortcuts .modal-table th,.keyboard-shortcuts .modal-table td{color:#fff}.keyboard-shortcuts .modal-table .shortcut-label{color:#ccc}.btn,.primary-btn{transition:all 200ms ease;-webkit-transition:all 200ms ease;-ms-transition:all 200ms ease;-moz-transition:all 200ms ease;-o-transition:all 200ms ease;-moz-transform:translateY(-0.3em);-o-transform:translateY(-0.3em);-ms-transform:translateY(-0.3em);-webkit-transform:translateY(-0.3em);transform:translateY(-0.3em);border:0;border-color:transparent;border-radius:5px}.btn:hover,.primary-btn:hover{transition:all 200ms ease;-webkit-transition:all 200ms ease;-ms-transition:all 200ms ease;-moz-transition:all 200ms ease;-o-transition:all 200ms ease;-moz-transform:translateY(-0.3em);-o-transform:translateY(-0.3em);-ms-transform:translateY(-0.3em);-webkit-transform:translateY(-0.3em);transform:translateY(-0.3em)}.permalink-inner .permalink-tweet-container,.stream-end-inner,.PermalinkOverlay .permalink-tweet,.module .flex-module,.TwitterCard-container--clickable{border-radius:0}.DashboardProfileCard-avatarImage{border:0}.DashboardProfileCard .ProfileCardStats{border-top:1px #ccc solid;margin-top:5px;padding-top:5px}.DashboardProfileCard-userFields{left:0;padding-left:100px;top:100px;width:190px}.permalink.has-replies .inline-reply-tweetbox,.home-tweet-box,.permalink-inner,.new-tweets-bar,.new-tweets-bar:hover,.stream-item:not(.no-header-background-module),.permalink .stream-end-inner,.stream-fotter,.tweet .stats,.permalink .replies-to .tweet,.tweet,.DashboardProfileCard-content,.DashboardProfileCard,.DashboardProfileCard-bg,.module .flex-module,.TwitterCard-container--clickable,.QuoteTweet{border:0;border-bottom:0;border-left:0;border-right:0;border-top:0}.permalink{border:0;border-radius:0}.permalink:hover{border:0;border-radius:0}.permalink .in-reply-to .stream-item:first-child .tweet:hover{border-top-left-radius:0;border-top-right-radius:0}.permalink .inline-reply-tweetbox{background-color:#303030}.UserSmallListItem .user-actions-follow-button button,.UserSmallListItem .user-actions-follow-button button:hover{transition:all 250ms ease;-webkit-transition:all 250ms ease;-ms-transition:all 250ms ease;-moz-transition:all 250ms ease;-o-transition:all 250ms ease}.UserSmallListItem .user-actions-follow-button button{background:#303030}.UserSmallListItem .user-actions-follow-button button:hover{background:#353535}.follow-btn.small-follow-btn{background:#2ecc71}.following .follow-btn,.following .follow-button,.following .follow-btn:hover,.following .follow-button:hover{transition:all 300ms ease;-webkit-transition:all 300ms ease;-ms-transition:all 300ms ease;-moz-transition:all 300ms ease;-o-transition:all 300ms ease}#profile-hover-container{background-color:transparent}.hovercard.profile-card .ProfileCard-content .FollowStatus{background-color:#2ecc71;color:#fff;text-align:center}p.ProfileCard-bio{color:#ccc}.hovercard.profile-card .profile-card-listName{background:transparent;border-top:1px solid #fff;color:#fff;margin-top:5px}.fullname .ProfileNameTruncated-link .u-textInheritColor .js-nav,.u-textTruncate{color:#fff}.hovercard.profile-card .ProfileCard-content,.ProfileCardStats,.hovercard.profile-card{background-color:#282828;color:#fff}.DMActivity-title{color:#fff}.DMActivity-header{background-color:#181818;border-bottom:0;border-radius:0}.DirectMessage--received .DirectMessage-text{background:#181818}.DirectMessage-location,.DirectMessage-card{background:transparent !important}.DMComposer-container{background:transparent}.DMDivider{background-color:#282828;color:#eee}.DMActivity-body{background-color:#282828}.RichEditor.RichEditor--emojiPicker div[contenteditable]{background-color:#282828;color:#fff}.EmojiPicker-query{background-color:#181818;background-image:none;border-bottom:0;border-radius:0}.EmojiPicker-query input[type=text].EmojiPicker-queryInput{background:transparent;color:#fff}.EmojiPicker-categoryHeader{background-color:#282828;border-bottom:0;color:#ddd}.EmojiPicker-diversityRow{border-top:0}.u-borderUserColorLighter,.RichEditor.is-fakeFocus,.DMComposer-container.u-borderUserColorLighter{border-color:transparent !important;box-shadow:none !important}.DMConversation-composer{border-top:0;box-shadow:inset 0 0 0 rgba(0,0,0,0.1)}.DirectMessage--received .Caret::before{border-color:#181818}.DMTypeaheadHeader{color:#fff}.DirectMessage--received .DirectMessage-message{background-color:#181818}.DMConversation-scrollContainer{background-color:#282828}.DMDialogTypeahead{background-color:#282828}.DMButtonBar{background-color:#303030}.TokenizedMultiselect-inputContainer{border:0;border-radius:0}.TokenizedMultiselect-input,.TokenizedMultiselect-input:focus{background-color:#353535;color:#fff}.DMTokenizedMultiselectSuggestion{border:0}.DMTokenizedMultiselectSuggestion.is-highlighted{background-color:#303030;border:0}.DMInboxItem{background-color:#282828 !important;border-bottom:0}.DMInboxItem:hover{background-color:#303030 !important;text-decoration:none}.Trends .trend-location,.wtf-module h3{color:#fff}.dropdown.open .dropdown-menu{background-color:#303030}.DashUserDropdown.dropdown-menu li>a,.DashUserDropdown.dropdown-menu button{color:#fff}.DashUserDropdown.dropdown-menu li>a,.DashUserDropdown.dropdown-menu li>a:hover{transition:all 250ms ease;-webkit-transition:all 250ms ease;-ms-transition:all 250ms ease;-moz-transition:all 250ms ease;-o-transition:all 250ms ease}.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink{text-align:center;width:100%}.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover{background:#181818}.DashUserDropdown-userInfo{margin:0;padding:0}.nav li a,.dropdown button.dropdown-link{color:#fff}.dropdown-caret .caret-inner{border-bottom:9px solid #303030;border-bottom-color:#303030}.dropdown-menu .dropdown-link{color:#fff}.nav .session .dropdown-toggle{background:transparent;border-radius:0;padding-top:5px}.nav .session .dropdown-toggle::before{box-shadow:0}.GridTimeline-emptyText{color:#fff}.ProfileListsTimeline .GridTimeline-end:not(.has-items){background-color:transparent;border:0;border-radius:0}.MomentMakerPage-content{background-color:#181818}.MomentsPage.MomentsPermalinkPage .AppContent,.MomentsPage.MomentMakerPage .AppContent{background-color:#303030}.MomentMakerCapsuleCover{background:#282828;padding-bottom:30px;padding-left:50px;padding-right:50px}.MomentCapsuleEditableMeta-title .rich-editor,.MomentCapsuleEditableMeta-description .rich-editor{background:#212121;color:#fff}.MomentMakerCapsuleCover-empty,.MomentCapsuleSummary--portrait .MomentCapsuleSummary-title{background-color:transparent;color:#fff}.MomentsPage.MomentsGuidePage .Footer,.MomentsPage.MomentsPermalinkPage .Footer{margin-bottom:-10px}.MomentMakerRecommendations-title{background-color:#282828;color:#fff}.MomentFloatingMenu{background-color:#2ecc71;border:0}.MomentFloatingMenu .MomentButton:last-child{color:#fff}.MomentMakerRecommendations{background-color:#303030}.MomentMakerRecommendedCategories{background-color:#181818;border-radius:10px}.MomentCapsuleCover-title{color:#fff}.MomentMakerRecommendations-module{background:transparent;border:0}.MomentCapsuleItemTweet--withText{background:#282828}.MomentUserByline-fullname{color:#fff}.MomentMakerRecommendations-more{background-color:#181818;border-radius:10px;border-top:0;color:#fff}.MomentMakerRecommendations-scrollTopButton{background:#181818;border:0;color:#fff}.NotificationsHeadingContent{background-color:#181818;border-bottom:0;border-radius:0}.ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover{background:transparent}.QuoteTweet--slim .QuoteTweet-text b{color:#fff}.QuoteTweet-text .pretty-link s,.QuoteTweet-text .pretty-link b{color:#fff}.ActivityItem-displayText{color:#fff}.ActivityItem.has-clickAction{transition:all 200ms ease;-webkit-transition:all 200ms ease;-ms-transition:all 200ms ease;-moz-transition:all 200ms ease;-o-transition:all 200ms ease}.ActivityItem.has-clickAction:hover{transition:all 200ms ease;-webkit-transition:all 200ms ease;-ms-transition:all 200ms ease;-moz-transition:all 200ms ease;-o-transition:all 200ms ease;background:#181818}li.stream-item.highlighted.highlighted{background-color:#353535}.content-header,.content-no-header{border:0;border-radius:0}.ProfileCanopy-navBar,.ProfileNav-item--userActions{background-color:#282828}.ProfileHeaderCard,.ProfileHeaderCard span{color:#fff !important}.ProfilePage.is-editing .ProfilePage-editingOverlay{background-color:#000 !important}.BirthdateSelect-button{background-color:#303030 !important}.ProfilePage-cancelButton,.ProfilePage-cancelButton:hover,.ProfilePage-saveButton,.ProfilePage-saveButton:hover{transition:all 250ms ease}.ProfilePage-cancelButton{background:#c0392b;border:0;color:#fff}.ProfilePage-cancelButton:hover{background-color:#e74c3c}.ProfilePage-saveButton{background-color:#27ae60;border:0;color:#fff}.ProfilePage-saveButton:hover{background-color:#2ecc71}.ProfileAvatarEditing{background:transparent;border:0;margin:5px}.ProfileCard-bg{border-bottom:0}.ProfileClusterFollow{background-color:#181818;border-bottom:0}.Grid--withGutter>.Grid-cell{background:transparent !important}.ProfileClusterFollow-title{color:#fff}.ProfileNameTruncated .UserBadges .Icon{padding-left:2px}.FollowStatus{background-color:rgba(46,204,113,0.5) !important;color:#fff !important;font-weight:bold !important;margin:.3em !important;padding:3px !important}.ProfileCard{background-color:#181818;border:0;border-radius:0}.ProfileHeaderCard-name,.ProfileHeaderCard-bio,.ProfileHeaderCard-birthdateText,.ProfileHeaderCard-joinDateText,.ProfileHeaderCard-locationText,.ProfileHeaderCard-onlineHoursText,.ProfileHeaderCard-responsivenessLevelText,.ProfileHeaderCard-urlText,.ProfileHeaderCard-vineProfileText,.ProfileHeaderCard-periscopeProfileText{color:#fff}.ProfileSidebar .ProfileLifelineInfo,.ProfileSidebar .RelatedUsers,.ProfilePage .AppContent,.ProfileHeading-content,.ProfileSidebar .TweetImpressionsModule,.WhoToFollow.is-visible{background-color:#282828;border:0;border-radius:0}.ProfileSidebar .flex-module-header h3{color:#fff}.ProfileHeading-toggleItem.is-active{color:#fff}.TweetImpressionsModule-heading{color:#fff;font-weight:bold}.u-floatLeft,.u-floatRight{color:#fff}.u-bgUserColorLightest,.u-bgUserColorLighter,.DMConversation-composer.u-bgUserColorLightest{background-color:#181818 !important}.u-borderUserColorLight{border-color:transparent !important}input#user_name,input#user_location,input#user_url{color:#fff}.u-borderUserColorLight,.u-borderUserColorLightFocus:focus,.u-borderUserColorLightHover:hover,.u-borderUserColorLightHover:focus,.RichEditor div[contenteditable],.RichEditor div[contenteditable]:focus,.RichEditor div[contenteditable].fake-focus{background-color:#282828;color:#fff}.UserActions-editButton{transition:all 200ms ease;-webkit-transition:all 200ms ease;-ms-transition:all 200ms ease;-moz-transition:all 200ms ease;-o-transition:all 200ms ease;background:#3498db;border:0;color:#fff;transition:all 200ms ease}.UserActions-editButton:hover{transition:all 200ms ease;-webkit-transition:all 200ms ease;-ms-transition:all 200ms ease;-moz-transition:all 200ms ease;-o-transition:all 200ms ease;-moz-transform:translateY(-0.3em);-o-transform:translateY(-0.3em);-ms-transform:translateY(-0.3em);-webkit-transform:translateY(-0.3em);transform:translateY(-0.3em);background:#2980b9;color:#fff}.top-timeline-tweetbox .timeline-tweet-box .tweet-form.condensed .tweet-box{background-color:#282828;border-radius:0;color:#fff}.typeahead .fullname,.typeahead strong{color:#fff}.global-nav .search-input{background-color:#303030;border:0;border-radius:0;color:#fff}.global-nav .search-input:focus{background-color:#353535;color:#fff}.typeahead-category-title{color:#fff}.form-search .typeahead{background-color:#303030;color:#fff}.RichEditor,.TweetBoxAttachments{border:0;border-color:transparent}.FoundMediaSearch-query{background-color:#181818;background-image:none;border:0;border-radius:0}.FoundMediaSearch-query input[type=text].FoundMediaSearch-queryInput{background-color:#303030}.FoundMediaSearch-focusable{border:3px solid rgba(0,0,0,0.01)}.AdaptiveFiltersBar{background-color:#181818}.AdaptiveFiltersBar-target--link{color:#fff}.AdaptiveSearchPage .AppContent{background-color:#303030}.AdaptiveSearchPage-moduleTitle{color:#fff}.AdaptiveRelatedSearches{background:#282828;border:0}.AdaptiveNewsRelatedHeadlines{background:#282828;border:0}.AdaptiveNewsRelatedHeadlines-title{color:#ddd}.AdaptiveNewsLargeImageHeadline-body{background:#181818;border:0}.AdaptiveNewsLargeImageHeadline-title{color:#fff}.AdaptiveNewsHeadlineDetails-user:hover{color:#fff}.AdaptiveNewsLargeImageHeadline .AdaptiveSearchPage-moduleHeader{margin-top:15px}.WhoToFollow-title{color:#fff}.SidebarFilterModule.is-collapsed{background-color:#181818;border:0;border-radius:0}.AdaptiveSearchTimeline .stream .stream-item:first-child{border-top:0;border-top-left-radius:0;border-top-right-radius:0}.AdaptiveSearchTimeline .stream .stream-item:first-child .tweet{border-top-left-radius:0 !important;border-top-right-radius:0 !important}.DashboardProfileCard{background:#282828}.app .content strong{color:#fff}.app .creator{color:#ccc}.app .creator a{color:#3498db}.find-friends-list b{color:#fff}.find-friends-list li{background-color:transparent}.find-friends-list:hover{background-color:#181818}.form-horizontal .control-label,.radio,.checkbox{color:#fff}.wrapper-settings .header-inner h2,#user-data-dashboard #content-main-heading{color:#fff}.settings-header,.t1-label{color:#fff}.find-friends-top-subheader,.find-friends-bottom-subheader{color:#fff}.content-header .subheader,.app-password .description{color:#fff}.MutedKeywordsFooter-emptyMessage{color:#fff}.form-horizontal input,.form-horizontal select{background:#353535;border:0;color:#fff}#user-data-dashboard .account-history .controls>div,.t1-form{color:#fff}.module .active .list-link{background:#181818;color:#fff}.module .list-link:hover{background:#282828}.module .list-link{background:transparent;border:0;color:#fff}.input-block{background:#181818;color:#fff}.FacebookConnect-title{color:#fff}.account,.tweet,.app{border-bottom:0}.module ul:first-child li:first-child .list-link,.module .flex-module:first-child{border-top:0;border-top-left-radius:0;border-top-right-radius:0}.MutedKeywordsFooter{background-color:#303030;border:0}.modal-body p{color:#fff}.content-inner{border-left:0;border-right:0}.PlayableMedia-title{color:#fff}.PlayableMedia-description,.PlayableMedia--vine .PlayableMedia-externalUrl{color:#ccc}.content-inner.no-stream-end,.find-friends-sources,.stream-item.highlighted,.find-friends-top-subheader,.find-friends-bottom-subheader{background-color:#353535;border-bottom:0;border-radius:0}.ActivityItem{border-bottom:0}.content-header .header-inner,.content-no-header .no-header-inner{background:#181818;border-bottom:0;border-radius:0}.DashboardProfileCard-name{color:#fff}.LiveVideoHomePageModule-eventTitle{color:#eee}.DashboardProfileCard-avatarLink{background-color:transparent}.ListCreationModule-title,.ListCreationModule-description{color:#fff}.ListCreationModule{background-color:#282828;border:0;border-radius:0}.module .flex-module{background-color:#282828}.Trends{background-color:#282828;border:0;border-radius:0}.DashboardProfileCard-content{background-color:#282828}.wtf-module .import-prompt,.Footer .Footer-adsModule{background:#282828 !important}.dashboard h3{color:#fff}.stream-item:not(.no-header-background-module){background-color:#282828}span[data-query-source="hashtag_click"] b{color:#fff}span[class="twitter-atreply pretty-link js-nav"] b,span[class="twitter-atreply pretty-link js-nav"] s{color:#3498db}.rich-editor em{background:#e74c3c}.tweet-counter{color:#2ecc71;font-weight:bold;text-shadow:none}.tweet-counter.warn{color:#f1c40f}.tweet-counter.superwarn{color:#e74c3c}.modal-content{background:#282828}.RetweetDialog-footer{background-color:#282828}.modal-container.tweet-showing .modal-tweet{background-color:#282828}.RetweetDialog-commentBox{background-color:#282828}#global-tweet-dialog .modal-tweet .tweet:hover,#global-tweet-dialog .modal-tweet .tweet{background-color:#282828;transition:all 300ms ease}#global-tweet-dialog.tweet-showing .modal-header{border-bottom:0}.ThreadedConversation-showMoreThreadsButton,.ThreadedConversation-showMoreThreads{background:#181818}.ThreadedConversation,.ThreadedConversation-moreReplies::after{border-bottom:0}.inline-reply-tweetbox{background-color:#282828}.permalink{background:#212121;border:0}.permalink .stats .avatar-row a:first-child{border:0}.permalink .inline-reply-tweetbox,.permalink .inline-reply-tweetbox-container{background-color:#212121 !important;border-radius:0;border-top:0}.tweet-form div.rich-editor.is-showPlaceholder::before,.tweet-form div.rich-editor:empty::before{color:#fff}.Tombstone{background:transparent;border:0;border-radius:0}.Tombstone span{color:#e74c3c;font-weight:bold}.Tombstone button{background:#e74c3c;border-radius:4px;color:#fff;padding:.5em 1em}.ThreadedConversation,.ThreadedConversation--loneTweet{margin:0}.PlayableMedia-container{border:0}.ThreadedConversation--header{background-color:#282828;border-bottom:0;border-top:0;color:#fff;margin-top:0}.ThreadedConversation-moreReplies{background-color:#282828}.ThreadedConversation-unavailableTweet{background-color:#c0392b}.ThreadedConversation-unavailableTweet .ThreadedConversation-unavailableText{color:#fff}.ThreadedConversation-unavailableTweet .ThreadedConversation-unavailableText::after{content:':('}.Gallery-content,.PermalinkOverlay-spinnerContainer{background-color:rgba(48,48,48,0.5)}.icon-btn.enabled{background:transparent;border-width:2px}.PollingCardComposer{background-color:#282828;border-radius:0;box-shadow:none}.tweet-form.is-cardComposerOn .TweetBoxAttachments,.tweet-form.has-thumbnail .TweetBoxAttachments{border:0}.PollingCardComposer-option div.PollingCardComposer-optionInput{background:#303030}.geo-query-location{background:#181818;border-bottom:0;border-radius:0}.dropdown-menu .geo-query-location input[type=text]{background:transparent}.tweet-box input[type=text]{border-color:transparent}.tweet-form .thumbnail-container{border-radius:0}.tweet-form .thumbnail-container .thumbnail-wrapper{background:#282828}.recap-header{border-bottom:0;color:#fff}.stream-item+.stream-item.separated-module:not(.no-header-background-module){border-top:0}#global-tweet-dialog .modal-header{background-color:#181818;border-bottom:0}.RichEditor{background:transparent !important;border:0}.RichEditor .typeahead{background-color:#353535}.modal-header{background:#181818;border-bottom:0;border-radius:0}.modal-header .modal-title{color:#fff !important}.modal-body{background:#282828;border-radius:0;color:#fff}.modal-footer{background:#303030;border-top:0;text-align:center}#global-tweet-dialog .modal-tweet-form-container{background-color:#282828;color:#fff}.tweet-btn{transition:all 200ms ease;-webkit-transition:all 200ms ease;-ms-transition:all 200ms ease;-moz-transition:all 200ms ease;-o-transition:all 200ms ease;border:0;color:#fff}.tweet-btn:hover{transition:all 200ms ease;-webkit-transition:all 200ms ease;-ms-transition:all 200ms ease;-moz-transition:all 200ms ease;-o-transition:all 200ms ease;-moz-transform:translateY(-0.3em);-o-transform:translateY(-0.3em);-ms-transform:translateY(-0.3em);-webkit-transform:translateY(-0.3em);transform:translateY(-0.3em);color:#fff}.tweet{transition:all 300ms ease;-webkit-transition:all 300ms ease;-ms-transition:all 300ms ease;-moz-transition:all 300ms ease;-o-transition:all 300ms ease;background-color:#282828}.tweet .js-tweet-text{color:#fff}.tweet .stats{background:#222;border-radius:4px}.tweet .stats .js-stat-count{background:#333;margin-right:0}.tweet .stats .js-stat-count a{padding:13px 10px}.tweet .stats li:first-child a{padding-left:13px}.fullname,.GalleryTweet .account-group .fullname,.GalleryTweet .account-group:hover .fullname{color:#fff}.stats .stat-count a{color:#fff}.TwitterCard-container--clickable:hover{background-color:#282828}.QuoteTweet-container{background-color:#303030;border-radius:4px}.QuoteTweet-fullname,.TwitterCard .SummaryCard-content .TwitterCard-title{color:#fff}.QuoteTweet-text,.TwitterCard .SummaryCard--small .SummaryCard-content p{color:#eee}.conversation-module .conversation-tweet-item .tweet:hover,.tweet:hover{transition:all 300ms ease;-webkit-transition:all 300ms ease;-ms-transition:all 300ms ease;-moz-transition:all 300ms ease;-o-transition:all 300ms ease;background-color:#303030;border-bottom:0}.home-tweet-box,.permalink-inner{background-color:#181818}.top-timeline-tweetbox .timeline-tweet-box{border:0}.new-tweets-bar,.new-tweets-bar:hover{background-color:#303030;color:#fff}.PermalinkOverlay .permalink-tweet{background-color:#282828}html,body:not([class]){background-color:transparent !important}.TwitterCard .PollXChoice-optionContainer span{color:#fff;font-family:"Segoe UI", Arial, sans-serif;font-weight:bold}.TwitterCard .EdgeButton--secondary,.TwitterCard .EdgeButton--secondary.PollXChoice-hideButton{background-color:#3498db;color:#fff;font-family:"Segoe UI",Arial,sans-serif}.TwitterCard [class*="PollXChoice-footer--"]{font-family:"Segoe UI", Arial, sans-serif}.TwitterCard .PollXChoice-choice--selected{filter:brightness(10)}.TwitterCard .PollXChoice-optionContainer:first-child{margin-top:2px}.TwitterCard .PollXChoice-choice{margin-left:5px}.TwitterCard .PollXChoice-choice--radio{background-color:#ddd;border-color:#999 !important}.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--input:checked+.PollXChoice-choice--radio{border-color:#0ea669 !important}.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart{background:#222}#global-tweet-dialog .modal-tweet-form-container,#Tweetstorm-dialog .modal-body{background:#222;border-bottom-left-radius:4px;border-bottom-right-radius:4px}#global-tweet-dialog-dialog{border-radius:4px;box-shadow:0 6px 8px 0 rgba(0,0,0,0.3)}#global-tweet-dialog .modal-header,#Tweetstorm-dialog .modal-header{border-top-left-radius:4px;border-top-right-radius:4px}.stream-end-item,.stream-end,.stream-loading,.stream-placeholder{border:0}.wtf-module .UserSmallListItem,.wtf-module .import-prompt .cta{border-color:#222}.WtfLargeCarouselStreamItem-title{color:#ddd}.PromptbirdPrompt--inline,.PromptbirdPrompt--inlinePointer{background-color:#222;border-color:#222}.PromptbirdPrompt-title{color:#fff}.PromptbirdPrompt-streamItem.separated-module+.stream-item:not(.no-header-background-module){border-color:#222}.stream-item.dismissed{border-bottom:0}.stream-item.no-header-background-module .dismiss-module{background:#212121;border-left:0;border-right:0}.dismiss-module .feedback-action{border-bottom:0;color:#fff}.stream-item.separated-module+.stream-item:not(.no-header-background-module){border-color:transparent}.ProfileAvatar{background-color:transparent;border-color:transparent}.hovercard .arrow,.dropdown-divider{background-color:#282828;border-color:#282828}.ThreadedConversation-showMoreThreads{border-color:#222}.stream .tweet:hover{background-color:#282828}.stats .stat-count strong{color:#999}.Icon.Icon--large.Icon--logo{color:#fff}.permalink-container{box-shadow:0 6px 8px 0 rgba(0,0,0,0.3)}.hovercard.profile-card .ProfileCard-avatarLink,.ProfileCard-content{background-color:transparent}.hovercard.profile-card .ProfileCard-avatarImage{border:0}.js-macaw-cards-iframe-container iframe{border-radius:4px}.ProfileHeaderCard span.Icon--verified{color:#1da1f2 !important}.SharedNavBar--analytics{background:#181818;border-bottom:0;color:#fff}.ProfileHeader{background:#181818}.ProfileHeader .ProfileHeader-name{color:#fff}.home-group-header{background:#181818;text-align:center}.home-pagesummary .DataPoint .DataPoint-info{color:#fff}.home-subtitle,.home-panel-title,.home-summary-panel .DataPoint-info,.home-panel-content .tweet-container .tweet-details .tweet-text,.home-panel-info-insight,.tweet-container .tweet-details .tweet-profile-link:hover .tweet-name,.tweet-container .tweet-details .tweet-name{color:#fff}li.SharedNavBar-navItem .SharedNavBar-textButton,li.SharedNavBar-navItem>a{color:#fff}.SharedNavBar--analytics li.SharedNavBar-navItem.is-active>a,.SharedNavBar--analytics li.SharedNavBar-navItem>a:focus,.SharedNavBar--analytics li.SharedNavBar-navItem>a:hover,.SharedNavBar--analytics li.SharedNavBar-navItem>a:visited{color:#fff}.auth h2{color:#fff}.permissions li{color:#ccc}.permissions.allow strong{color:#2ecc71}.permissions.deny strong{color:#e74c3c}.oauth #bd{border:0}.oauth .buttons #allow,.oauth .buttons #cancel{transition:all 250ms ease;-webkit-transition:all 250ms ease;-ms-transition:all 250ms ease;-moz-transition:all 250ms ease;-o-transition:all 250ms ease}.oauth .buttons #allow:hover,.oauth .buttons #cancel:hover{transition:all 250ms ease;-webkit-transition:all 250ms ease;-ms-transition:all 250ms ease;-moz-transition:all 250ms ease;-o-transition:all 250ms ease}.oauth .buttons #allow{background:#2ecc71}.oauth .buttons #allow:hover{background:#27ae60}.oauth .buttons #cancel{background:#e74c3c}.oauth .buttons #cancel:hover{background:#c0392b}.notice{border:0;border-radius:0}.notice.error{background:#e74c3c;border-color:none}.notice.error h2{color:#fff}#session h2 a{background:transparent}.footer{background:#303030}#session h2 img{border:0}#header .logo a{border-bottom:0}.app-info h3 img{border:0}#bd .app-info h3{color:#fff;font-size:20px;font-weight:bold}.action-information{color:#fff;font-size:30px;font-weight:bold;padding-bottom:20px;text-align:center}#oauth_pin p{background-color:#181818;color:#fff;text-align:center}#oauth_pin code{color:#fff;font-family:monospace}.EdgeButton--secondary{background:#282828}.EdgeButton--secondary:hover{background:#353535}.js-app.application .app-header{background-color:#181818}.js-app.application .column-nav-item,.js-app.application .app-navigator,.js-app.application .app-title{background:transparent}.js-app-columns-container.app-columns-container{background-color:#303030}.js-app-columns-container.app-columns-container .detail-view-inline,.js-app-columns-container.app-columns-container .detail-view-inline-text{background-color:#282828}.js-app-columns-container.app-columns-container .column-header,.js-app-columns-container.app-columns-container .scroll-conversation{background-color:#282828;border-bottom:0}.js-app-columns-container.app-columns-container .inline-reply,.js-app-columns-container.app-columns-container .compose-text-container{background:#212121}.js-app-columns-container.app-columns-container textarea.compose-text{background:#181818;color:#fff}.js-account-manager-container.column-panel{background:#212121}.js-account-manager-container.column-panel .bg-color-twitter-white,.js-account-manager-container.column-panel .js-account-settings-row,.js-account-manager-container.column-panel .drawer-header{background:transparent;border-bottom:0;border-top:0}.js-account-manager-container.column-panel .icon{color:#1da1f2}.js-account-manager-container.column-panel .drawer-header-title{color:#fff}.js-account-manager-container.column-panel .color-twitter-dark-black,.js-account-manager-container.column-panel .color-twitter-darker-gray{color:#ddd}.js-modal-panel.mdl{background-color:transparent}.js-modal-panel.mdl .mdl-header-title{color:#fff}.js-modal-panel.mdl .mdl-header{background-color:#181818;border-bottom:0}.js-modal-panel.mdl .mdl-inner{background-color:#212121}.js-modal-panel.mdl span,.js-modal-panel.mdl .icon-close{color:#fff}.js-modal-panel.mdl .lst-launcher a:hover{background:#181818}
+body, body.ms-windows {
+  background-color: #303030 !important; }
+
+.footer {
+  background: #303030 !important; }
+
+#header {
+  background: #181818;
+  border-bottom: 0; }
+
+p {
+  color: #fff; }
+
+hr {
+  visibility: hidden; }
+
+input, input:focus {
+  border-color: transparent;
+  color: #fff; }
+
+.global-nav .people .count .count-inner {
+  border: 0; }
+
+.global-nav-inner {
+  background-color: #181818; }
+
+.message {
+  background-color: #181818; }
+  .message .message-text {
+    color: #fff; }
+
+.modal {
+  border-radius: 0; }
+
+.stream-end, .stream-end-inner {
+  background: transparent;
+  border: 0; }
+
+.keyboard-shortcuts .modal-table th, .keyboard-shortcuts .modal-table td {
+  color: #fff; }
+
+.keyboard-shortcuts .modal-table .shortcut-label {
+  color: #ccc; }
+
+.btn, .primary-btn {
+  transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  -moz-transform: translateY(-0.3em);
+  -o-transform: translateY(-0.3em);
+  -ms-transform: translateY(-0.3em);
+  -webkit-transform: translateY(-0.3em);
+  transform: translateY(-0.3em);
+  border: 0;
+  border-color: transparent;
+  border-radius: 5px; }
+  .btn:hover, .primary-btn:hover {
+    transition: all 200ms ease;
+    -webkit-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    -moz-transform: translateY(-0.3em);
+    -o-transform: translateY(-0.3em);
+    -ms-transform: translateY(-0.3em);
+    -webkit-transform: translateY(-0.3em);
+    transform: translateY(-0.3em); }
+
+.permalink-inner .permalink-tweet-container, .stream-end-inner, .PermalinkOverlay .permalink-tweet,
+.module .flex-module, .TwitterCard-container--clickable {
+  border-radius: 0; }
+
+.DashboardProfileCard-avatarImage {
+  border: 0; }
+
+.DashboardProfileCard .ProfileCardStats {
+  border-top: 1px #ccc solid;
+  margin-top: 5px;
+  padding-top: 5px; }
+
+.DashboardProfileCard-userFields {
+  left: 0;
+  padding-left: 100px;
+  top: 100px;
+  width: 190px; }
+
+.permalink.has-replies .inline-reply-tweetbox, .home-tweet-box, .permalink-inner,
+.new-tweets-bar, .new-tweets-bar:hover, .stream-item:not(.no-header-background-module),
+.permalink .stream-end-inner, .stream-fotter, .tweet .stats, .permalink .replies-to .tweet, .tweet,
+.DashboardProfileCard-content, .DashboardProfileCard, .DashboardProfileCard-bg, .module .flex-module,
+.TwitterCard-container--clickable, .QuoteTweet {
+  border: 0;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0; }
+
+.permalink {
+  border: 0;
+  border-radius: 0; }
+  .permalink:hover {
+    border: 0;
+    border-radius: 0; }
+  .permalink .in-reply-to .stream-item:first-child .tweet:hover {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; }
+  .permalink .inline-reply-tweetbox {
+    background-color: #303030; }
+
+.UserSmallListItem .user-actions-follow-button button,
+.UserSmallListItem .user-actions-follow-button button:hover {
+  transition: all 250ms ease;
+  -webkit-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -o-transition: all 250ms ease; }
+
+.UserSmallListItem .user-actions-follow-button button {
+  background: #303030; }
+
+.UserSmallListItem .user-actions-follow-button button:hover {
+  background: #353535; }
+
+.follow-btn.small-follow-btn {
+  background: #2ecc71; }
+
+.following .follow-btn, .following .follow-button,
+.following .follow-btn:hover, .following .follow-button:hover {
+  transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease; }
+
+#profile-hover-container {
+  background-color: transparent; }
+
+.hovercard.profile-card .ProfileCard-content .FollowStatus {
+  background-color: #2ecc71;
+  color: #fff;
+  text-align: center; }
+
+p.ProfileCard-bio {
+  color: #ccc; }
+
+.hovercard.profile-card .profile-card-listName {
+  background: transparent;
+  border-top: 1px solid #fff;
+  color: #fff;
+  margin-top: 5px; }
+
+.fullname .ProfileNameTruncated-link .u-textInheritColor .js-nav, .u-textTruncate {
+  color: #fff; }
+
+.hovercard.profile-card .ProfileCard-content, .ProfileCardStats,
+.hovercard.profile-card {
+  background-color: #282828;
+  color: #fff; }
+
+.DMActivity-title {
+  color: #fff; }
+
+.DMActivity-header {
+  background-color: #181818;
+  border-bottom: 0;
+  border-radius: 0; }
+
+.DirectMessage--received .DirectMessage-text {
+  background: #181818; }
+
+.DirectMessage-location, .DirectMessage-card {
+  background: transparent !important; }
+
+.DMComposer-container {
+  background: transparent; }
+
+.DMDivider {
+  background-color: #282828;
+  color: #eee; }
+
+.DMActivity-body {
+  background-color: #282828; }
+
+.RichEditor.RichEditor--emojiPicker div[contenteditable] {
+  background-color: #282828;
+  color: #fff; }
+
+.EmojiPicker-query {
+  background-color: #181818;
+  background-image: none;
+  border-bottom: 0;
+  border-radius: 0; }
+  .EmojiPicker-query input[type=text].EmojiPicker-queryInput {
+    background: transparent;
+    color: #fff; }
+
+.EmojiPicker-categoryHeader {
+  background-color: #282828;
+  border-bottom: 0;
+  color: #ddd; }
+
+.EmojiPicker-diversityRow {
+  border-top: 0; }
+
+.u-borderUserColorLighter, .RichEditor.is-fakeFocus,
+.DMComposer-container.u-borderUserColorLighter {
+  border-color: transparent !important;
+  box-shadow: none !important; }
+
+.DMConversation-composer {
+  border-top: 0;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.1); }
+
+.DirectMessage--received .Caret::before {
+  border-color: #181818; }
+
+.DMTypeaheadHeader {
+  color: #fff; }
+
+.DirectMessage--received .DirectMessage-message {
+  background-color: #181818; }
+
+.DMConversation-scrollContainer {
+  background-color: #282828; }
+
+.DMDialogTypeahead {
+  background-color: #282828; }
+
+.DMButtonBar {
+  background-color: #303030; }
+
+.TokenizedMultiselect-inputContainer {
+  border: 0;
+  border-radius: 0; }
+
+.TokenizedMultiselect-input, .TokenizedMultiselect-input:focus {
+  background-color: #353535;
+  color: #fff; }
+
+.DMTokenizedMultiselectSuggestion {
+  border: 0; }
+  .DMTokenizedMultiselectSuggestion.is-highlighted {
+    background-color: #303030;
+    border: 0; }
+
+.DMInboxItem {
+  background-color: #282828 !important;
+  border-bottom: 0; }
+  .DMInboxItem:hover {
+    background-color: #303030 !important;
+    text-decoration: none; }
+
+.Trends .trend-location, .wtf-module h3 {
+  color: #fff; }
+
+.dropdown.open .dropdown-menu {
+  background-color: #303030; }
+
+.DashUserDropdown.dropdown-menu li > a, .DashUserDropdown.dropdown-menu button {
+  color: #fff; }
+
+.DashUserDropdown.dropdown-menu li > a, .DashUserDropdown.dropdown-menu li > a:hover {
+  transition: all 250ms ease;
+  -webkit-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -o-transition: all 250ms ease; }
+
+.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink {
+  text-align: center;
+  width: 100%; }
+
+.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover {
+  background: #181818; }
+
+.DashUserDropdown-userInfo {
+  margin: 0;
+  padding: 0; }
+
+.nav li a, .dropdown button.dropdown-link {
+  color: #fff; }
+
+.dropdown-caret .caret-inner {
+  border-bottom: 9px solid #303030;
+  border-bottom-color: #303030; }
+
+.dropdown-menu .dropdown-link {
+  color: #fff; }
+
+.nav .session .dropdown-toggle {
+  background: transparent;
+  border-radius: 0;
+  padding-top: 5px; }
+  .nav .session .dropdown-toggle::before {
+    box-shadow: 0; }
+
+.GridTimeline-emptyText {
+  color: #fff; }
+
+.ProfileListsTimeline .GridTimeline-end:not(.has-items) {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0; }
+
+.MomentMakerPage-content {
+  background-color: #181818; }
+
+.MomentsPage.MomentsPermalinkPage .AppContent, .MomentsPage.MomentMakerPage .AppContent {
+  background-color: #303030; }
+
+.MomentMakerCapsuleCover {
+  background: #282828;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.MomentCapsuleEditableMeta-title .rich-editor, .MomentCapsuleEditableMeta-description .rich-editor {
+  background: #212121;
+  color: #fff; }
+
+.MomentMakerCapsuleCover-empty, .MomentCapsuleSummary--portrait .MomentCapsuleSummary-title {
+  background-color: transparent;
+  color: #fff; }
+
+.MomentsPage.MomentsGuidePage .Footer, .MomentsPage.MomentsPermalinkPage .Footer {
+  margin-bottom: -10px; }
+
+.MomentMakerRecommendations-title {
+  background-color: #282828;
+  color: #fff; }
+
+.MomentFloatingMenu {
+  background-color: #2ecc71;
+  border: 0; }
+  .MomentFloatingMenu .MomentButton:last-child {
+    color: #fff; }
+
+.MomentMakerRecommendations {
+  background-color: #303030; }
+
+.MomentMakerRecommendedCategories {
+  background-color: #181818;
+  border-radius: 10px; }
+
+.MomentCapsuleCover-title {
+  color: #fff; }
+
+.MomentMakerRecommendations-module {
+  background: transparent;
+  border: 0; }
+
+.MomentCapsuleItemTweet--withText {
+  background: #282828; }
+
+.MomentUserByline-fullname {
+  color: #fff; }
+
+.MomentMakerRecommendations-more {
+  background-color: #181818;
+  border-radius: 10px;
+  border-top: 0;
+  color: #fff; }
+
+.MomentMakerRecommendations-scrollTopButton {
+  background: #181818;
+  border: 0;
+  color: #fff; }
+
+.NotificationsHeadingContent {
+  background-color: #181818;
+  border-bottom: 0;
+  border-radius: 0; }
+
+.ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover {
+  background: transparent; }
+
+.QuoteTweet--slim .QuoteTweet-text b {
+  color: #fff; }
+
+.QuoteTweet-text .pretty-link s, .QuoteTweet-text .pretty-link b {
+  color: #fff; }
+
+.ActivityItem-displayText {
+  color: #fff; }
+
+.ActivityItem.has-clickAction {
+  transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease; }
+  .ActivityItem.has-clickAction:hover {
+    transition: all 200ms ease;
+    -webkit-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    background: #181818; }
+
+li.stream-item.highlighted.highlighted {
+  background-color: #353535; }
+
+.content-header, .content-no-header {
+  border: 0;
+  border-radius: 0; }
+
+.ProfileCanopy-navBar, .ProfileNav-item--userActions {
+  background-color: #282828; }
+
+.ProfileHeaderCard, .ProfileHeaderCard span {
+  color: #fff !important; }
+
+.ProfilePage.is-editing .ProfilePage-editingOverlay {
+  background-color: #000 !important; }
+
+.BirthdateSelect-button {
+  background-color: #303030 !important; }
+
+.ProfilePage-cancelButton, .ProfilePage-cancelButton:hover, .ProfilePage-saveButton, .ProfilePage-saveButton:hover {
+  transition: all 250ms ease; }
+
+.ProfilePage-cancelButton {
+  background: #c0392b;
+  border: 0;
+  color: #fff; }
+  .ProfilePage-cancelButton:hover {
+    background-color: #e74c3c; }
+
+.ProfilePage-saveButton {
+  background-color: #27ae60;
+  border: 0;
+  color: #fff; }
+  .ProfilePage-saveButton:hover {
+    background-color: #2ecc71; }
+
+.ProfileAvatarEditing {
+  background: transparent;
+  border: 0;
+  margin: 5px; }
+
+.ProfileCard-bg {
+  border-bottom: 0; }
+
+.ProfileClusterFollow {
+  background-color: #181818;
+  border-bottom: 0; }
+
+.Grid--withGutter > .Grid-cell {
+  background: transparent !important; }
+
+.ProfileClusterFollow-title {
+  color: #fff; }
+
+.ProfileNameTruncated .UserBadges .Icon {
+  padding-left: 2px; }
+
+.FollowStatus {
+  background-color: rgba(46, 204, 113, 0.5) !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  margin: .3em !important;
+  padding: 3px !important; }
+
+.ProfileCard {
+  background-color: #181818;
+  border: 0;
+  border-radius: 0; }
+
+.ProfileHeaderCard-name, .ProfileHeaderCard-bio, .ProfileHeaderCard-birthdateText, .ProfileHeaderCard-joinDateText, .ProfileHeaderCard-locationText,
+.ProfileHeaderCard-onlineHoursText, .ProfileHeaderCard-responsivenessLevelText, .ProfileHeaderCard-urlText,
+.ProfileHeaderCard-vineProfileText, .ProfileHeaderCard-periscopeProfileText {
+  color: #fff; }
+
+.ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers, .ProfilePage .AppContent,
+.ProfileHeading-content, .ProfileSidebar .TweetImpressionsModule, .WhoToFollow.is-visible {
+  background-color: #282828;
+  border: 0;
+  border-radius: 0; }
+
+.ProfileSidebar .flex-module-header h3 {
+  color: #fff; }
+
+.ProfileHeading-toggleItem.is-active {
+  color: #fff; }
+
+.TweetImpressionsModule-heading {
+  color: #fff;
+  font-weight: bold; }
+
+.u-floatLeft, .u-floatRight {
+  color: #fff; }
+
+.u-bgUserColorLightest, .u-bgUserColorLighter,
+.DMConversation-composer.u-bgUserColorLightest {
+  background-color: #181818 !important; }
+
+.u-borderUserColorLight {
+  border-color: transparent !important; }
+
+input#user_name, input#user_location, input#user_url {
+  color: #fff; }
+
+.u-borderUserColorLight, .u-borderUserColorLightFocus:focus,
+.u-borderUserColorLightHover:hover, .u-borderUserColorLightHover:focus,
+.RichEditor div[contenteditable], .RichEditor div[contenteditable]:focus,
+.RichEditor div[contenteditable].fake-focus {
+  background-color: #282828;
+  color: #fff; }
+
+.UserActions-editButton {
+  transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  background: #3498db;
+  border: 0;
+  color: #fff;
+  transition: all 200ms ease; }
+  .UserActions-editButton:hover {
+    transition: all 200ms ease;
+    -webkit-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    -moz-transform: translateY(-0.3em);
+    -o-transform: translateY(-0.3em);
+    -ms-transform: translateY(-0.3em);
+    -webkit-transform: translateY(-0.3em);
+    transform: translateY(-0.3em);
+    background: #2980b9;
+    color: #fff; }
+
+.top-timeline-tweetbox .timeline-tweet-box .tweet-form.condensed .tweet-box {
+  background-color: #282828;
+  border-radius: 0;
+  color: #fff; }
+
+.typeahead .fullname, .typeahead strong {
+  color: #fff; }
+
+.global-nav .search-input {
+  background-color: #303030;
+  border: 0;
+  border-radius: 0;
+  color: #fff; }
+  .global-nav .search-input:focus {
+    background-color: #353535;
+    color: #fff; }
+
+.typeahead-category-title {
+  color: #fff; }
+
+.form-search .typeahead {
+  background-color: #303030;
+  color: #fff; }
+
+.RichEditor, .TweetBoxAttachments {
+  border: 0;
+  border-color: transparent; }
+
+.FoundMediaSearch-query {
+  background-color: #181818;
+  background-image: none;
+  border: 0;
+  border-radius: 0; }
+  .FoundMediaSearch-query input[type=text].FoundMediaSearch-queryInput {
+    background-color: #303030; }
+
+.FoundMediaSearch-focusable {
+  border: 3px solid rgba(0, 0, 0, 0.01); }
+
+.AdaptiveFiltersBar {
+  background-color: #181818; }
+
+.AdaptiveFiltersBar-target--link {
+  color: #fff; }
+
+.AdaptiveSearchPage .AppContent {
+  background-color: #303030; }
+
+.AdaptiveSearchPage-moduleTitle {
+  color: #fff; }
+
+.AdaptiveRelatedSearches {
+  background: #282828;
+  border: 0; }
+
+.AdaptiveNewsRelatedHeadlines {
+  background: #282828;
+  border: 0; }
+
+.AdaptiveNewsRelatedHeadlines-title {
+  color: #ddd; }
+
+.AdaptiveNewsLargeImageHeadline-body {
+  background: #181818;
+  border: 0; }
+
+.AdaptiveNewsLargeImageHeadline-title {
+  color: #fff; }
+
+.AdaptiveNewsHeadlineDetails-user:hover {
+  color: #fff; }
+
+.AdaptiveNewsLargeImageHeadline .AdaptiveSearchPage-moduleHeader {
+  margin-top: 15px; }
+
+.WhoToFollow-title {
+  color: #fff; }
+
+.SidebarFilterModule.is-collapsed {
+  background-color: #181818;
+  border: 0;
+  border-radius: 0; }
+
+.AdaptiveSearchTimeline .stream .stream-item:first-child {
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
+  .AdaptiveSearchTimeline .stream .stream-item:first-child .tweet {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important; }
+
+.DashboardProfileCard {
+  background: #282828; }
+
+.app .content strong {
+  color: #fff; }
+.app .creator {
+  color: #ccc; }
+  .app .creator a {
+    color: #3498db; }
+
+.find-friends-list b {
+  color: #fff; }
+.find-friends-list li {
+  background-color: transparent; }
+.find-friends-list:hover {
+  background-color: #181818; }
+
+.form-horizontal .control-label, .radio, .checkbox {
+  color: #fff; }
+
+.wrapper-settings .header-inner h2, #user-data-dashboard #content-main-heading {
+  color: #fff; }
+
+.settings-header, .t1-label {
+  color: #fff; }
+
+.find-friends-top-subheader, .find-friends-bottom-subheader {
+  color: #fff; }
+
+.content-header .subheader, .app-password .description {
+  color: #fff; }
+
+.MutedKeywordsFooter-emptyMessage {
+  color: #fff; }
+
+.form-horizontal input, .form-horizontal select {
+  background: #353535;
+  border: 0;
+  color: #fff; }
+
+#user-data-dashboard .account-history .controls > div, .t1-form {
+  color: #fff; }
+
+.module .active .list-link {
+  background: #181818;
+  color: #fff; }
+
+.module .list-link:hover {
+  background: #282828; }
+
+.module .list-link {
+  background: transparent;
+  border: 0;
+  color: #fff; }
+
+.input-block {
+  background: #181818;
+  color: #fff; }
+
+.FacebookConnect-title {
+  color: #fff; }
+
+.account, .tweet, .app {
+  border-bottom: 0; }
+
+.module ul:first-child li:first-child .list-link, .module .flex-module:first-child {
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
+
+.MutedKeywordsFooter {
+  background-color: #303030;
+  border: 0; }
+
+.modal-body p {
+  color: #fff; }
+
+.content-inner {
+  border-left: 0;
+  border-right: 0; }
+
+.PlayableMedia-title {
+  color: #fff; }
+
+.PlayableMedia-description, .PlayableMedia--vine .PlayableMedia-externalUrl {
+  color: #ccc; }
+
+.content-inner.no-stream-end, .find-friends-sources, .stream-item.highlighted,
+.find-friends-top-subheader, .find-friends-bottom-subheader {
+  background-color: #353535;
+  border-bottom: 0;
+  border-radius: 0; }
+
+.ActivityItem {
+  border-bottom: 0; }
+
+.content-header .header-inner, .content-no-header .no-header-inner {
+  background: #181818;
+  border-bottom: 0;
+  border-radius: 0; }
+
+.DashboardProfileCard-name {
+  color: #fff; }
+
+.LiveVideoHomePageModule-eventTitle {
+  color: #eee; }
+
+.DashboardProfileCard-avatarLink {
+  background-color: transparent; }
+
+.ListCreationModule-title, .ListCreationModule-description {
+  color: #fff; }
+
+.ListCreationModule {
+  background-color: #282828;
+  border: 0;
+  border-radius: 0; }
+
+.module .flex-module {
+  background-color: #282828; }
+
+.Trends {
+  background-color: #282828;
+  border: 0;
+  border-radius: 0; }
+
+.DashboardProfileCard-content {
+  background-color: #282828; }
+
+.wtf-module .import-prompt, .Footer .Footer-adsModule {
+  background: #282828 !important; }
+
+.dashboard h3 {
+  color: #fff; }
+
+.stream-item:not(.no-header-background-module) {
+  background-color: #282828; }
+
+span[data-query-source="hashtag_click"] b {
+  color: #fff; }
+
+span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply pretty-link js-nav"] s {
+  color: #3498db; }
+
+.rich-editor em {
+  background: #e74c3c; }
+
+.tweet-counter {
+  color: #2ecc71;
+  font-weight: bold;
+  text-shadow: none; }
+  .tweet-counter.warn {
+    color: #f1c40f; }
+  .tweet-counter.superwarn {
+    color: #e74c3c; }
+
+.modal-content {
+  background: #282828; }
+
+.Gallery-content .tweet {
+  background: transparent !important; }
+  .Gallery-content .tweet:hover {
+    background: #181818; }
+.Gallery-content .stream-item-footer {
+  border-top: 0; }
+
+.RetweetDialog-footer {
+  background-color: #282828; }
+
+.modal-container.tweet-showing .modal-tweet {
+  background-color: #282828; }
+
+.RetweetDialog-commentBox {
+  background-color: #282828; }
+
+#global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet {
+  background-color: #282828;
+  transition: all 300ms ease; }
+
+#global-tweet-dialog.tweet-showing .modal-header {
+  border-bottom: 0; }
+
+.ThreadedConversation-showMoreThreadsButton, .ThreadedConversation-showMoreThreads {
+  background: #181818; }
+
+.ThreadedConversation, .ThreadedConversation-moreReplies::after {
+  border-bottom: 0; }
+
+.inline-reply-tweetbox {
+  background-color: #282828; }
+
+.permalink {
+  background: #212121;
+  border: 0; }
+  .permalink .stats .avatar-row a:first-child {
+    border: 0; }
+  .permalink .inline-reply-tweetbox, .permalink .inline-reply-tweetbox-container {
+    background-color: #212121 !important;
+    border-radius: 0;
+    border-top: 0; }
+
+.tweet-form div.rich-editor.is-showPlaceholder::before, .tweet-form div.rich-editor:empty::before {
+  color: #fff; }
+
+.Tombstone {
+  background: transparent;
+  border: 0;
+  border-radius: 0; }
+  .Tombstone span {
+    color: #e74c3c;
+    font-weight: bold; }
+  .Tombstone button {
+    background: #e74c3c;
+    border-radius: 4px;
+    color: #fff;
+    padding: .5em 1em; }
+
+.ThreadedConversation, .ThreadedConversation--loneTweet {
+  margin: 0; }
+
+.PlayableMedia-container {
+  border: 0; }
+
+.ThreadedConversation--header {
+  background-color: #282828;
+  border-bottom: 0;
+  border-top: 0;
+  color: #fff;
+  margin-top: 0; }
+
+.ThreadedConversation-moreReplies {
+  background-color: #282828; }
+
+.ThreadedConversation-unavailableTweet {
+  background-color: #c0392b; }
+  .ThreadedConversation-unavailableTweet .ThreadedConversation-unavailableText {
+    color: #fff; }
+    .ThreadedConversation-unavailableTweet .ThreadedConversation-unavailableText::after {
+      content: ':('; }
+
+.Gallery-content, .PermalinkOverlay-spinnerContainer {
+  background-color: rgba(48, 48, 48, 0.5); }
+
+.icon-btn.enabled {
+  background: transparent;
+  border-width: 2px; }
+
+.PollingCardComposer {
+  background-color: #282828;
+  border-radius: 0;
+  box-shadow: none; }
+
+.tweet-form.is-cardComposerOn .TweetBoxAttachments, .tweet-form.has-thumbnail .TweetBoxAttachments {
+  border: 0; }
+
+.PollingCardComposer-option div.PollingCardComposer-optionInput {
+  background: #303030; }
+
+.geo-query-location {
+  background: #181818;
+  border-bottom: 0;
+  border-radius: 0; }
+
+.dropdown-menu .geo-query-location input[type=text] {
+  background: transparent; }
+
+.tweet-box input[type=text] {
+  border-color: transparent; }
+
+.tweet-form .thumbnail-container {
+  border-radius: 0; }
+  .tweet-form .thumbnail-container .thumbnail-wrapper {
+    background: #282828; }
+
+.recap-header {
+  border-bottom: 0;
+  color: #fff; }
+
+.stream-item + .stream-item.separated-module:not(.no-header-background-module) {
+  border-top: 0; }
+
+#global-tweet-dialog .modal-header {
+  background-color: #181818;
+  border-bottom: 0; }
+
+.RichEditor {
+  background: transparent !important;
+  border: 0; }
+  .RichEditor .typeahead {
+    background-color: #353535; }
+
+.modal-header {
+  background: #181818;
+  border-bottom: 0;
+  border-radius: 0; }
+  .modal-header .modal-title {
+    color: #fff !important; }
+
+.modal-body {
+  background: #282828;
+  border-radius: 0;
+  color: #fff; }
+
+.modal-footer {
+  background: #303030;
+  border-top: 0;
+  text-align: center; }
+
+#global-tweet-dialog .modal-tweet-form-container {
+  background-color: #282828;
+  color: #fff; }
+
+.tweet-btn {
+  transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  border: 0;
+  color: #fff; }
+  .tweet-btn:hover {
+    transition: all 200ms ease;
+    -webkit-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    -moz-transform: translateY(-0.3em);
+    -o-transform: translateY(-0.3em);
+    -ms-transform: translateY(-0.3em);
+    -webkit-transform: translateY(-0.3em);
+    transform: translateY(-0.3em);
+    color: #fff; }
+
+.tweet {
+  transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  background-color: #282828; }
+  .tweet .js-tweet-text {
+    color: #fff; }
+  .tweet .stats {
+    background: #222;
+    border-radius: 4px; }
+    .tweet .stats .js-stat-count {
+      background: #333;
+      margin-right: 0; }
+      .tweet .stats .js-stat-count a {
+        padding: 13px 10px; }
+    .tweet .stats li:first-child a {
+      padding-left: 13px; }
+
+.fullname, .GalleryTweet .account-group .fullname, .GalleryTweet .account-group:hover .fullname {
+  color: #fff; }
+
+.stats .stat-count a {
+  color: #fff; }
+
+.TwitterCard-container--clickable:hover {
+  background-color: #282828; }
+
+.QuoteTweet-container {
+  background-color: #303030;
+  border-radius: 4px; }
+
+.QuoteTweet-fullname, .TwitterCard .SummaryCard-content .TwitterCard-title {
+  color: #fff; }
+
+.QuoteTweet-text, .TwitterCard .SummaryCard--small .SummaryCard-content p {
+  color: #eee; }
+
+.conversation-module .conversation-tweet-item .tweet:hover, .tweet:hover {
+  transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  background-color: #303030;
+  border-bottom: 0; }
+
+.home-tweet-box, .permalink-inner {
+  background-color: #181818; }
+
+.top-timeline-tweetbox .timeline-tweet-box {
+  border: 0; }
+
+.new-tweets-bar, .new-tweets-bar:hover {
+  background-color: #303030;
+  color: #fff; }
+
+.PermalinkOverlay .permalink-tweet {
+  background-color: #282828; }
+
+html, body:not([class]) {
+  background-color: transparent !important; }
+
+.TwitterCard .PollXChoice-optionContainer span {
+  color: #fff;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: bold; }
+
+.TwitterCard .EdgeButton--secondary, .TwitterCard .EdgeButton--secondary.PollXChoice-hideButton {
+  background-color: #3498db;
+  color: #fff;
+  font-family: "Segoe UI",Arial,sans-serif; }
+
+.TwitterCard [class*="PollXChoice-footer--"] {
+  font-family: "Segoe UI", Arial, sans-serif; }
+
+.TwitterCard .PollXChoice-choice--selected {
+  filter: brightness(10); }
+
+.TwitterCard .PollXChoice-optionContainer:first-child {
+  margin-top: 2px; }
+
+.TwitterCard .PollXChoice-choice {
+  margin-left: 5px; }
+
+.TwitterCard .PollXChoice-choice--radio {
+  background-color: #ddd;
+  border-color: #999 !important; }
+
+.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--input:checked + .PollXChoice-choice--radio {
+  border-color: #0ea669 !important; }
+
+.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart {
+  background: #222; }
+
+#global-tweet-dialog .modal-tweet-form-container, #Tweetstorm-dialog .modal-body {
+  background: #222;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px; }
+
+#global-tweet-dialog-dialog {
+  border-radius: 4px;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.3); }
+
+#global-tweet-dialog .modal-header, #Tweetstorm-dialog .modal-header {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px; }
+
+.stream-end-item, .stream-end, .stream-loading, .stream-placeholder {
+  border: 0; }
+
+.wtf-module .UserSmallListItem, .wtf-module .import-prompt .cta {
+  border-color: #222; }
+
+.WtfLargeCarouselStreamItem-title {
+  color: #ddd; }
+
+.PromptbirdPrompt--inline, .PromptbirdPrompt--inlinePointer {
+  background-color: #222;
+  border-color: #222; }
+
+.PromptbirdPrompt-title {
+  color: #fff; }
+
+.PromptbirdPrompt-streamItem.separated-module + .stream-item:not(.no-header-background-module) {
+  border-color: #222; }
+
+.stream-item.dismissed {
+  border-bottom: 0; }
+
+.stream-item.no-header-background-module .dismiss-module {
+  background: #212121;
+  border-left: 0;
+  border-right: 0; }
+
+.dismiss-module .feedback-action {
+  border-bottom: 0;
+  color: #fff; }
+
+.stream-item.separated-module + .stream-item:not(.no-header-background-module) {
+  border-color: transparent; }
+
+.ProfileAvatar {
+  background-color: transparent;
+  border-color: transparent; }
+
+.hovercard .arrow, .dropdown-divider {
+  background-color: #282828;
+  border-color: #282828; }
+
+.ThreadedConversation-showMoreThreads {
+  border-color: #222; }
+
+.stream .tweet:hover {
+  background-color: #282828; }
+
+.stats .stat-count strong {
+  color: #999; }
+
+.Icon.Icon--large.Icon--logo {
+  color: #fff; }
+
+.permalink-container {
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.3); }
+
+.hovercard.profile-card .ProfileCard-avatarLink, .ProfileCard-content {
+  background-color: transparent; }
+
+.hovercard.profile-card .ProfileCard-avatarImage {
+  border: 0; }
+
+.js-macaw-cards-iframe-container iframe {
+  border-radius: 4px; }
+
+.ProfileHeaderCard span.Icon--verified {
+  color: #1da1f2 !important; }
+
+.SharedNavBar--analytics {
+  background: #181818;
+  border-bottom: 0;
+  color: #fff; }
+
+.ProfileHeader {
+  background: #181818; }
+  .ProfileHeader .ProfileHeader-name {
+    color: #fff; }
+
+.home-group-header {
+  background: #181818;
+  text-align: center; }
+
+.home-pagesummary .DataPoint .DataPoint-info {
+  color: #fff; }
+
+.home-subtitle, .home-panel-title, .home-summary-panel .DataPoint-info,
+.home-panel-content .tweet-container .tweet-details .tweet-text, .home-panel-info-insight,
+.tweet-container .tweet-details .tweet-profile-link:hover .tweet-name, .tweet-container .tweet-details .tweet-name {
+  color: #fff; }
+
+li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
+  color: #fff; }
+
+.SharedNavBar--analytics li.SharedNavBar-navItem.is-active > a, .SharedNavBar--analytics li.SharedNavBar-navItem > a:focus,
+.SharedNavBar--analytics li.SharedNavBar-navItem > a:hover, .SharedNavBar--analytics li.SharedNavBar-navItem > a:visited {
+  color: #fff; }
+
+.auth h2 {
+  color: #fff; }
+
+.permissions li {
+  color: #ccc; }
+.permissions.allow strong {
+  color: #2ecc71; }
+.permissions.deny strong {
+  color: #e74c3c; }
+
+.oauth #bd {
+  border: 0; }
+.oauth .buttons #allow, .oauth .buttons #cancel {
+  transition: all 250ms ease;
+  -webkit-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -o-transition: all 250ms ease; }
+  .oauth .buttons #allow:hover, .oauth .buttons #cancel:hover {
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease; }
+.oauth .buttons #allow {
+  background: #2ecc71; }
+  .oauth .buttons #allow:hover {
+    background: #27ae60; }
+.oauth .buttons #cancel {
+  background: #e74c3c; }
+  .oauth .buttons #cancel:hover {
+    background: #c0392b; }
+
+.notice {
+  border: 0;
+  border-radius: 0; }
+  .notice.error {
+    background: #e74c3c;
+    border-color: none; }
+    .notice.error h2 {
+      color: #fff; }
+
+#session h2 a {
+  background: transparent; }
+
+.footer {
+  background: #303030; }
+
+#session h2 img {
+  border: 0; }
+
+#header .logo a {
+  border-bottom: 0; }
+
+.app-info h3 img {
+  border: 0; }
+
+#bd .app-info h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold; }
+
+.action-information {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-align: center; }
+
+#oauth_pin p {
+  background-color: #181818;
+  color: #fff;
+  text-align: center; }
+#oauth_pin code {
+  color: #fff;
+  font-family: monospace; }
+
+.EdgeButton--secondary {
+  background: #282828; }
+  .EdgeButton--secondary:hover {
+    background: #353535; }
+
+.js-app.application .app-header {
+  background-color: #181818; }
+.js-app.application .column-nav-item, .js-app.application .app-navigator, .js-app.application .app-title {
+  background: transparent; }
+
+.js-app-columns-container.app-columns-container {
+  background-color: #303030; }
+  .js-app-columns-container.app-columns-container .detail-view-inline, .js-app-columns-container.app-columns-container .detail-view-inline-text {
+    background-color: #282828; }
+  .js-app-columns-container.app-columns-container .column-header, .js-app-columns-container.app-columns-container .scroll-conversation {
+    background-color: #282828;
+    border-bottom: 0; }
+  .js-app-columns-container.app-columns-container .inline-reply, .js-app-columns-container.app-columns-container .compose-text-container {
+    background: #212121; }
+  .js-app-columns-container.app-columns-container textarea.compose-text {
+    background: #181818;
+    color: #fff; }
+
+.js-account-manager-container.column-panel {
+  background: #212121; }
+  .js-account-manager-container.column-panel .bg-color-twitter-white, .js-account-manager-container.column-panel .js-account-settings-row, .js-account-manager-container.column-panel .drawer-header {
+    background: transparent;
+    border-bottom: 0;
+    border-top: 0; }
+  .js-account-manager-container.column-panel .icon {
+    color: #1da1f2; }
+  .js-account-manager-container.column-panel .drawer-header-title {
+    color: #fff; }
+  .js-account-manager-container.column-panel .color-twitter-dark-black, .js-account-manager-container.column-panel .color-twitter-darker-gray {
+    color: #ddd; }
+
+.js-modal-panel.mdl {
+  background-color: transparent; }
+  .js-modal-panel.mdl .mdl-header-title {
+    color: #fff; }
+  .js-modal-panel.mdl .mdl-header {
+    background-color: #181818;
+    border-bottom: 0; }
+  .js-modal-panel.mdl .mdl-inner {
+    background-color: #212121; }
+  .js-modal-panel.mdl span, .js-modal-panel.mdl .icon-close {
+    color: #fff; }
+  .js-modal-panel.mdl .lst-launcher a:hover {
+    background: #181818; }
+
 /*# sourceMappingURL=theme.css.map */
