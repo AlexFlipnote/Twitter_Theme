@@ -1264,6 +1264,25 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
     background: #181818;
     color: #fff; }
 
+.js-account-remove-check {
+  background: #181818; }
+
+.js-column-holder .column-scroller {
+  background: #181818; }
+
+.js-search-form {
+  background: #181818; }
+  .js-search-form .js-search-input-control, .js-search-form input {
+    background: #282828; }
+
+.js-docked-compose {
+  background: #181818; }
+  .js-docked-compose .compose-reply-tweet {
+    background: #212121; }
+  .js-docked-compose .compose-text-container, .js-docked-compose .compose-text {
+    background: #282828;
+    color: #fff; }
+
 .js-account-manager-container.column-panel {
   background: #212121; }
   .js-account-manager-container.column-panel .bg-color-twitter-white, .js-account-manager-container.column-panel .js-account-settings-row, .js-account-manager-container.column-panel .drawer-header {

@@ -21,6 +21,23 @@
   }
 }
 
+.js-account-remove-check { background: $dark-highlight; }
+.js-column-holder .column-scroller { background: $dark-highlight; }
+
+.js-search-form {
+  background: $dark-highlight;
+  .js-search-input-control, input { background: $dark-secondary; }
+}
+
+.js-docked-compose {
+  background: $dark-highlight;
+  .compose-reply-tweet { background: $dark-primary; }
+  .compose-text-container, .compose-text {
+    background: $dark-secondary;
+    color: #fff;
+  }
+}
+
 .js-account-manager-container.column-panel {
   background: $dark-primary;
 
