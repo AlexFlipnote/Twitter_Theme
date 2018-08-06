@@ -1250,9 +1250,56 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
   background-color: #181818; }
 .js-app.application .column-nav-item, .js-app.application .app-navigator, .js-app.application .app-title {
   background: transparent; }
+.js-app.application .attach-compose-buttons .tweet-button {
+  background: #212121 !important; }
+.js-app.application .js-dropdown {
+  background: #212121;
+  color: #fff; }
+  .js-app.application .js-dropdown .caret-inner {
+    border-bottom-color: #212121; }
+  .js-app.application .js-dropdown .is-selectable, .js-app.application .js-dropdown a {
+    color: #fff !important;
+    transition: .3s; }
+  .js-app.application .js-dropdown .is-selected {
+    background-color: #282828; }
+  .js-app.application .js-dropdown .drp-h-divider {
+    border-color: #14171a; }
+.js-app.application .app-navigator .bg-color-twitter-lightest-gray {
+  background-color: #212121 !important; }
+.js-app.application .js-account-manager-container {
+  background-color: #212121; }
+.js-app.application .btn.btn-primary {
+  background-color: #303030 !important;
+  transform: translateY(0); }
+  .js-app.application .btn.btn-primary:hover {
+    background-color: #353535 !important;
+    transform: translateY(0); }
+
+.mdl, .mdl .bg-color-twitter-white {
+  background-color: #282828 !important; }
+
+.js-modal-content .prf-meta {
+  background-color: #212121 !important;
+  border-top-color: #181818 !important; }
+  .js-modal-content .prf-meta .prf-stats li + li a {
+    border-left-color: #181818 !important; }
+  .js-modal-content .prf-meta a strong {
+    color: #fff !important; }
+.js-modal-content .social-proof-container, .js-modal-content .js-profile-columns {
+  background-color: #282828 !important; }
+
+.needs-scroll-bottom-offset.scroll-styled-h {
+  bottom: 0 !important; }
 
 .js-app-columns-container.app-columns-container {
-  background-color: #303030; }
+  background-color: #303030 !important; }
+  .js-app-columns-container.app-columns-container input, .js-app-columns-container.app-columns-container select, .js-app-columns-container.app-columns-container textarea {
+    background: #303030 !important;
+    border-color: #181818;
+    color: #fff;
+    transition: .3s !important; }
+    .js-app-columns-container.app-columns-container input:hover, .js-app-columns-container.app-columns-container input:active, .js-app-columns-container.app-columns-container select:hover, .js-app-columns-container.app-columns-container select:active, .js-app-columns-container.app-columns-container textarea:hover, .js-app-columns-container.app-columns-container textarea:active {
+      background-color: #353535 !important; }
   .js-app-columns-container.app-columns-container .detail-view-inline, .js-app-columns-container.app-columns-container .detail-view-inline-text {
     background-color: #282828; }
   .js-app-columns-container.app-columns-container .column-header, .js-app-columns-container.app-columns-container .scroll-conversation {
@@ -1263,6 +1310,23 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
   .js-app-columns-container.app-columns-container textarea.compose-text {
     background: #181818;
     color: #fff; }
+  .js-app-columns-container.app-columns-container .js-stream-item-content {
+    background: #282828;
+    transition: all 300ms ease; }
+    .js-app-columns-container.app-columns-container .js-stream-item-content:hover {
+      background-color: #303030; }
+    .js-app-columns-container.app-columns-container .js-stream-item-content .tweet {
+      background: transparent; }
+  .js-app-columns-container.app-columns-container .tweet-detail-wrapper .js-stream-item-content:hover {
+    background: #282828; }
+  .js-app-columns-container.app-columns-container .js-column-options-container {
+    background: #282828; }
+    .js-app-columns-container.app-columns-container .js-column-options-container .facet-type {
+      background: inherit;
+      border-color: #14171a; }
+    .js-app-columns-container.app-columns-container .js-column-options-container .button-tray {
+      background: inherit;
+      border-color: #14171a; }
 
 .js-account-remove-check {
   background: #181818; }
@@ -1276,12 +1340,20 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
     background: #282828; }
 
 .js-docked-compose {
-  background: #181818; }
+  background: #212121 !important; }
   .js-docked-compose .compose-reply-tweet {
-    background: #212121; }
-  .js-docked-compose .compose-text-container, .js-docked-compose .compose-text {
-    background: #282828;
-    color: #fff; }
+    background: #282828 !important; }
+  .js-docked-compose .compose-text-container, .js-docked-compose .compose-text, .js-docked-compose .js-compose-message-recipient-input-container {
+    background: #303030 !important;
+    color: #fff !important; }
+  .js-docked-compose .compose-message-recipient {
+    background-color: #353535 !important;
+    border-color: #181818 !important;
+    color: #fff !important; }
+  .js-docked-compose .btn-on-blue {
+    background-color: #303030 !important; }
+    .js-docked-compose .btn-on-blue:hover {
+      background-color: #353535 !important; }
 
 .js-account-manager-container.column-panel {
   background: #212121; }
@@ -1309,5 +1381,24 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
     color: #fff; }
   .js-modal-panel.mdl .lst-launcher a:hover {
     background: #181818; }
+
+.TwitterCard[data-card-client="tweetdeck"] .TwitterCard-container .SummaryCard-content {
+  background-color: #212121;
+  transition: .3s; }
+.TwitterCard[data-card-client="tweetdeck"] .TwitterCard-container:hover .SummaryCard-content {
+  background-color: #181818; }
+
+.js-column-nav-menu-flyover .column-nav-item {
+  background-color: #181818 !important; }
+
+.Notification-icon {
+  background-color: #2ecc71 !important; }
+.Notification--red .Notification-icon {
+  background-color: #e74c3c !important; }
+.Notification-content {
+  background-color: #303030 !important;
+  border-color: #181818 !important; }
+.Notification-body {
+  color: #fff !important; }
 
 /*# sourceMappingURL=theme.css.map */

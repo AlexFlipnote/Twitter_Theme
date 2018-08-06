@@ -2,7 +2,7 @@
 A theme that changes the standard Twitter CSS
 
 ## About theme
-***Twitter_Theme*** theme is made by **AlexFlipnote#0021**<br>
+***Twitter_Theme*** theme is made by **AlexFlipnote#0001**<br>
 The theme is made for people who love the dark mode on phone, but can't get it to Desktop version.
 
 Do you need more help? Join my server! **https://discord.gg/DpxkY3x**
@@ -14,6 +14,8 @@ Do you need more help? Join my server! **https://discord.gg/DpxkY3x**
 - Download a plugin to Chrome called **Stylebot** [Download link](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=en)
 - When you have downloaded the plugin, simply do this:<br>
 ![Preview](https://i.alexflipnote.xyz/13388e.gif)
+
+**Does it works with TweetDeck?**<br>Yes!
 - Enjoy the theme!
 >You can use any plugin that inserts CSS, just that I really like Sylebot
 

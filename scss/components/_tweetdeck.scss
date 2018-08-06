@@ -3,10 +3,94 @@
 .js-app.application {
   .app-header { background-color: $dark-highlight; }
   .column-nav-item, .app-navigator, .app-title { background: transparent; }
+  .attach-compose-buttons .tweet-button {
+    background: $dark-primary !important;
+  }
+
+  .js-dropdown {
+    background: $dark-primary;
+    color: #fff;
+
+    .caret-inner {
+      border-bottom-color: $dark-primary;
+    }
+
+    .is-selectable, a {
+      color: #fff !important;
+      transition: .3s;
+    }
+
+    .is-selected {
+      background-color: $dark-secondary;
+    }
+
+    .drp-h-divider {
+      border-color: #14171a;
+    }
+  }
+
+  .app-navigator {
+    .bg-color-twitter-lightest-gray {
+      background-color: $dark-primary !important;
+    }
+  }
+
+  .js-account-manager-container {
+    background-color: $dark-primary;
+  }
+
+  .btn.btn-primary {
+    background-color: $dark-tertiary !important;
+    transform: translateY(0);
+
+    &:hover {
+      background-color: $dark-quaternary !important;
+      transform: translateY(0);
+    }
+  }
+}
+
+.mdl, .mdl .bg-color-twitter-white {
+  background-color: $dark-secondary !important;
+}
+
+.js-modal-content {
+  .prf-meta {
+    background-color: $dark-primary !important;
+    border-top-color: $dark-highlight !important;
+
+    .prf-stats li + li a {
+      border-left-color: $dark-highlight !important;
+    }
+
+    a strong {
+      color: #fff !important;
+    }
+  }
+
+  .social-proof-container, .js-profile-columns {
+    background-color: $dark-secondary !important;
+  }
+}
+
+
+.needs-scroll-bottom-offset.scroll-styled-h {
+  bottom: 0 !important;
 }
 
 .js-app-columns-container.app-columns-container {
-  background-color: $dark-tertiary;
+  background-color: $dark-tertiary !important;
+
+  input, select, textarea {
+    background: $dark-tertiary !important;
+    border-color: $dark-highlight;
+    color: #fff;
+    transition: .3s !important;
+
+    &:hover, &:active {
+      background-color: $dark-quaternary !important;
+    }
+  }
 
   .detail-view-inline, .detail-view-inline-text { background-color: $dark-secondary; }
   .column-header, .scroll-conversation {
@@ -19,6 +103,29 @@
     background: $dark-highlight;
     color: #fff;
   }
+
+  .js-stream-item-content {
+    background: $dark-secondary;
+    transition: all 300ms ease;
+    &:hover { background-color: $dark-tertiary; }
+    .tweet { background: transparent; }
+  }
+
+  .tweet-detail-wrapper .js-stream-item-content:hover { background: $dark-secondary; }
+
+  .js-column-options-container {
+    background: $dark-secondary;
+
+    .facet-type {
+      background: inherit;
+      border-color: #14171a;
+    }
+
+    .button-tray {
+      background: inherit;
+      border-color: #14171a;
+    }
+  }
 }
 
 .js-account-remove-check { background: $dark-highlight; }
@@ -30,11 +137,25 @@
 }
 
 .js-docked-compose {
-  background: $dark-highlight;
-  .compose-reply-tweet { background: $dark-primary; }
-  .compose-text-container, .compose-text {
-    background: $dark-secondary;
-    color: #fff;
+  background: $dark-primary !important;
+  .compose-reply-tweet { background: $dark-secondary !important; }
+  .compose-text-container, .compose-text, .js-compose-message-recipient-input-container {
+    background: $dark-tertiary !important;
+    color: #fff !important;
+  }
+
+  .compose-message-recipient {
+    background-color: $dark-quaternary !important;
+    border-color: $dark-highlight !important;
+    color: #fff !important;
+  }
+
+  .btn-on-blue {
+    background-color: $dark-tertiary !important;
+
+    &:hover {
+      background-color: $dark-quaternary !important;
+    }
   }
 }
 
@@ -68,5 +189,39 @@
     &:hover {
       background: $dark-highlight;
     }
+  }
+}
+
+.TwitterCard[data-card-client="tweetdeck"] {
+  .TwitterCard-container .SummaryCard-content {
+    background-color: $dark-primary;
+    transition: .3s;
+  }
+
+  .TwitterCard-container:hover .SummaryCard-content {
+    background-color: $dark-highlight;
+  }
+}
+
+.js-column-nav-menu-flyover .column-nav-item {
+  background-color: $dark-highlight !important;
+}
+
+.Notification {
+  &-icon {
+    background-color: $green !important;
+  }
+
+  &--red &-icon {
+    background-color: $red !important;
+  }
+
+  &-content {
+    background-color: $dark-tertiary !important;
+    border-color: $dark-highlight !important;
+  }
+
+  &-body {
+    color: #fff !important;
   }
 }
