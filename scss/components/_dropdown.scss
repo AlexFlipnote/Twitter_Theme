@@ -20,7 +20,7 @@
   width: 100%;
 }
 
-.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover { background: $dark-highlight; }
+.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover { background: $dark-highlight !important; }
 
 .DashUserDropdown-userInfo {
   margin: 0;

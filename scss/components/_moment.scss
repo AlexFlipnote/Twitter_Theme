@@ -81,3 +81,15 @@
   border: 0;
   color: #fff;
 }
+
+.ProfileUserMomentsTimeline .GridTimeline-items.has-items {
+  border-color: transparent;
+}
+
+.ProfileUserMomentsTimeline .MomentCapsuleSummary {
+  background-color: $dark-secondary;
+}
+
+.MomentCapsuleSummary-title {
+  color: #fff;
+}

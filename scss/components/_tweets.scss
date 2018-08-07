@@ -201,7 +201,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   }
 }
 
-.fullname, .GalleryTweet .account-group .fullname, .GalleryTweet .account-group:hover .fullname { color: #fff; }
+.fullname, .GalleryTweet .account-group .fullname, .GalleryTweet .account-group:hover .fullname { color: #fff !important; }
 .stats .stat-count a { color: #fff; }
 .TwitterCard-container--clickable:hover {
   background-color: $dark-secondary;
@@ -237,7 +237,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .PermalinkOverlay .permalink-tweet { background-color: $dark-secondary; }
 
 // Polls
-html, body:not([class]) {
+html, body:not([class]):not([data-promote-url]) {
   background-color: transparent !important;
 }
 
