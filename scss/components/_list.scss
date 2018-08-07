@@ -1,6 +1,13 @@
+@import '../assets/colours';
+
 .GridTimeline-emptyText { color: #fff; }
 .ProfileListsTimeline .GridTimeline-end:not(.has-items) {
   background-color: transparent;
   border: 0;
   border-radius: 0;
+}
+
+.ProfileListsTimeline .GridTimeline-items.has-items, .ProfileListItem {
+  background-color: $dark-secondary;
+  border-color: transparent transparent $dark-highlight;
 }

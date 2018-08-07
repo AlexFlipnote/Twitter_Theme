@@ -19,16 +19,26 @@
   &:hover { background-color: $dark-highlight; }
 }
 
+#notifications-optout-all-top {
+  background-color: $dark-secondary;
+  border-color: transparent;
+  color: #fff;
+}
+
 .form-horizontal .control-label, .radio, .checkbox { color: #fff; }
 .wrapper-settings .header-inner h2, #user-data-dashboard #content-main-heading { color: #fff; }
 .settings-header, .t1-label { color: #fff; }
 .find-friends-top-subheader, .find-friends-bottom-subheader { color: #fff; }
 .content-header .subheader, .app-password .description { color: #fff; }
 .MutedKeywordsFooter-emptyMessage { color: #fff; }
-.form-horizontal input, .form-horizontal select {
+.form-horizontal input, .form-horizontal select,.notifications-prompt-container {
   background: $dark-quaternary;
   border: 0;
   color: #fff;
+}
+
+.notifications-prompt-container h3, .notifications-prompt-container .t1-infotext {
+  color: inherit;
 }
 
 #user-data-dashboard .account-history .controls>div, .t1-form {

@@ -273,7 +273,7 @@ p.ProfileCard-bio {
   width: 100%; }
 
 .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover {
-  background: #181818; }
+  background: #181818 !important; }
 
 .DashUserDropdown-userInfo {
   margin: 0;
@@ -303,6 +303,10 @@ p.ProfileCard-bio {
   background-color: transparent;
   border: 0;
   border-radius: 0; }
+
+.ProfileListsTimeline .GridTimeline-items.has-items, .ProfileListItem {
+  background-color: #282828;
+  border-color: transparent transparent #181818; }
 
 .MomentMakerPage-content {
   background-color: #181818; }
@@ -368,6 +372,15 @@ p.ProfileCard-bio {
   border: 0;
   color: #fff; }
 
+.ProfileUserMomentsTimeline .GridTimeline-items.has-items {
+  border-color: transparent; }
+
+.ProfileUserMomentsTimeline .MomentCapsuleSummary {
+  background-color: #282828; }
+
+.MomentCapsuleSummary-title {
+  color: #fff; }
+
 .NotificationsHeadingContent {
   background-color: #181818;
   border-bottom: 0;
@@ -409,7 +422,7 @@ li.stream-item.highlighted.highlighted {
 .ProfileCanopy-navBar, .ProfileNav-item--userActions {
   background-color: #282828; }
 
-.ProfileHeaderCard, .ProfileHeaderCard span {
+.ProfileHeaderCard, .ProfileHeaderCard span, .ProfileHeading-title {
   color: #fff !important; }
 
 .ProfilePage.is-editing .ProfilePage-editingOverlay {
@@ -641,6 +654,11 @@ input#user_name, input#user_location, input#user_url {
 .find-friends-list:hover {
   background-color: #181818; }
 
+#notifications-optout-all-top {
+  background-color: #282828;
+  border-color: transparent;
+  color: #fff; }
+
 .form-horizontal .control-label, .radio, .checkbox {
   color: #fff; }
 
@@ -659,10 +677,13 @@ input#user_name, input#user_location, input#user_url {
 .MutedKeywordsFooter-emptyMessage {
   color: #fff; }
 
-.form-horizontal input, .form-horizontal select {
+.form-horizontal input, .form-horizontal select, .notifications-prompt-container {
   background: #353535;
   border: 0;
   color: #fff; }
+
+.notifications-prompt-container h3, .notifications-prompt-container .t1-infotext {
+  color: inherit; }
 
 #user-data-dashboard .account-history .controls > div, .t1-form {
   color: #fff; }
@@ -978,7 +999,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
       padding-left: 13px; }
 
 .fullname, .GalleryTweet .account-group .fullname, .GalleryTweet .account-group:hover .fullname {
-  color: #fff; }
+  color: #fff !important; }
 
 .stats .stat-count a {
   color: #fff; }
@@ -1018,7 +1039,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .PermalinkOverlay .permalink-tweet {
   background-color: #282828; }
 
-html, body:not([class]) {
+html, body:not([class]):not([data-promote-url]) {
   background-color: transparent !important; }
 
 .TwitterCard .PollXChoice-optionContainer span {
@@ -1136,9 +1157,25 @@ html, body:not([class]) {
   color: #1da1f2 !important; }
 
 .SharedNavBar--analytics {
-  background: #181818;
-  border-bottom: 0;
+  background: #181818 !important;
+  border-bottom: 0 !important;
+  color: #fff !important; }
+
+.main-page-header {
+  background-color: #282828;
+  border-color: #181818; }
+  .main-page-header h1 {
+    color: #fff; }
+
+#tweet-impression-header .headline, #tweet-impression-sidebar .analysis-body,
+.tweet-container .tweet-details .tweet-text, #tweet-activity-container .tweet-activity-data {
   color: #fff; }
+
+#tweet-impression-header .headline-highlight {
+  color: #3498db; }
+
+#tweet-activity-container .tweet-activity-tweet-group:hover {
+  background-color: #353535; }
 
 .ProfileHeader {
   background: #181818; }
@@ -1162,6 +1199,29 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
 
 .SharedNavBar--analytics li.SharedNavBar-navItem.is-active > a, .SharedNavBar--analytics li.SharedNavBar-navItem > a:focus,
 .SharedNavBar--analytics li.SharedNavBar-navItem > a:hover, .SharedNavBar--analytics li.SharedNavBar-navItem > a:visited {
+  color: #fff; }
+
+body[data-promote-url] {
+  background-color: #282828;
+  color: #fff; }
+
+.ep-Header, .ep-TweetPerformance.ep-Section .ep-EngagementsTable .ep-EngagementsTableHeader {
+  border-color: #181818; }
+
+.ep-Header .ep-Title, .ProfileTweet-fullname, .ep-Signup .ep-SignupTextContainer .ep-SignupText,
+.ep-Signup .ep-SignupTextContainer .ep-RefreshText, .ep-TweetPerformance.ep-Section .ep-Metric .ep-MetricTopContainer,
+.ep-TweetPerformance.ep-Section .ep-EngagementsTable .ep-EngagementsTableHeader {
+  color: #fff !important; }
+
+.ep-Campaign .ep-CampaignContainer {
+  background-color: #303030;
+  border: 1px #181818 solid;
+  color: #fff; }
+
+.MomentAnalyticsDialog-card .MomentCapsuleSummary--small, .MomentAnalyticsDialog-disclaimer {
+  border-color: #181818; }
+
+.MomentAnalyticsData-entryName, .MomentAnalyticsData-entryValue {
   color: #fff; }
 
 .auth h2 {

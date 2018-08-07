@@ -1,9 +1,31 @@
 @import '../assets/colours';
 
 .SharedNavBar--analytics {
-  background: $dark-highlight;
-  border-bottom: 0;
+  background: $dark-highlight !important;
+  border-bottom: 0 !important;
+  color: #fff !important;
+}
+
+.main-page-header {
+  background-color: $dark-secondary;
+  border-color: $dark-highlight;
+
+  h1 {
+    color: #fff;
+  }
+}
+
+#tweet-impression-header .headline, #tweet-impression-sidebar .analysis-body,
+.tweet-container .tweet-details .tweet-text, #tweet-activity-container .tweet-activity-data {
   color: #fff;
+}
+
+#tweet-impression-header .headline-highlight {
+  color: $blue;
+}
+
+#tweet-activity-container .tweet-activity-tweet-group:hover {
+  background-color: $dark-quaternary;
 }
 
 .ProfileHeader {
@@ -31,5 +53,34 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem>a {
 
 .SharedNavBar--analytics li.SharedNavBar-navItem.is-active>a, .SharedNavBar--analytics li.SharedNavBar-navItem>a:focus,
 .SharedNavBar--analytics li.SharedNavBar-navItem>a:hover, .SharedNavBar--analytics li.SharedNavBar-navItem>a:visited {
+  color: #fff;
+}
+
+body[data-promote-url] {
+  background-color: $dark-secondary;
+  color: #fff;
+}
+
+.ep-Header, .ep-TweetPerformance.ep-Section .ep-EngagementsTable .ep-EngagementsTableHeader {
+  border-color: $dark-highlight;
+}
+
+.ep-Header .ep-Title, .ProfileTweet-fullname, .ep-Signup .ep-SignupTextContainer .ep-SignupText,
+.ep-Signup .ep-SignupTextContainer .ep-RefreshText, .ep-TweetPerformance.ep-Section .ep-Metric .ep-MetricTopContainer,
+.ep-TweetPerformance.ep-Section .ep-EngagementsTable .ep-EngagementsTableHeader {
+  color: #fff !important;
+}
+
+.ep-Campaign .ep-CampaignContainer {
+  background-color: $dark-tertiary;
+  border: 1px $dark-highlight solid;
+  color: #fff;
+}
+
+.MomentAnalyticsDialog-card .MomentCapsuleSummary--small, .MomentAnalyticsDialog-disclaimer {
+  border-color: $dark-highlight;
+}
+
+.MomentAnalyticsData-entryName, .MomentAnalyticsData-entryValue {
   color: #fff;
 }
