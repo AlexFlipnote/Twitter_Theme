@@ -14,10 +14,10 @@ Do you need more help? Join my server! **https://discord.gg/DpxkY3x**
 - Download a plugin to Chrome called **Stylebot** [Download link](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=en)
 - When you have downloaded the plugin, simply do this:<br>
 ![Preview](https://i.alexflipnote.xyz/13388e.gif)
-
-**Does it works with TweetDeck?**<br>Yes!
 - Enjoy the theme!
 >You can use any plugin that inserts CSS, just that I really like Sylebot
+
+**Does it works with TweetDeck?**<br>Yes!
 
 **How do I get the code shown in the GIF?**<br>It's in [autotheme.css](autotheme.css)
 
