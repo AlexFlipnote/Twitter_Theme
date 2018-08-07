@@ -1255,6 +1255,8 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
 .js-app.application .js-dropdown {
   background: #212121;
   color: #fff; }
+  .js-app.application .js-dropdown .non-selectable-item {
+    color: #e6e6e6 !important; }
   .js-app.application .js-dropdown .caret-inner {
     border-bottom-color: #212121; }
   .js-app.application .js-dropdown .is-selectable, .js-app.application .js-dropdown a {
@@ -1287,6 +1289,16 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
     color: #fff !important; }
 .js-modal-content .social-proof-container, .js-modal-content .js-profile-columns {
   background-color: #282828 !important; }
+
+.js-popover {
+  background-color: #282828 !important; }
+  .js-popover .list-item {
+    color: #fff !important; }
+  .js-popover input, .js-popover select {
+    border-color: #181818 !important;
+    color: #fff !important; }
+  .js-popover .caret-inner {
+    border-bottom-color: #282828 !important; }
 
 .needs-scroll-bottom-offset.scroll-styled-h {
   bottom: 0 !important; }
@@ -1328,22 +1340,39 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
       background: inherit;
       border-color: #14171a; }
 
+.tweet-detail-actions {
+  border-color: #181818 !important; }
+
+.detail-view-inline {
+  background: #282828 !important;
+  border-color: #181818 !important; }
+  .detail-view-inline .detail-view-inline-text {
+    background-color: #282828 !important;
+    border-color: #181818 !important;
+    color: #fff !important; }
+
+.js-inline-reply .compose-text-container {
+  background-color: #282828 !important; }
+  .js-inline-reply .compose-text-container textarea {
+    background-color: inherit !important;
+    color: #fff !important; }
+
 .js-account-remove-check {
   background: #181818; }
 
 .js-column-holder .column-scroller {
-  background: #181818; }
+  background: #181818 !important; }
 
 .js-search-form {
-  background: #181818; }
-  .js-search-form .js-search-input-control, .js-search-form input {
-    background: #282828; }
+  background: #181818 !important; }
+  .js-search-form input {
+    background: #282828 !important; }
 
 .js-docked-compose {
   background: #212121 !important; }
   .js-docked-compose .compose-reply-tweet {
     background: #282828 !important; }
-  .js-docked-compose .compose-text-container, .js-docked-compose .compose-text, .js-docked-compose .js-compose-message-recipient-input-container {
+  .js-docked-compose .compose-text-container, .js-docked-compose .compose-text, .js-docked-compose .js-compose-message-recipient-input-container, .js-docked-compose .js-compose-message-account {
     background: #303030 !important;
     color: #fff !important; }
   .js-docked-compose .compose-message-recipient {
@@ -1367,6 +1396,26 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
     color: #fff; }
   .js-account-manager-container.column-panel .color-twitter-dark-black, .js-account-manager-container.column-panel .color-twitter-darker-gray {
     color: #ddd; }
+  .js-account-manager-container.column-panel .account-settings-bb {
+    border-color: #181818 !important; }
+  .js-account-manager-container.column-panel .drawer-header, .js-account-manager-container.column-panel .account-settings-bb {
+    border-color: #181818 !important; }
+  .js-account-manager-container.column-panel .account-row-separator-b::after {
+    background-color: #181818 !important; }
+
+.js-contributor-manager-container .link-complex {
+  border-color: transparent !important; }
+.js-contributor-manager-container .drawer-header {
+  border-color: #181818 !important; }
+.js-contributor-manager-container input {
+  background-color: #282828;
+  border-color: #181818 !important;
+  color: #fff !important; }
+
+.bg-color-twitter-lightest-gray {
+  background: #212121 !important; }
+  .bg-color-twitter-lightest-gray .bg-color-twitter-white {
+    background-color: #282828 !important; }
 
 .js-modal-panel.mdl {
   background-color: transparent; }
@@ -1376,11 +1425,39 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
     background-color: #181818;
     border-bottom: 0; }
   .js-modal-panel.mdl .mdl-inner {
-    background-color: #212121; }
+    background-color: #282828; }
   .js-modal-panel.mdl span, .js-modal-panel.mdl .icon-close {
     color: #fff; }
   .js-modal-panel.mdl .lst-launcher a:hover {
     background: #181818; }
+  .js-modal-panel.mdl .mdl-column-med {
+    background-color: #303030; }
+  .js-modal-panel.mdl .mdl-column-rhs {
+    background-color: #282828;
+    border-color: #181818; }
+  .js-modal-panel.mdl .mdl-col-settings {
+    background-color: #282828;
+    border-color: #181818; }
+  .js-modal-panel.mdl .js-column-header {
+    border-color: #181818; }
+  .js-modal-panel.mdl .mdl-content {
+    background-color: transparent;
+    border-color: #181818; }
+  .js-modal-panel.mdl .stream-item {
+    background-color: #282828 !important;
+    border-color: #181818 !important; }
+  .js-modal-panel.mdl .list-account {
+    text-shadow: none !important; }
+    .js-modal-panel.mdl .list-account:hover {
+      background-color: #353535 !important; }
+    .js-modal-panel.mdl .list-account .fullname {
+      color: #f2f2f2; }
+  .js-modal-panel.mdl input, .js-modal-panel.mdl select {
+    background-color: #282828;
+    border-color: #181818 !important;
+    color: #fff !important; }
+  .js-modal-panel.mdl.is-inverted-dark .column-header {
+    border-color: #181818 !important; }
 
 .TwitterCard[data-card-client="tweetdeck"] .TwitterCard-container .SummaryCard-content {
   background-color: #212121;
@@ -1399,6 +1476,9 @@ li.SharedNavBar-navItem .SharedNavBar-textButton, li.SharedNavBar-navItem > a {
   background-color: #303030 !important;
   border-color: #181818 !important; }
 .Notification-body {
+  color: #fff !important; }
+
+.is-inverted-dark, .is-inverted-dark .list-link {
   color: #fff !important; }
 
 /*# sourceMappingURL=theme.css.map */
