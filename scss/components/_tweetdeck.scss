@@ -11,6 +11,10 @@
     background: $dark-primary;
     color: #fff;
 
+    .non-selectable-item {
+      color: darken(#fff, 10) !important;
+    }
+
     .caret-inner {
       border-bottom-color: $dark-primary;
     }
@@ -73,6 +77,23 @@
   }
 }
 
+.js-popover {
+  background-color: $dark-secondary !important;
+
+  .list-item {
+    color: #fff !important;
+  }
+
+  input, select {
+    border-color: $dark-highlight !important;
+    color: #fff !important;
+  }
+
+  .caret-inner {
+    border-bottom-color: $dark-secondary !important;
+  }
+}
+
 
 .needs-scroll-bottom-offset.scroll-styled-h {
   bottom: 0 !important;
@@ -128,18 +149,41 @@
   }
 }
 
+.tweet-detail-actions { border-color: $dark-highlight !important; }
+
+.detail-view-inline {
+  background: $dark-secondary !important;
+  border-color: $dark-highlight !important;
+
+  .detail-view-inline-text {
+    background-color: $dark-secondary !important;
+    border-color: $dark-highlight !important;
+    color: #fff !important;
+  }
+}
+
+.js-inline-reply .compose-text-container {
+  background-color: $dark-secondary !important;
+
+  textarea {
+    background-color: inherit !important;
+    color: #fff !important;
+  }
+}
+
 .js-account-remove-check { background: $dark-highlight; }
-.js-column-holder .column-scroller { background: $dark-highlight; }
+.js-column-holder .column-scroller { background: $dark-highlight !important; }
 
 .js-search-form {
-  background: $dark-highlight;
-  .js-search-input-control, input { background: $dark-secondary; }
+  background: $dark-highlight !important;
+
+  input { background: $dark-secondary !important; }
 }
 
 .js-docked-compose {
   background: $dark-primary !important;
   .compose-reply-tweet { background: $dark-secondary !important; }
-  .compose-text-container, .compose-text, .js-compose-message-recipient-input-container {
+  .compose-text-container, .compose-text, .js-compose-message-recipient-input-container, .js-compose-message-account {
     background: $dark-tertiary !important;
     color: #fff !important;
   }
@@ -171,6 +215,42 @@
   .icon { color: #1da1f2; }
   .drawer-header-title { color: #fff; }
   .color-twitter-dark-black, .color-twitter-darker-gray { color: #ddd; }
+
+  .account-settings-bb {
+    border-color: $dark-highlight !important;
+  }
+
+  .drawer-header, .account-settings-bb {
+    border-color: $dark-highlight !important;
+  }
+
+  .account-row-separator-b::after {
+    background-color: $dark-highlight !important;
+  }
+}
+
+.js-contributor-manager-container {
+  .link-complex {
+    border-color: transparent !important;
+  }
+
+  .drawer-header {
+    border-color: $dark-highlight !important;
+  }
+
+  input {
+    background-color: $dark-secondary;
+    border-color: $dark-highlight !important;
+    color: #fff !important;
+  }
+}
+
+.bg-color-twitter-lightest-gray {
+  background: $dark-primary !important;
+
+  .bg-color-twitter-white {
+    background-color: $dark-secondary !important;
+  }
 }
 
 .js-modal-panel.mdl {
@@ -182,13 +262,63 @@
     border-bottom: 0;
   }
 
-  .mdl-inner { background-color: $dark-primary;}
+  .mdl-inner { background-color: $dark-secondary;}
   span, .icon-close { color: #fff; }
 
   .lst-launcher a {
     &:hover {
       background: $dark-highlight;
     }
+  }
+
+  .mdl-column-med {
+    background-color: $dark-tertiary;
+  }
+
+  .mdl-column-rhs {
+    background-color: $dark-secondary;
+    border-color: $dark-highlight;
+  }
+
+  .mdl-col-settings {
+    background-color: $dark-secondary;
+    border-color: $dark-highlight;
+  }
+
+  .js-column-header {
+    border-color: $dark-highlight;
+  }
+
+  .mdl-content {
+    background-color: transparent;
+    border-color: $dark-highlight;
+  }
+
+  .stream-item {
+    background-color: $dark-secondary !important;
+    border-color: $dark-highlight !important;
+  }
+
+  .list-account {
+    text-shadow: none !important;
+
+    &:hover {
+      background-color: $dark-quaternary !important;
+    }
+
+    .fullname {
+      color: darken(#fff, 5);
+    }
+  }
+
+  input, select {
+    background-color: $dark-secondary;
+    border-color: $dark-highlight !important;
+    color: #fff !important;
+  }
+
+  &.is-inverted-dark .column-header {
+    border-color: $dark-highlight !important;
   }
 }
 
@@ -224,4 +354,8 @@
   &-body {
     color: #fff !important;
   }
+}
+
+.is-inverted-dark, .is-inverted-dark .list-link {
+  color: #fff !important;
 }
