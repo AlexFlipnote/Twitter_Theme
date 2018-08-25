@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Twitter_Theme Settings</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link href="https://modesta.alexflipnote.xyz/css/modesta.min.css" type="text/css" rel="stylesheet">
+    <style>
+      textarea {
+        border: 0;
+        color: #fff;
+        height: 15em;
+        padding: 1em;
+        width: 70em;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="center">
+      <h1 class="emerald-text">Twitter_Theme Settings</h1>
+      <div class="box-container secondary no-border-radius">
+        <label>
+          <p class="no-margin"><input type="checkbox" id="twittertheme"> Enable AlexFlipnote/Twitter_Theme</p>
+          <i class="sun-flower-text">You can turn it off if you want your own CSS instead of my theme</i>
+        </label>
+      </div>
+      <p>This textbox supports <b>any</b> CSS you throw at it, go wild!</p>
+      <textarea id="customcss" class="secondary"></textarea>
+
+      <div class="box-container">
+        <button id="save">Save</button>
+      </div>
+    </div>
+
+    <div id="modal" class="modal modal--close" style="background: rgba(0, 0, 0, 0.8);">
+      <div class="modal-content transparent center-text">
+        <h1>Options saved.</h1>
+      </div>
+    </div>
+
+    <script src="options.js"></script>
+  </body>
+</html>
