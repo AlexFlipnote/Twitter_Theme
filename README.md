@@ -12,7 +12,7 @@ Do you need more help? Join my server! **https://discord.gg/DpxkY3x**
 - [Firefox](https://addons.mozilla.org/addon/alexflipnote-twitter_theme/)
 
 #### Manually
-- Download a plugin to Chrome called **Stylebot** [Download link](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=en)
+- Download [Stylebot](https://chrome.google.com/webstore/detail/oiaejidbmkiecgbjeifoejpgmdaleoha) (Chrome) or [Stylish](https://addons.mozilla.org/addon/stylish/) (Firefox)
 - When you have downloaded the plugin, simply go to [Twitter.com](https://twitter.com) and add the autotheme.css content inside it
 
 ## FAQ
