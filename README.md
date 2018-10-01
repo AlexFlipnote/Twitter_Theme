@@ -9,7 +9,7 @@ Do you need more help? Join my server! **https://discord.gg/DpxkY3x**
 
 ## Installation
 - [Google Chrome](https://chrome.google.com/webstore/detail/injmeaanoclbgjlimleabiglmamabome)
-- [Firefox](https://addons.mozilla.org/addon/alexflipnote-twitter_theme/)
+- [Mozilla Firefox](https://addons.mozilla.org/addon/alexflipnote-twitter_theme/)
 
 #### Manually
 - Download [Stylebot](https://chrome.google.com/webstore/detail/oiaejidbmkiecgbjeifoejpgmdaleoha) (Chrome) or [Stylish](https://addons.mozilla.org/addon/stylish/) (Firefox)
