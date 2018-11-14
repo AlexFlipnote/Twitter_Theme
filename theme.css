@@ -804,6 +804,9 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .modal-content {
   background: #282828; }
 
+.self-thread-permalink-cta {
+  background: #282828; }
+
 .Gallery-content .tweet {
   background: transparent !important; }
   .Gallery-content .tweet:hover {
@@ -839,6 +842,8 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .permalink {
   background: #212121;
   border: 0; }
+  .permalink .ThreadedConversation--selfThread:not(:last-child) {
+    margin-bottom: 0; }
   .permalink .stats .avatar-row a:first-child {
     border: 0; }
   .permalink .inline-reply-tweetbox, .permalink .inline-reply-tweetbox-container {

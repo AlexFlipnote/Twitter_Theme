@@ -18,6 +18,10 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   background: $dark-secondary;
 }
 
+.self-thread-permalink-cta {
+  background: $dark-secondary;
+}
+
 .Gallery-content {
   .tweet {
     background: transparent !important;
@@ -39,6 +43,10 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .permalink {
   background: $dark-primary;
   border: 0;
+
+  .ThreadedConversation--selfThread {
+    &:not(:last-child) { margin-bottom: 0; }
+  }
 
   .stats .avatar-row a:first-child { border: 0; }
   .inline-reply-tweetbox, .inline-reply-tweetbox-container {
