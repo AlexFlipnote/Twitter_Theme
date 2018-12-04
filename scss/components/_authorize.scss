@@ -1,9 +1,6 @@
-@import '../assets/colours';
-@import '../assets/animation';
-
-.auth h2 { color: #fff; }
+.auth h2 { color: $white; }
 .permissions {
-  li { color: #ccc; }
+  li { color: $dark-white; }
 
   &.allow strong { color: $green; }
   &.deny strong { color: $red; }
@@ -27,7 +24,7 @@
   &.error {
     background: $red;
     border-color: none;
-    h2 { color: #fff; }
+    h2 { color: $white; }
   }
 }
 
@@ -37,13 +34,13 @@
 #header .logo a { border-bottom: 0; }
 .app-info h3 img { border: 0; }
 #bd .app-info h3 {
-  color: #fff;
+  color: $white;
   font-size: 20px;
   font-weight: bold;
 }
 
 .action-information {
-  color: #fff;
+  color: $white;
   font-size: 30px;
   font-weight: bold;
   padding-bottom: 20px;
@@ -53,12 +50,12 @@
 #oauth_pin {
   p {
     background-color: $dark-highlight;
-    color: #fff;
+    color: $white;
     text-align: center;
   }
 
   code {
-    color: #fff;
+    color: $white;
     font-family: monospace;
   }
 }

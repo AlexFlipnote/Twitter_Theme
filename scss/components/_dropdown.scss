@@ -1,14 +1,11 @@
-@import '../assets/colours';
-@import '../assets/animation';
-
-.Trends .trend-location, .wtf-module h3 { color: #fff; }
+.Trends .trend-location, .wtf-module h3 { color: $white; }
 
 .dropdown.open .dropdown-menu {
   background-color: $dark-tertiary;
 }
 
 .DashUserDropdown.dropdown-menu li>a, .DashUserDropdown.dropdown-menu button {
-  color: #fff;
+  color: $white;
 }
 
 .DashUserDropdown.dropdown-menu li>a, .DashUserDropdown.dropdown-menu li>a:hover {
@@ -28,7 +25,7 @@
 }
 
 .nav li a, .dropdown button.dropdown-link {
-  color: #fff;
+  color: $white;
 }
 
 .dropdown-caret .caret-inner {
@@ -36,7 +33,7 @@
   border-bottom-color: $dark-tertiary;
 }
 
-.dropdown-menu .dropdown-link { color: #fff; }
+.dropdown-menu .dropdown-link { color: $white; }
 
 .nav .session .dropdown-toggle {
   background: transparent;

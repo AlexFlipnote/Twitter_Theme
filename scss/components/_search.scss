@@ -1,34 +1,26 @@
-@import '../assets/colours';
-
-.top-timeline-tweetbox .timeline-tweet-box .tweet-form.condensed .tweet-box {
-  background-color: $dark-secondary;
-  border-radius: 0;
-  color: #fff;
-}
-
 .typeahead .fullname, .typeahead strong {
-  color: #fff;
+  color: $white;
 }
 
 .global-nav .search-input {
   background-color: $dark-tertiary;
   border: 0;
   border-radius: 0;
-  color: #fff;
+  color: $white;
 
   &:focus {
     background-color: $dark-quaternary;
-    color: #fff;
+    color: $white;
   }
 }
 
 .typeahead-category-title {
-  color: #fff;
+  color: $white;
 }
 
 .form-search .typeahead {
   background-color: $dark-tertiary;
-  color: #fff;
+  color: $white;
 }
 
 .RichEditor, .TweetBoxAttachments {
@@ -50,18 +42,18 @@
 .FoundMediaSearch-focusable { border: 3px solid rgba(0, 0, 0, .01); }
 
 .AdaptiveFiltersBar { background-color: $dark-highlight; }
-.AdaptiveFiltersBar-target--link { color: #fff; }
-.AdaptiveSearchPage .AppContent { background-color: #303030; }
-.AdaptiveSearchPage-moduleTitle { color: #fff; }
+.AdaptiveFiltersBar-target--link { color: $white; }
+.AdaptiveSearchPage .AppContent { background-color: $dark-tertiary; }
+.AdaptiveSearchPage-moduleTitle { color: $white; }
 .AdaptiveRelatedSearches { background: $dark-secondary; border: 0; }
 .AdaptiveNewsRelatedHeadlines { background: $dark-secondary; border: 0; }
-.AdaptiveNewsRelatedHeadlines-title { color: #ddd; }
+.AdaptiveNewsRelatedHeadlines-title { color: $dark-white; }
 .AdaptiveNewsLargeImageHeadline-body { background: $dark-highlight; border: 0; }
-.AdaptiveNewsLargeImageHeadline-title { color: #fff; }
-.AdaptiveNewsHeadlineDetails-user:hover { color: #fff; }
+.AdaptiveNewsLargeImageHeadline-title { color: $white; }
+.AdaptiveNewsHeadlineDetails-user:hover { color: $white; }
 .AdaptiveNewsLargeImageHeadline .AdaptiveSearchPage-moduleHeader { margin-top: 15px; }
 
-.WhoToFollow-title { color: #fff; }
+.WhoToFollow-title { color: $white; }
 .SidebarFilterModule.is-collapsed {
   background-color: $dark-highlight;
   border: 0;

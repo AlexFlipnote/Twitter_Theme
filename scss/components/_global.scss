@@ -1,26 +1,28 @@
-@import '../assets/colours';
-@import '../assets/animation';
-
 body, body.ms-windows { background-color: $dark-tertiary !important; }
 .footer { background: $dark-tertiary !important; }
-#header { background: #181818; border-bottom: 0; }
+#header { background: $dark-highlight; border-bottom: 0; }
 
-p { color: #fff; }
+p { color: $white; }
 hr { visibility: hidden; }
-input, input:focus { border-color: transparent; color: #fff; }
+input, input:focus { border-color: transparent; color: $white; }
 .global-nav .people .count .count-inner { border: 0; }  // scss-lint:disable SelectorDepth
-.global-nav-inner { background-color: #181818; }
+.global-nav-inner { background-color: $dark-highlight; }
 
 .message {
-  background-color: #181818;
+  background-color: $dark-highlight;
 
-  .message-text { color: #fff; }
+  .message-text { color: $white; }
+}
+
+.TopNav {
+  background: $dark-highlight;
+  box-shadow: none;
 }
 
 .modal { border-radius: 0; }
 .stream-end, .stream-end-inner { background: transparent; border: 0; }
-.keyboard-shortcuts .modal-table th, .keyboard-shortcuts .modal-table td { color: #fff; }
-.keyboard-shortcuts .modal-table .shortcut-label { color: #ccc; }
+.keyboard-shortcuts .modal-table th, .keyboard-shortcuts .modal-table td { color: $white; }
+.keyboard-shortcuts .modal-table .shortcut-label { color: $dark-white; }
 
 .btn, .primary-btn {
   @include transition('all 200ms ease');
@@ -82,6 +84,14 @@ input, input:focus { border-color: transparent; color: #fff; }
 
   .inline-reply-tweetbox { background-color: $dark-tertiary; }
 }
+
+// Just buttons
+.EdgeButton {
+  border: 0;
+  border-radius: 5px;
+}
+
+.EdgeButton--tertiary { background: $dark-primary; }
 
 // Follow button
 .UserSmallListItem .user-actions-follow-button button,

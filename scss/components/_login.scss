@@ -1,0 +1,14 @@
+.StaticLoggedOutHomePage-content {
+  background: transparent;
+}
+
+.PageContainer {
+  background: transparent;
+
+  .Section { background: transparent; }
+  .PageHeader, .screenname { color: $dark-white; }
+  .Form-textbox.Edge-textbox {
+    background: $dark-primary;
+    border-radius: 0;
+  }
+}

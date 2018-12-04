@@ -17,12 +17,12 @@
 
 .MomentCapsuleEditableMeta-title .rich-editor, .MomentCapsuleEditableMeta-description .rich-editor {
   background: $dark-primary;
-  color: #fff;
+  color: $white;
 }
 
 .MomentMakerCapsuleCover-empty, .MomentCapsuleSummary--portrait .MomentCapsuleSummary-title {
   background-color: transparent;
-  color: #fff;
+  color: $white;
 }
 
 .MomentsPage.MomentsGuidePage .Footer, .MomentsPage.MomentsPermalinkPage .Footer {
@@ -31,7 +31,7 @@
 
 .MomentMakerRecommendations-title {
   background-color: $dark-secondary;
-  color: #fff;
+  color: $white;
 }
 
 .MomentFloatingMenu {
@@ -39,7 +39,7 @@
   border: 0;
 
   .MomentButton:last-child {
-    color: #fff;
+    color: $white;
   }
 }
 
@@ -53,7 +53,7 @@
 }
 
 .MomentCapsuleCover-title {
-  color: #fff;
+  color: $white;
 }
 
 .MomentMakerRecommendations-module {
@@ -66,20 +66,20 @@
 }
 
 .MomentUserByline-fullname {
-  color: #fff;
+  color: $white;
 }
 
 .MomentMakerRecommendations-more {
   background-color: $dark-highlight;
   border-radius: 10px;
   border-top: 0;
-  color: #fff;
+  color: $white;
 }
 
 .MomentMakerRecommendations-scrollTopButton {
   background: $dark-highlight;
   border: 0;
-  color: #fff;
+  color: $white;
 }
 
 .ProfileUserMomentsTimeline .GridTimeline-items.has-items {
@@ -91,5 +91,5 @@
 }
 
 .MomentCapsuleSummary-title {
-  color: #fff;
+  color: $white;
 }

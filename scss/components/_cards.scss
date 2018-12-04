@@ -1,32 +1,30 @@
-@import '../assets/colours';
-
 #profile-hover-container {
   background-color: transparent;
 }
 
 .hovercard.profile-card .ProfileCard-content .FollowStatus {
   background-color: $green;
-  color: #fff;
+  color: $white;
   text-align: center;
 }
 
 p.ProfileCard-bio {
-  color: #ccc;
+  color: $dark-white;
 }
 
 .hovercard.profile-card .profile-card-listName {
   background: transparent;
-  border-top: 1px solid #fff;
-  color: #fff;
+  border-top: 1px solid $white;
+  color: $white;
   margin-top: 5px;
 }
 
 .fullname .ProfileNameTruncated-link .u-textInheritColor .js-nav, .account-group .username.u-textTruncate {
-  color: #fff;
+  color: $white;
 }
 
 .hovercard.profile-card .ProfileCard-content, .ProfileCardStats,
 .hovercard.profile-card {
   background-color: $dark-secondary;
-  color: #fff;
+  color: $white;
 }

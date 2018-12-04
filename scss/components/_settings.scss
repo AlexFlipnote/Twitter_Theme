@@ -1,20 +1,19 @@
-@import '../assets/colours';
+.DashboardProfileCard { background: $dark-secondary; }
 
-.DashboardProfileCard { background: #282828; }
 .app {
   .content {
-    strong { color: #fff; }
+    strong { color: $white; }
   }
 
   .creator {
-    color: #ccc;
+    color: $dark-white;
     a { color: #3498db; }
   }
 
 }
 
 .find-friends-list {
-  b { color: #fff; }
+  b { color: $white; }
   li { background-color: transparent; }
   &:hover { background-color: $dark-highlight; }
 }
@@ -22,19 +21,19 @@
 #notifications-optout-all-top {
   background-color: $dark-secondary;
   border-color: transparent;
-  color: #fff;
+  color: $white;
 }
 
-.form-horizontal .control-label, .radio, .checkbox { color: #fff; }
-.wrapper-settings .header-inner h2, #user-data-dashboard #content-main-heading { color: #fff; }
-.settings-header, .t1-label { color: #fff; }
-.find-friends-top-subheader, .find-friends-bottom-subheader { color: #fff; }
-.content-header .subheader, .app-password .description { color: #fff; }
-.MutedKeywordsFooter-emptyMessage { color: #fff; }
+.form-horizontal .control-label, .radio, .checkbox { color: $white; }
+.wrapper-settings .header-inner h2, #user-data-dashboard #content-main-heading { color: $white; }
+.settings-header, .t1-label { color: $white; }
+.find-friends-top-subheader, .find-friends-bottom-subheader { color: $white; }
+.content-header .subheader, .app-password .description { color: $white; }
+.MutedKeywordsFooter-emptyMessage { color: $white; }
 .form-horizontal input, .form-horizontal select,.notifications-prompt-container {
   background: $dark-quaternary;
   border: 0;
-  color: #fff;
+  color: $white;
 }
 
 .notifications-prompt-container h3, .notifications-prompt-container .t1-infotext {
@@ -42,46 +41,60 @@
 }
 
 #user-data-dashboard .account-history .controls>div, .t1-form {
-  color: #fff;
+  color: $white;
 }
 
-.module .active .list-link { background: $dark-highlight; color: #fff; }
-.module .list-link:hover { background: $dark-secondary; }
-.module .list-link {
-  background: transparent;
-  border: 0;
-  color: #fff;
+.module {
+  .active .list-link {
+    background: $dark-highlight;
+    color: $white;
+    padding-left: 1.75em;
+  }
+
+  .list-link {
+    @include transition(all 350ms ease);
+    background: transparent;
+    border: 0;
+    color: $white;
+
+    &:hover {
+      background: $dark-secondary;
+      padding-left: 1.75em;
+    }
+  }
+
+  ul:first-child li:first-child .list-link, .flex-module:first-child {
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
 }
 
 .input-block {
   background: $dark-highlight;
-  color: #fff;
+  color: $white;
 }
 
-.FacebookConnect-title { color: #fff; }
+.FacebookConnect-title { color: $white; }
 .account, .tweet, .app { border-bottom: 0; }
-.module ul:first-child li:first-child .list-link, .module .flex-module:first-child {
-  border-top: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
 
 .MutedKeywordsFooter {
   background-color: $dark-tertiary;
   border: 0;
 }
 
-.modal-body p { color: #fff; }
+.modal-body p { color: $white; }
 .content-inner {
   border-left: 0;
   border-right: 0;
 }
 
-.PlayableMedia-title { color: #fff; }
-.PlayableMedia-description, .PlayableMedia--vine .PlayableMedia-externalUrl { color: #ccc; }
+.PlayableMedia-title { color: $white; }
+.PlayableMedia-description, .PlayableMedia--vine .PlayableMedia-externalUrl { color: $dark-white; }
 .content-inner.no-stream-end, .find-friends-sources, .stream-item.highlighted,
 .find-friends-top-subheader, .find-friends-bottom-subheader {
-  background-color: $dark-quaternary;
+  background-color: transparent;
   border-bottom: 0;
   border-radius: 0;
 }

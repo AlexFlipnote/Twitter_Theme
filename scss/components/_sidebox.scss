@@ -1,16 +1,16 @@
 @import '../assets/colours';
 
 .DashboardProfileCard-name {
-  color: #fff;
+  color: $white;
 }
 
-.LiveVideoHomePageModule-eventTitle { color: #eee; }
+.LiveVideoHomePageModule-eventTitle { color: $dark-white; }
 
 .DashboardProfileCard-avatarLink {
   background-color: transparent;
 }
 
-.ListCreationModule-title, .ListCreationModule-description { color: #fff; }
+.ListCreationModule-title, .ListCreationModule-description { color: $white; }
 .ListCreationModule {
   background-color: $dark-secondary;
   border: 0;
@@ -36,7 +36,7 @@
 }
 
 .dashboard h3 {
-  color: #fff;
+  color: $white;
 }
 
 .stream-item:not(.no-header-background-module) {

@@ -8,14 +8,14 @@
 }
 
 .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover { background: transparent; }
-.QuoteTweet--slim .QuoteTweet-text b { color: #fff; }
+.QuoteTweet--slim .QuoteTweet-text b { color: $white; }
 
 .QuoteTweet-text .pretty-link s, .QuoteTweet-text .pretty-link b {
-  color: #fff;
+  color: $white;
 }
 
 .ActivityItem-displayText {
-  color: #fff;
+  color: $white;
 }
 
 .ActivityItem.has-clickAction {

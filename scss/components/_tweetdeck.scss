@@ -9,10 +9,10 @@
 
   .js-dropdown {
     background: $dark-primary;
-    color: #fff;
+    color: $white;
 
     .non-selectable-item {
-      color: darken(#fff, 10) !important;
+      color: darken($white, 10) !important;
     }
 
     .caret-inner {
@@ -20,7 +20,7 @@
     }
 
     .is-selectable, a {
-      color: #fff !important;
+      color: $white !important;
       transition: .3s;
     }
 
@@ -68,7 +68,7 @@
     }
 
     a strong {
-      color: #fff !important;
+      color: $white !important;
     }
   }
 
@@ -81,12 +81,12 @@
   background-color: $dark-secondary !important;
 
   .list-item {
-    color: #fff !important;
+    color: $white !important;
   }
 
   input, select {
     border-color: $dark-highlight !important;
-    color: #fff !important;
+    color: $white !important;
   }
 
   .caret-inner {
@@ -105,7 +105,7 @@
   input, select, textarea {
     background: $dark-tertiary !important;
     border-color: $dark-highlight;
-    color: #fff;
+    color: $white;
     transition: .3s !important;
 
     &:hover, &:active {
@@ -122,7 +122,7 @@
   .inline-reply, .compose-text-container { background: $dark-primary; }
   textarea.compose-text {
     background: $dark-highlight;
-    color: #fff;
+    color: $white;
   }
 
   .js-stream-item-content {
@@ -158,7 +158,7 @@
   .detail-view-inline-text {
     background-color: $dark-secondary !important;
     border-color: $dark-highlight !important;
-    color: #fff !important;
+    color: $white !important;
   }
 }
 
@@ -167,7 +167,7 @@
 
   textarea {
     background-color: inherit !important;
-    color: #fff !important;
+    color: $white !important;
   }
 }
 
@@ -185,13 +185,13 @@
   .compose-reply-tweet { background: $dark-secondary !important; }
   .compose-text-container, .compose-text, .js-compose-message-recipient-input-container, .js-compose-message-account {
     background: $dark-tertiary !important;
-    color: #fff !important;
+    color: $white !important;
   }
 
   .compose-message-recipient {
     background-color: $dark-quaternary !important;
     border-color: $dark-highlight !important;
-    color: #fff !important;
+    color: $white !important;
   }
 
   .btn-on-blue {
@@ -213,8 +213,8 @@
   }
 
   .icon { color: #1da1f2; }
-  .drawer-header-title { color: #fff; }
-  .color-twitter-dark-black, .color-twitter-darker-gray { color: #ddd; }
+  .drawer-header-title { color: $white; }
+  .color-twitter-dark-black, .color-twitter-darker-gray { color: $dark-white; }
 
   .account-settings-bb {
     border-color: $dark-highlight !important;
@@ -241,7 +241,7 @@
   input {
     background-color: $dark-secondary;
     border-color: $dark-highlight !important;
-    color: #fff !important;
+    color: $white !important;
   }
 }
 
@@ -256,14 +256,14 @@
 .js-modal-panel.mdl {
   background-color: transparent;
 
-  .mdl-header-title { color: #fff; }
+  .mdl-header-title { color: $white; }
   .mdl-header {
     background-color: $dark-highlight;
     border-bottom: 0;
   }
 
   .mdl-inner { background-color: $dark-secondary;}
-  span, .icon-close { color: #fff; }
+  span, .icon-close { color: $white; }
 
   .lst-launcher a {
     &:hover {
@@ -307,14 +307,14 @@
     }
 
     .fullname {
-      color: darken(#fff, 5);
+      color: darken($white, 5);
     }
   }
 
   input, select {
     background-color: $dark-secondary;
     border-color: $dark-highlight !important;
-    color: #fff !important;
+    color: $white !important;
   }
 
   &.is-inverted-dark .column-header {
@@ -352,10 +352,10 @@
   }
 
   &-body {
-    color: #fff !important;
+    color: $white !important;
   }
 }
 
 .is-inverted-dark, .is-inverted-dark .list-link {
-  color: #fff !important;
+  color: $white !important;
 }

@@ -1,7 +1,7 @@
 @import '../assets/colours';
 @import '../assets/animation';
 
-span[data-query-source="hashtag_click"] b { color: #fff; }
+span[data-query-source="hashtag_click"] b { color: $white; }
 span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply pretty-link js-nav"] s { color: $blue; }
 .rich-editor em { background: $red; }
 
@@ -57,7 +57,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 }
 
 .tweet-form div.rich-editor.is-showPlaceholder, .tweet-form div.rich-editor:empty {
-  &::before { color: #fff; }
+  &::before { color: $white; }
 }
 
 .Tombstone {
@@ -73,7 +73,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   button {
     background: $red;
     border-radius: 4px;
-    color: #fff;
+    color: $white;
     padding: .5em 1em;
   }
 }
@@ -85,7 +85,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   background-color: $dark-secondary;
   border-bottom: 0;
   border-top: 0;
-  color: #fff;
+  color: $white;
   margin-top: 0;
 }
 
@@ -94,7 +94,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   background-color: $darkred;
 
   .ThreadedConversation-unavailableText {
-    color: #fff;
+    color: $white;
 
     &::after { content: ':('; }
   }
@@ -133,7 +133,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 
 .recap-header {
   border-bottom: 0;
-  color: #fff;
+  color: $white;
 }
 
 .stream-item+.stream-item.separated-module:not(.no-header-background-module) {
@@ -157,13 +157,13 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   border-bottom: 0;
   border-radius: 0;
 
-  .modal-title { color: #fff !important; }
+  .modal-title { color: $white !important; }
 }
 
 .modal-body {
   background: $dark-secondary;
   border-radius: 0;
-  color: #fff;
+  color: $white;
 }
 
 .modal-footer {
@@ -174,18 +174,18 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 
 #global-tweet-dialog .modal-tweet-form-container {
   background-color: $dark-secondary;
-  color: #fff;
+  color: $white;
 }
 
 .tweet-btn {
   @include transition('all 200ms ease');
   border: 0;
-  color: #fff;
+  color: $white;
 
   &:hover {
     @include transition('all 200ms ease');
     @include transform(translateY(-.3em));
-    color: #fff;
+    color: $white;
   }
 }
 
@@ -193,7 +193,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   @include transition('all 300ms ease');
   background-color: $dark-secondary;
 
-  .js-tweet-text { color: #fff; }
+  .js-tweet-text { color: $white; }
   .stats {
     background: #222;
     border-radius: 4px;
@@ -209,8 +209,8 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   }
 }
 
-.fullname, .GalleryTweet .account-group .fullname, .GalleryTweet .account-group:hover .fullname { color: #fff !important; }
-.stats .stat-count a { color: #fff; }
+.fullname, .GalleryTweet .account-group .fullname, .GalleryTweet .account-group:hover .fullname { color: $white !important; }
+.stats .stat-count a { color: $white; }
 .TwitterCard-container--clickable:hover {
   background-color: $dark-secondary;
 }
@@ -221,7 +221,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 }
 
 .QuoteTweet-fullname, .TwitterCard .SummaryCard-content .TwitterCard-title {
-  color: #fff;
+  color: $white;
 }
 
 .QuoteTweet-text, .TwitterCard .SummaryCard--small .SummaryCard-content p { color: #eee; }
@@ -236,10 +236,25 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   background-color: $dark-highlight;
 }
 
-.top-timeline-tweetbox .timeline-tweet-box { border: 0; }
+.top-timeline-tweetbox {
+  .timeline-tweet-box { border: 0; }
+  .tweet-form.condensed .tweet-box {
+    background-color: transparent;
+    border-radius: 0;
+    color: $white;
+  }
+}
+
+.TweetBox-photoIntent {
+  .photo-selector {
+    right: -5px;
+    top: 3px;
+  }
+}
+
 .new-tweets-bar, .new-tweets-bar:hover {
   background-color: $dark-tertiary;
-  color: #fff;
+  color: $white;
 }
 
 .PermalinkOverlay .permalink-tweet { background-color: $dark-secondary; }
@@ -250,14 +265,14 @@ html, body:not([class]):not([data-promote-url]) {
 }
 
 .TwitterCard .PollXChoice-optionContainer span {
-  color: #fff;
+  color: $white;
   font-family: "Segoe UI", Arial, sans-serif;
   font-weight: bold;
 }
 
 .TwitterCard .EdgeButton--secondary, .TwitterCard .EdgeButton--secondary.PollXChoice-hideButton {
   background-color: $blue;
-  color: #fff;
+  color: $white;
   font-family: "Segoe UI",Arial,sans-serif;
 }
 
@@ -278,7 +293,7 @@ html, body:not([class]):not([data-promote-url]) {
 }
 
 .TwitterCard .PollXChoice-choice--radio {
-  background-color: #ddd;
+  background-color: $dark-white;
   border-color: #999 !important;
 }
 
@@ -316,7 +331,7 @@ html, body:not([class]):not([data-promote-url]) {
 }
 
 .WtfLargeCarouselStreamItem-title {
-  color: #ddd;
+  color: $dark-white;
 }
 
 .PromptbirdPrompt--inline, .PromptbirdPrompt--inlinePointer {
@@ -325,7 +340,7 @@ html, body:not([class]):not([data-promote-url]) {
 }
 
 .PromptbirdPrompt-title {
-  color: #fff;
+  color: $white;
 }
 
 .PromptbirdPrompt-streamItem.separated-module+.stream-item:not(.no-header-background-module) {
@@ -342,7 +357,7 @@ html, body:not([class]):not([data-promote-url]) {
 
 .dismiss-module .feedback-action {
   border-bottom: 0;
-  color: #fff;
+  color: $white;
 }
 
 .stream-item.separated-module+.stream-item:not(.no-header-background-module) {
@@ -364,7 +379,7 @@ html, body:not([class]):not([data-promote-url]) {
 .stream .tweet:hover { background-color: $dark-secondary; }
 .stats .stat-count strong { color: #999; }
 
-.Icon.Icon--large.Icon--logo { color: #fff; }
+.Icon.Icon--large.Icon--logo { color: $white; }
 .permalink-container { box-shadow: 0 6px 8px 0 rgba(0, 0, 0, .3); }
 .hovercard.profile-card .ProfileCard-avatarLink, .ProfileCard-content { background-color: transparent; }
 .hovercard.profile-card .ProfileCard-avatarImage { border: 0; }

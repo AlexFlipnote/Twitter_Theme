@@ -1,16 +1,13 @@
-@import '../assets/colours';
-@import '../assets/animation';
-
 .ProfileCanopy-navBar, .ProfileNav-item--userActions {
   background-color: $dark-secondary;
 }
 
 .ProfileHeaderCard, .ProfileHeaderCard span, .ProfileHeading-title {
-  color: #fff !important;
+  color: $white !important;
 }
 
 .ProfilePage.is-editing .ProfilePage-editingOverlay {
-  background-color: #000 !important;
+  background-color: $black !important;
 }
 
 .BirthdateSelect-button {
@@ -24,7 +21,7 @@
 .ProfilePage-cancelButton {
   background: $darkred;
   border: 0;
-  color: #fff;
+  color: $white;
 
   &:hover { background-color: $red; }
 }
@@ -32,7 +29,7 @@
 .ProfilePage-saveButton {
   background-color: $darkgreen;
   border: 0;
-  color: #fff;
+  color: $white;
 
   &:hover { background-color: $green; }
 }
@@ -54,7 +51,7 @@
 
 .Grid--withGutter>.Grid-cell { background: transparent !important; }
 
-.ProfileClusterFollow-title { color: #fff; }
+.ProfileClusterFollow-title { color: $white; }
 
 .ProfileNameTruncated .UserBadges .Icon {
   padding-left: 2px;
@@ -62,7 +59,7 @@
 
 .FollowStatus {
   background-color: rgba(46, 204, 113, .5) !important;
-  color: #fff !important;
+  color: $white !important;
   font-weight: bold !important;
   margin: .3em !important;
   padding: 3px !important;
@@ -77,7 +74,7 @@
 .ProfileHeaderCard-name, .ProfileHeaderCard-bio, .ProfileHeaderCard-birthdateText, .ProfileHeaderCard-joinDateText, .ProfileHeaderCard-locationText,
 .ProfileHeaderCard-onlineHoursText, .ProfileHeaderCard-responsivenessLevelText, .ProfileHeaderCard-urlText,
 .ProfileHeaderCard-vineProfileText, .ProfileHeaderCard-periscopeProfileText {
-  color: #fff;
+  color: $white;
 }
 
 .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers, .ProfilePage .AppContent,
@@ -88,20 +85,20 @@
 }
 
 .ProfileSidebar .flex-module-header h3 {
-  color: #fff;
+  color: $white;
 }
 
 .ProfileHeading-toggleItem.is-active {
-  color: #fff;
+  color: $white;
 }
 
 .TweetImpressionsModule-heading {
-  color: #fff;
+  color: $white;
   font-weight: bold;
 }
 
 .u-floatLeft, .u-floatRight {
-  color: #fff;
+  color: $white;
 }
 
 .u-bgUserColorLightest, .u-bgUserColorLighter,
@@ -114,7 +111,7 @@
 }
 
 input#user_name, input#user_location, input#user_url {
-  color: #fff;
+  color: $white;
 }
 
 .u-borderUserColorLight, .u-borderUserColorLightFocus:focus,
@@ -122,20 +119,20 @@ input#user_name, input#user_location, input#user_url {
 .RichEditor div[contenteditable], .RichEditor div[contenteditable]:focus,
 .RichEditor div[contenteditable].fake-focus {
   background-color: $dark-secondary;
-  color: #fff;
+  color: $white;
 }
 
 .UserActions-editButton {
   @include transition('all 200ms ease');
   background: $blue;
   border: 0;
-  color: #fff;
+  color: $white;
   transition: all 200ms ease;
 
   &:hover {
     @include transition('all 200ms ease');
     @include transform(translateY(-.3em));
     background: $darkblue;
-    color: #fff;
+    color: $white;
   }
 }

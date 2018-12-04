@@ -1,3 +1,8 @@
+// Assets
+@import 'assets/animation';
+@import 'assets/browser';
+@import 'assets/colours';
+
 // Global define
 @import 'components/global';
 
@@ -6,6 +11,7 @@
 @import 'components/directmessage';
 @import 'components/dropdown';
 @import 'components/list';
+@import 'components/login';
 @import 'components/moment';
 @import 'components/notifications';
 @import 'components/profile';

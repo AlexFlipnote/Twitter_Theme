@@ -29,6 +29,10 @@ input, input:focus {
   .message .message-text {
     color: #fff; }
 
+.TopNav {
+  background: #181818;
+  box-shadow: none; }
+
 .modal {
   border-radius: 0; }
 
@@ -108,6 +112,13 @@ input, input:focus {
     border-top-right-radius: 0; }
   .permalink .inline-reply-tweetbox {
     background-color: #303030; }
+
+.EdgeButton {
+  border: 0;
+  border-radius: 5px; }
+
+.EdgeButton--tertiary {
+  background: #212121; }
 
 .UserSmallListItem .user-actions-follow-button button,
 .UserSmallListItem .user-actions-follow-button button:hover {
@@ -307,6 +318,19 @@ p.ProfileCard-bio {
 .ProfileListsTimeline .GridTimeline-items.has-items, .ProfileListItem {
   background-color: #282828;
   border-color: transparent transparent #181818; }
+
+.StaticLoggedOutHomePage-content {
+  background: transparent; }
+
+.PageContainer {
+  background: transparent; }
+  .PageContainer .Section {
+    background: transparent; }
+  .PageContainer .PageHeader, .PageContainer .screenname {
+    color: #ccc; }
+  .PageContainer .Form-textbox.Edge-textbox {
+    background: #212121;
+    border-radius: 0; }
 
 .MomentMakerPage-content {
   background-color: #181818; }
@@ -546,11 +570,6 @@ input#user_name, input#user_location, input#user_url {
     background: #2980b9;
     color: #fff; }
 
-.top-timeline-tweetbox .timeline-tweet-box .tweet-form.condensed .tweet-box {
-  background-color: #282828;
-  border-radius: 0;
-  color: #fff; }
-
 .typeahead .fullname, .typeahead strong {
   color: #fff; }
 
@@ -606,7 +625,7 @@ input#user_name, input#user_location, input#user_url {
   border: 0; }
 
 .AdaptiveNewsRelatedHeadlines-title {
-  color: #ddd; }
+  color: #ccc; }
 
 .AdaptiveNewsLargeImageHeadline-body {
   background: #181818;
@@ -690,15 +709,24 @@ input#user_name, input#user_location, input#user_url {
 
 .module .active .list-link {
   background: #181818;
-  color: #fff; }
-
-.module .list-link:hover {
-  background: #282828; }
-
+  color: #fff;
+  padding-left: 1.75em; }
 .module .list-link {
+  transition: all 350ms ease;
+  -webkit-transition: all 350ms ease;
+  -ms-transition: all 350ms ease;
+  -moz-transition: all 350ms ease;
+  -o-transition: all 350ms ease;
   background: transparent;
   border: 0;
   color: #fff; }
+  .module .list-link:hover {
+    background: #282828;
+    padding-left: 1.75em; }
+.module ul:first-child li:first-child .list-link, .module .flex-module:first-child {
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
 
 .input-block {
   background: #181818;
@@ -709,11 +737,6 @@ input#user_name, input#user_location, input#user_url {
 
 .account, .tweet, .app {
   border-bottom: 0; }
-
-.module ul:first-child li:first-child .list-link, .module .flex-module:first-child {
-  border-top: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0; }
 
 .MutedKeywordsFooter {
   background-color: #303030;
@@ -734,7 +757,7 @@ input#user_name, input#user_location, input#user_url {
 
 .content-inner.no-stream-end, .find-friends-sources, .stream-item.highlighted,
 .find-friends-top-subheader, .find-friends-bottom-subheader {
-  background-color: #353535;
+  background-color: transparent;
   border-bottom: 0;
   border-radius: 0; }
 
@@ -750,7 +773,7 @@ input#user_name, input#user_location, input#user_url {
   color: #fff; }
 
 .LiveVideoHomePageModule-eventTitle {
-  color: #eee; }
+  color: #ccc; }
 
 .DashboardProfileCard-avatarLink {
   background-color: transparent; }
@@ -1036,6 +1059,14 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 
 .top-timeline-tweetbox .timeline-tweet-box {
   border: 0; }
+.top-timeline-tweetbox .tweet-form.condensed .tweet-box {
+  background-color: transparent;
+  border-radius: 0;
+  color: #fff; }
+
+.TweetBox-photoIntent .photo-selector {
+  right: -5px;
+  top: 3px; }
 
 .new-tweets-bar, .new-tweets-bar:hover {
   background-color: #303030;
@@ -1070,7 +1101,7 @@ html, body:not([class]):not([data-promote-url]) {
   margin-left: 5px; }
 
 .TwitterCard .PollXChoice-choice--radio {
-  background-color: #ddd;
+  background-color: #ccc;
   border-color: #999 !important; }
 
 .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--input:checked + .PollXChoice-choice--radio {
@@ -1099,7 +1130,7 @@ html, body:not([class]):not([data-promote-url]) {
   border-color: #222; }
 
 .WtfLargeCarouselStreamItem-title {
-  color: #ddd; }
+  color: #ccc; }
 
 .PromptbirdPrompt--inline, .PromptbirdPrompt--inlinePointer {
   background-color: #222;
@@ -1460,7 +1491,7 @@ body[data-promote-url] {
   .js-account-manager-container.column-panel .drawer-header-title {
     color: #fff; }
   .js-account-manager-container.column-panel .color-twitter-dark-black, .js-account-manager-container.column-panel .color-twitter-darker-gray {
-    color: #ddd; }
+    color: #ccc; }
   .js-account-manager-container.column-panel .account-settings-bb {
     border-color: #181818 !important; }
   .js-account-manager-container.column-panel .drawer-header, .js-account-manager-container.column-panel .account-settings-bb {
