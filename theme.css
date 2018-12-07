@@ -1,3 +1,14 @@
+.permalink.has-replies .inline-reply-tweetbox, .home-tweet-box, .permalink-inner,
+.new-tweets-bar, .new-tweets-bar:hover, .stream-item:not(.no-header-background-module),
+.permalink .stream-end-inner, .stream-fotter, .tweet .stats, .permalink .replies-to .tweet, .tweet,
+.DashboardProfileCard-content, .DashboardProfileCard, .DashboardProfileCard-bg, .module .flex-module,
+.TwitterCard-container--clickable, .QuoteTweet {
+  border: 0;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0; }
+
 body, body.ms-windows {
   background-color: #303030 !important; }
 
@@ -32,6 +43,8 @@ input, input:focus {
 .TopNav {
   background: #181818;
   box-shadow: none; }
+  .TopNav span {
+    color: #fff; }
 
 .modal {
   border-radius: 0; }
@@ -42,7 +55,6 @@ input, input:focus {
 
 .keyboard-shortcuts .modal-table th, .keyboard-shortcuts .modal-table td {
   color: #fff; }
-
 .keyboard-shortcuts .modal-table .shortcut-label {
   color: #ccc; }
 
@@ -90,17 +102,6 @@ input, input:focus {
   top: 100px;
   width: 190px; }
 
-.permalink.has-replies .inline-reply-tweetbox, .home-tweet-box, .permalink-inner,
-.new-tweets-bar, .new-tweets-bar:hover, .stream-item:not(.no-header-background-module),
-.permalink .stream-end-inner, .stream-fotter, .tweet .stats, .permalink .replies-to .tweet, .tweet,
-.DashboardProfileCard-content, .DashboardProfileCard, .DashboardProfileCard-bg, .module .flex-module,
-.TwitterCard-container--clickable, .QuoteTweet {
-  border: 0;
-  border-bottom: 0;
-  border-left: 0;
-  border-right: 0;
-  border-top: 0; }
-
 .permalink {
   border: 0;
   border-radius: 0; }
@@ -120,54 +121,72 @@ input, input:focus {
 .EdgeButton--tertiary {
   background: #212121; }
 
-.UserSmallListItem .user-actions-follow-button button,
-.UserSmallListItem .user-actions-follow-button button:hover {
+.UserSmallListItem .user-actions-follow-button button {
   transition: all 250ms ease;
   -webkit-transition: all 250ms ease;
   -ms-transition: all 250ms ease;
   -moz-transition: all 250ms ease;
-  -o-transition: all 250ms ease; }
-
-.UserSmallListItem .user-actions-follow-button button {
+  -o-transition: all 250ms ease;
   background: #303030; }
-
-.UserSmallListItem .user-actions-follow-button button:hover {
-  background: #353535; }
+  .UserSmallListItem .user-actions-follow-button button:hover {
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    background: #353535; }
 
 .follow-btn.small-follow-btn {
   background: #2ecc71; }
 
-.following .follow-btn, .following .follow-button,
-.following .follow-btn:hover, .following .follow-button:hover {
+.following .follow-btn, .following .follow-button {
   transition: all 300ms ease;
   -webkit-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -o-transition: all 300ms ease; }
+  .following .follow-btn:hover, .following .follow-button:hover {
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease; }
+
+.StaticLoggedOutHomePage-content {
+  background: transparent; }
+
+.PageContainer {
+  background: transparent; }
+  .PageContainer .Section {
+    background: transparent; }
+  .PageContainer .PageHeader, .PageContainer .screenname {
+    color: #ccc; }
+  .PageContainer .Form-textbox.Edge-textbox {
+    background: #212121;
+    border-radius: 0; }
 
 #profile-hover-container {
   background-color: transparent; }
+
+.hovercard.profile-card .ProfileCard-content, .ProfileCardStats,
+.hovercard.profile-card {
+  background-color: #282828;
+  color: #fff; }
 
 .hovercard.profile-card .ProfileCard-content .FollowStatus {
   background-color: #2ecc71;
   color: #fff;
   text-align: center; }
-
-p.ProfileCard-bio {
-  color: #ccc; }
-
 .hovercard.profile-card .profile-card-listName {
   background: transparent;
   border-top: 1px solid #fff;
   color: #fff;
   margin-top: 5px; }
 
-.fullname .ProfileNameTruncated-link .u-textInheritColor .js-nav, .account-group .username.u-textTruncate {
-  color: #fff; }
+p.ProfileCard-bio {
+  color: #ccc; }
 
-.hovercard.profile-card .ProfileCard-content, .ProfileCardStats,
-.hovercard.profile-card {
-  background-color: #282828;
+.fullname .ProfileNameTruncated-link .u-textInheritColor .js-nav, .account-group .username.u-textTruncate {
   color: #fff; }
 
 .DMActivity-title {
@@ -270,19 +289,21 @@ p.ProfileCard-bio {
   background-color: #303030; }
 
 .DashUserDropdown.dropdown-menu li > a, .DashUserDropdown.dropdown-menu button {
-  color: #fff; }
-
-.DashUserDropdown.dropdown-menu li > a, .DashUserDropdown.dropdown-menu li > a:hover {
   transition: all 250ms ease;
   -webkit-transition: all 250ms ease;
   -ms-transition: all 250ms ease;
   -moz-transition: all 250ms ease;
-  -o-transition: all 250ms ease; }
-
+  -o-transition: all 250ms ease;
+  color: #fff; }
+  .DashUserDropdown.dropdown-menu li > a:hover, .DashUserDropdown.dropdown-menu button:hover {
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease; }
 .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink {
   text-align: center;
   width: 100%; }
-
 .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover {
   background: #181818 !important; }
 
@@ -307,30 +328,25 @@ p.ProfileCard-bio {
   .nav .session .dropdown-toggle::before {
     box-shadow: 0; }
 
+.ResponsiveLayout--Night .TopNav {
+  background: #181818; }
+.ResponsiveLayout--Night .PageContainer {
+  background: transparent; }
+
 .GridTimeline-emptyText {
   color: #fff; }
+
+.ProfileListItem {
+  background-color: #282828;
+  border-color: transparent transparent #181818; }
 
 .ProfileListsTimeline .GridTimeline-end:not(.has-items) {
   background-color: transparent;
   border: 0;
   border-radius: 0; }
-
-.ProfileListsTimeline .GridTimeline-items.has-items, .ProfileListItem {
+.ProfileListsTimeline .GridTimeline-items.has-items {
   background-color: #282828;
   border-color: transparent transparent #181818; }
-
-.StaticLoggedOutHomePage-content {
-  background: transparent; }
-
-.PageContainer {
-  background: transparent; }
-  .PageContainer .Section {
-    background: transparent; }
-  .PageContainer .PageHeader, .PageContainer .screenname {
-    color: #ccc; }
-  .PageContainer .Form-textbox.Edge-textbox {
-    background: #212121;
-    border-radius: 0; }
 
 .MomentMakerPage-content {
   background-color: #181818; }
@@ -830,11 +846,16 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .self-thread-permalink-cta {
   background: #282828; }
 
+.Gallery-content .Gallery-media {
+  background: #181818 !important; }
+.Gallery-content:hover .tweet {
+  background: #181818; }
 .Gallery-content .tweet {
   background: transparent !important; }
   .Gallery-content .tweet:hover {
     background: #181818; }
 .Gallery-content .stream-item-footer {
+  background: #181818 !important;
   border-top: 0; }
 
 .RetweetDialog-footer {
@@ -1060,17 +1081,24 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .top-timeline-tweetbox .timeline-tweet-box {
   border: 0; }
 .top-timeline-tweetbox .tweet-form.condensed .tweet-box {
-  background-color: transparent;
-  border-radius: 0;
+  background-color: #282828;
+  border-radius: 2px;
   color: #fff; }
 
 .TweetBox-photoIntent .photo-selector {
   right: -5px;
   top: 3px; }
 
-.new-tweets-bar, .new-tweets-bar:hover {
-  background-color: #303030;
+.new-tweets-bar {
+  transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  background-color: #181818;
   color: #fff; }
+  .new-tweets-bar:hover {
+    background-color: #212121; }
 
 .PermalinkOverlay .permalink-tweet {
   background-color: #282828; }
@@ -1078,39 +1106,34 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 html, body:not([class]):not([data-promote-url]) {
   background-color: transparent !important; }
 
+.TwitterCard [class*="PollXChoice-footer--"] {
+  font-family: "Segoe UI", Arial, sans-serif; }
+.TwitterCard .PollXChoice-choice--selected {
+  filter: brightness(10); }
+.TwitterCard .EdgeButton--secondary, .TwitterCard .EdgeButton--secondary.PollXChoice-hideButton {
+  background-color: #3498db;
+  color: #fff;
+  font-family: "Segoe UI",Arial,sans-serif; }
+.TwitterCard .PollXChoice-choice {
+  margin-left: 5px; }
+.TwitterCard .PollXChoice-choice--radio {
+  background-color: #ccc;
+  border-color: #999 !important; }
+.TwitterCard .PollXChoice-optionContainer:first-child {
+  margin-top: 2px; }
+.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart {
+  background: #222; }
+.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--input:checked + .PollXChoice-choice--radio {
+  border-color: #0ea669 !important; }
 .TwitterCard .PollXChoice-optionContainer span {
   color: #fff;
   font-family: "Segoe UI", Arial, sans-serif;
   font-weight: bold; }
 
-.TwitterCard .EdgeButton--secondary, .TwitterCard .EdgeButton--secondary.PollXChoice-hideButton {
-  background-color: #3498db;
-  color: #fff;
-  font-family: "Segoe UI",Arial,sans-serif; }
-
-.TwitterCard [class*="PollXChoice-footer--"] {
-  font-family: "Segoe UI", Arial, sans-serif; }
-
-.TwitterCard .PollXChoice-choice--selected {
-  filter: brightness(10); }
-
-.TwitterCard .PollXChoice-optionContainer:first-child {
-  margin-top: 2px; }
-
-.TwitterCard .PollXChoice-choice {
-  margin-left: 5px; }
-
-.TwitterCard .PollXChoice-choice--radio {
-  background-color: #ccc;
-  border-color: #999 !important; }
-
-.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--input:checked + .PollXChoice-choice--radio {
-  border-color: #0ea669 !important; }
-
-.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart {
-  background: #222; }
-
-#global-tweet-dialog .modal-tweet-form-container, #Tweetstorm-dialog .modal-body {
+#global-tweet-dialog .modal-header, #Tweetstorm-dialog .modal-header {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px; }
+#global-tweet-dialog .modal-tweet-form-container, #global-tweet-dialog .modal-body, #Tweetstorm-dialog .modal-tweet-form-container, #Tweetstorm-dialog .modal-body {
   background: #222;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px; }
@@ -1118,10 +1141,6 @@ html, body:not([class]):not([data-promote-url]) {
 #global-tweet-dialog-dialog {
   border-radius: 4px;
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.3); }
-
-#global-tweet-dialog .modal-header, #Tweetstorm-dialog .modal-header {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px; }
 
 .stream-end-item, .stream-end, .stream-loading, .stream-placeholder {
   border: 0; }
@@ -1144,18 +1163,16 @@ html, body:not([class]):not([data-promote-url]) {
 
 .stream-item.dismissed {
   border-bottom: 0; }
-
 .stream-item.no-header-background-module .dismiss-module {
   background: #212121;
   border-left: 0;
   border-right: 0; }
+.stream-item.separated-module + .stream-item:not(.no-header-background-module) {
+  border-color: transparent; }
 
 .dismiss-module .feedback-action {
   border-bottom: 0;
   color: #fff; }
-
-.stream-item.separated-module + .stream-item:not(.no-header-background-module) {
-  border-color: transparent; }
 
 .ProfileAvatar {
   background-color: transparent;
@@ -1164,6 +1181,11 @@ html, body:not([class]):not([data-promote-url]) {
 .hovercard .arrow, .dropdown-divider {
   background-color: #282828;
   border-color: #282828; }
+
+.hovercard.profile-card .ProfileCard-avatarImage {
+  border: 0; }
+.hovercard.profile-card .ProfileCard-avatarLink, .hovercard.profile-card .ProfileCard-content {
+  background-color: transparent; }
 
 .ThreadedConversation-showMoreThreads {
   border-color: #222; }
@@ -1179,12 +1201,6 @@ html, body:not([class]):not([data-promote-url]) {
 
 .permalink-container {
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.3); }
-
-.hovercard.profile-card .ProfileCard-avatarLink, .ProfileCard-content {
-  background-color: transparent; }
-
-.hovercard.profile-card .ProfileCard-avatarImage {
-  border: 0; }
 
 .js-macaw-cards-iframe-container iframe {
   border-radius: 4px; }
@@ -1304,12 +1320,11 @@ body[data-promote-url] {
 
 #session h2 a {
   background: transparent; }
+#session h2 img {
+  border: 0; }
 
 .footer {
   background: #303030; }
-
-#session h2 img {
-  border: 0; }
 
 #header .logo a {
   border-bottom: 0; }

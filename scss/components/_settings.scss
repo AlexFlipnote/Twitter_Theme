@@ -36,8 +36,8 @@
   color: $white;
 }
 
-.notifications-prompt-container h3, .notifications-prompt-container .t1-infotext {
-  color: inherit;
+.notifications-prompt-container {
+  h3, .t1-infotext { color: inherit; }
 }
 
 #user-data-dashboard .account-history .controls>div, .t1-form {

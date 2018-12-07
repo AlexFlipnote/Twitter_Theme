@@ -1,30 +1,31 @@
-#profile-hover-container {
-  background-color: transparent;
+#profile-hover-container { background-color: transparent; }
+
+.hovercard.profile-card .ProfileCard-content, .ProfileCardStats,
+.hovercard.profile-card {
+  background-color: $dark-secondary;
+  color: $white;
 }
 
-.hovercard.profile-card .ProfileCard-content .FollowStatus {
-  background-color: $green;
-  color: $white;
-  text-align: center;
+
+.hovercard.profile-card {
+  .ProfileCard-content .FollowStatus {
+    background-color: $green;
+    color: $white;
+    text-align: center;
+  }
+
+  .profile-card-listName {
+    background: transparent;
+    border-top: 1px solid $white;
+    color: $white;
+    margin-top: 5px;
+  }
 }
 
 p.ProfileCard-bio {
   color: $dark-white;
 }
 
-.hovercard.profile-card .profile-card-listName {
-  background: transparent;
-  border-top: 1px solid $white;
-  color: $white;
-  margin-top: 5px;
-}
-
 .fullname .ProfileNameTruncated-link .u-textInheritColor .js-nav, .account-group .username.u-textTruncate {
-  color: $white;
-}
-
-.hovercard.profile-card .ProfileCard-content, .ProfileCardStats,
-.hovercard.profile-card {
-  background-color: $dark-secondary;
   color: $white;
 }

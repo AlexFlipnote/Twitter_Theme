@@ -1,4 +1,5 @@
 .auth h2 { color: $white; }
+
 .permissions {
   li { color: $dark-white; }
 
@@ -28,11 +29,15 @@
   }
 }
 
-#session h2 a { background: transparent; }
+#session h2 {
+  a { background: transparent; }
+  img { border: 0; }
+}
+
 .footer { background: $dark-tertiary; }
-#session h2 img { border: 0; }
 #header .logo a { border-bottom: 0; }
 .app-info h3 img { border: 0; }
+
 #bd .app-info h3 {
   color: $white;
   font-size: 20px;
@@ -62,6 +67,5 @@
 
 .EdgeButton--secondary {
   background: $dark-secondary;
-
   &:hover { background: $dark-quaternary; }
 }

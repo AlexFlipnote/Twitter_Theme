@@ -4,20 +4,20 @@
   background-color: $dark-tertiary;
 }
 
-.DashUserDropdown.dropdown-menu li>a, .DashUserDropdown.dropdown-menu button {
-  color: $white;
-}
+.DashUserDropdown.dropdown-menu {
+  li>a, button {
+    @include transition('all 250ms ease');
+    color: $white;
+    &:hover { @include transition('all 250ms ease'); }
+  }
 
-.DashUserDropdown.dropdown-menu li>a, .DashUserDropdown.dropdown-menu li>a:hover {
-  @include transition('all 250ms ease');
-}
+  .DashUserDropdown-userInfoLink {
+    text-align: center;
+    width: 100%;
+  }
 
-.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink {
-  text-align: center;
-  width: 100%;
+  .DashUserDropdown-userInfoLink:hover { background: $dark-highlight !important; }
 }
-
-.DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover { background: $dark-highlight !important; }
 
 .DashUserDropdown-userInfo {
   margin: 0;

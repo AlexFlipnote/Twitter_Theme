@@ -5,24 +5,28 @@ body, body.ms-windows { background-color: $dark-tertiary !important; }
 p { color: $white; }
 hr { visibility: hidden; }
 input, input:focus { border-color: transparent; color: $white; }
+
 .global-nav .people .count .count-inner { border: 0; }  // scss-lint:disable SelectorDepth
 .global-nav-inner { background-color: $dark-highlight; }
 
 .message {
   background-color: $dark-highlight;
-
   .message-text { color: $white; }
 }
 
 .TopNav {
   background: $dark-highlight;
   box-shadow: none;
+  span { color: $white; }
 }
 
 .modal { border-radius: 0; }
 .stream-end, .stream-end-inner { background: transparent; border: 0; }
-.keyboard-shortcuts .modal-table th, .keyboard-shortcuts .modal-table td { color: $white; }
-.keyboard-shortcuts .modal-table .shortcut-label { color: $dark-white; }
+
+.keyboard-shortcuts .modal-table {
+  th, td { color: $white; }
+  .shortcut-label { color: $dark-white; }
+}
 
 .btn, .primary-btn {
   @include transition('all 200ms ease');
@@ -61,11 +65,7 @@ input, input:focus { border-color: transparent; color: $white; }
 .permalink .stream-end-inner, .stream-fotter, .tweet .stats, .permalink .replies-to .tweet, .tweet,
 .DashboardProfileCard-content, .DashboardProfileCard, .DashboardProfileCard-bg, .module .flex-module,
 .TwitterCard-container--clickable, .QuoteTweet {
-  border: 0;
-  border-bottom: 0;
-  border-left: 0;
-  border-right: 0;
-  border-top: 0;
+  @extend %remove-any-border;
 }
 
 .permalink {
@@ -94,17 +94,23 @@ input, input:focus { border-color: transparent; color: $white; }
 .EdgeButton--tertiary { background: $dark-primary; }
 
 // Follow button
-.UserSmallListItem .user-actions-follow-button button,
-.UserSmallListItem .user-actions-follow-button button:hover {
-  @include transition('all 250ms ease');
-}
+.UserSmallListItem .user-actions-follow-button {
+  button {
+    @include transition('all 250ms ease');
+    background: $dark-tertiary;
 
-.UserSmallListItem .user-actions-follow-button button { background: $dark-tertiary; }
-.UserSmallListItem .user-actions-follow-button button:hover { background: $dark-quaternary; }
+    &:hover {
+      @include transition('all 250ms ease');
+      background: $dark-quaternary;
+    }
+  }
+}
 
 .follow-btn.small-follow-btn { background: $green; }
 
-.following .follow-btn, .following .follow-button,
-.following .follow-btn:hover, .following .follow-button:hover {
-  @include transition('all 300ms ease');
+.following {
+  .follow-btn, .follow-button {
+    @include transition('all 300ms ease');
+    &:hover { @include transition('all 300ms ease'); }
+  }
 }

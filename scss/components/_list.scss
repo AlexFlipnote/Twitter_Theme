@@ -1,11 +1,19 @@
 .GridTimeline-emptyText { color: $white; }
-.ProfileListsTimeline .GridTimeline-end:not(.has-items) {
-  background-color: transparent;
-  border: 0;
-  border-radius: 0;
-}
 
-.ProfileListsTimeline .GridTimeline-items.has-items, .ProfileListItem {
+.ProfileListItem {
   background-color: $dark-secondary;
   border-color: transparent transparent $dark-highlight;
+}
+
+.ProfileListsTimeline {
+  .GridTimeline-end:not(.has-items) {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .GridTimeline-items.has-items {
+    background-color: $dark-secondary;
+    border-color: transparent transparent $dark-highlight;
+  }
 }
