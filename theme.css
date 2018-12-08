@@ -840,11 +840,27 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   .tweet-counter.superwarn {
     color: #e74c3c; }
 
-.modal-content {
-  background: #282828; }
+#activity-popup-dialog .modal-header, .modal-content {
+  background: #181818 !important; }
 
 .self-thread-permalink-cta {
   background: #282828; }
+
+.activity-popup-dialog-users .account, .activity-popup-dialog-in-reply-to-user .account {
+  border-bottom: 0 !important;
+  border-top: 0 !important; }
+
+#global-tweet-dialog .modal-tweet .tweet, #global-tweet-dialog .modal-tweet .tweet:hover {
+  background-color: #212121 !important;
+  transition: all 300ms ease; }
+#global-tweet-dialog .modal-tweet-form-container {
+  background-color: #282828;
+  color: #fff; }
+#global-tweet-dialog.tweet-showing .modal-header {
+  border-bottom: 0 !important; }
+#global-tweet-dialog .modal-header {
+  background-color: #181818;
+  border-bottom: 0; }
 
 .Gallery-content .Gallery-media {
   background: #181818 !important; }
@@ -866,13 +882,6 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 
 .RetweetDialog-commentBox {
   background-color: #282828; }
-
-#global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet {
-  background-color: #282828;
-  transition: all 300ms ease; }
-
-#global-tweet-dialog.tweet-showing .modal-header {
-  border-bottom: 0; }
 
 .ThreadedConversation-showMoreThreadsButton, .ThreadedConversation-showMoreThreads {
   background: #181818; }
@@ -975,10 +984,6 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .stream-item + .stream-item.separated-module:not(.no-header-background-module) {
   border-top: 0; }
 
-#global-tweet-dialog .modal-header {
-  background-color: #181818;
-  border-bottom: 0; }
-
 .RichEditor {
   background: transparent !important;
   border: 0; }
@@ -1001,10 +1006,6 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   background: #303030;
   border-top: 0;
   text-align: center; }
-
-#global-tweet-dialog .modal-tweet-form-container {
-  background-color: #282828;
-  color: #fff; }
 
 .tweet-btn {
   transition: all 200ms ease;

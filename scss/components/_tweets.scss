@@ -14,12 +14,36 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   &.superwarn { color: $red; }
 }
 
-.modal-content {
-  background: $dark-secondary;
+#activity-popup-dialog .modal-header, .modal-content {
+  background: $dark-highlight !important;
 }
 
 .self-thread-permalink-cta {
   background: $dark-secondary;
+}
+
+.activity-popup-dialog-users .account, .activity-popup-dialog-in-reply-to-user .account {
+  border-bottom: 0 !important;
+  border-top: 0 !important;
+}
+
+#global-tweet-dialog {
+  .modal-tweet .tweet, .modal-tweet .tweet:hover {
+    background-color: $dark-primary !important;
+    transition: all 300ms ease;
+  }
+
+  .modal-tweet-form-container {
+    background-color: $dark-secondary;
+    color: $white;
+  }
+
+  &.tweet-showing .modal-header { border-bottom: 0 !important; }
+
+  .modal-header {
+    background-color: $dark-highlight;
+    border-bottom: 0;
+  }
 }
 
 .Gallery-content {
@@ -41,8 +65,6 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .RetweetDialog-footer { background-color: $dark-secondary; }
 .modal-container.tweet-showing .modal-tweet { background-color: $dark-secondary; }
 .RetweetDialog-commentBox { background-color: $dark-secondary; }
-#global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet { background-color: $dark-secondary; transition: all 300ms ease; }
-#global-tweet-dialog.tweet-showing .modal-header { border-bottom: 0; }
 .ThreadedConversation-showMoreThreadsButton, .ThreadedConversation-showMoreThreads { background: $dark-highlight; }
 .ThreadedConversation, .ThreadedConversation-moreReplies::after { border-bottom: 0; }
 .inline-reply-tweetbox { background-color: $dark-secondary; }
@@ -147,11 +169,6 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   border-top: 0;
 }
 
-#global-tweet-dialog .modal-header {
-  background-color: $dark-highlight;
-  border-bottom: 0;
-}
-
 .RichEditor {
   background: transparent !important;
   border: 0;
@@ -177,11 +194,6 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   background: $dark-tertiary;
   border-top: 0;
   text-align: center;
-}
-
-#global-tweet-dialog .modal-tweet-form-container {
-  background-color: $dark-secondary;
-  color: $white;
 }
 
 .tweet-btn {
