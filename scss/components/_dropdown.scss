@@ -5,18 +5,23 @@
 }
 
 .DashUserDropdown.dropdown-menu {
-  li>a, button {
+  li > a, button {
     @include transition('all 250ms ease');
     color: $white;
-    &:hover { @include transition('all 250ms ease'); }
+
+    &:hover:not(.DashUserDropdown-userInfoLink) {
+      @include transition('all 250ms ease');
+      padding-left: 22px;
+    }
   }
 
   .DashUserDropdown-userInfoLink {
+    padding: 5px 0;
     text-align: center;
     width: 100%;
-  }
 
-  .DashUserDropdown-userInfoLink:hover { background: $dark-highlight !important; }
+    &:hover { background: $dark-highlight !important; }
+  }
 }
 
 .DashUserDropdown-userInfo {
@@ -33,7 +38,18 @@
   border-bottom-color: $dark-tertiary;
 }
 
-.dropdown-menu .dropdown-link { color: $white; }
+.dropdown-menu {
+  margin-top: 10px;
+  padding: 0;
+  padding-bottom: 10px;
+
+  .dropdown-link { color: $white; }
+
+  .dropdown-divider {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
 
 .nav .session .dropdown-toggle {
   background: transparent;

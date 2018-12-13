@@ -27,6 +27,15 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   border-top: 0 !important;
 }
 
+.not-following {
+  .follow-button {
+    background: $dark-tertiary;
+    border-radius: 5px;
+  }
+
+  .EdgeButton--secondary { background: transparent !important; }
+}
+
 #global-tweet-dialog {
   .modal-tweet .tweet, .modal-tweet .tweet:hover {
     background-color: $dark-primary !important;
@@ -212,13 +221,13 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   @include transition('all 300ms ease');
   background-color: $dark-secondary;
 
+  .metadata { color: $dark-white; }
+
   .js-tweet-text { color: $white; }
   .stats {
-    background: #222;
     border-radius: 4px;
 
     .js-stat-count {
-      background: #333;
       margin-right: 0;
 
       a { padding: 13px 10px; } // scss-lint:disable NestingDepth
