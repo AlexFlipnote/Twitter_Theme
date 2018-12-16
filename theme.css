@@ -893,7 +893,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .Gallery-content:hover .tweet {
   background: #181818; }
 .Gallery-content .tweet {
-  background: transparent !important; }
+  background: #181818 !important; }
   .Gallery-content .tweet:hover {
     background: #181818; }
 .Gallery-content .stream-item-footer {
