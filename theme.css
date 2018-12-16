@@ -1093,15 +1093,6 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .QuoteTweet-text, .TwitterCard .SummaryCard--small .SummaryCard-content p {
   color: #eee; }
 
-.conversation-module .conversation-tweet-item .tweet:hover, .tweet:hover {
-  transition: all 300ms ease;
-  -webkit-transition: all 300ms ease;
-  -ms-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  -o-transition: all 300ms ease;
-  background-color: #303030;
-  border-bottom: 0; }
-
 .home-tweet-box, .permalink-inner {
   background-color: #181818; }
 
