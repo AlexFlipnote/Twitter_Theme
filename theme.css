@@ -876,6 +876,9 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .not-following .EdgeButton--secondary {
   background: transparent !important; }
 
+.conversation-module .conversation-tweet-item .tweet:hover {
+  background: transparent !important; }
+
 #global-tweet-dialog .modal-tweet .tweet, #global-tweet-dialog .modal-tweet .tweet:hover {
   background-color: #212121 !important;
   transition: all 300ms ease; }

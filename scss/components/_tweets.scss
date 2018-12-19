@@ -36,6 +36,10 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   .EdgeButton--secondary { background: transparent !important; }
 }
 
+.conversation-module .conversation-tweet-item {
+  .tweet:hover { background: transparent !important; }
+}
+
 #global-tweet-dialog {
   .modal-tweet .tweet, .modal-tweet .tweet:hover {
     background-color: $dark-primary !important;
