@@ -894,11 +894,11 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .Gallery-content .Gallery-media {
   background: #181818 !important; }
 .Gallery-content:hover .tweet {
-  background: #181818; }
+  background: #181818 !important; }
 .Gallery-content .tweet {
   background: transparent !important; }
   .Gallery-content .tweet:hover {
-    background: #181818; }
+    background: #181818 !important; }
 .Gallery-content .stream-item-footer {
   background: #181818 !important;
   border-top: 0; }
@@ -1056,6 +1056,9 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
     -webkit-transform: translateY(-0.3em);
     transform: translateY(-0.3em);
     color: #fff; }
+
+.GalleryTweet .content .stream-item-footer {
+  border-top: 0; }
 
 .tweet {
   transition: all 300ms ease;

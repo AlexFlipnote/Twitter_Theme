@@ -62,11 +62,11 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .Gallery-content {
   .Gallery-media { background: $dark-highlight !important; }
 
-  &:hover .tweet { background: $dark-highlight; }
+  &:hover .tweet { background: $dark-highlight !important; }
 
   .tweet {
     background: transparent !important;
-    &:hover { background: $dark-highlight; }
+    &:hover { background: $dark-highlight !important; }
   }
 
   .stream-item-footer {
@@ -219,6 +219,10 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
     @include transform(translateY(-.3em));
     color: $white;
   }
+}
+
+.GalleryTweet {
+  .content .stream-item-footer { border-top: 0; }
 }
 
 .tweet {
