@@ -61,7 +61,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
   &:hover .tweet { background: $dark-highlight; }
 
   .tweet {
-    background: $dark-highlight !important;
+    background: transparent !important;
     &:hover { background: $dark-highlight; }
   }
 
