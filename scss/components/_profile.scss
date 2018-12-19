@@ -77,9 +77,15 @@
   color: $white;
 }
 
-.ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers, .ProfilePage .AppContent,
+.ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers,
 .ProfileHeading-content, .ProfileSidebar .TweetImpressionsModule, .WhoToFollow.is-visible {
   background-color: $dark-secondary;
+  border: 0;
+  border-radius: 0;
+}
+
+.ProfilePage .AppContent {
+  background-color: transparent !important;
   border: 0;
   border-radius: 0;
 }

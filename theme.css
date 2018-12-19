@@ -546,9 +546,14 @@ li.stream-item.highlighted.highlighted {
 .ProfileHeaderCard-vineProfileText, .ProfileHeaderCard-periscopeProfileText {
   color: #fff; }
 
-.ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers, .ProfilePage .AppContent,
+.ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers,
 .ProfileHeading-content, .ProfileSidebar .TweetImpressionsModule, .WhoToFollow.is-visible {
   background-color: #282828;
+  border: 0;
+  border-radius: 0; }
+
+.ProfilePage .AppContent {
+  background-color: transparent !important;
   border: 0;
   border-radius: 0; }
 
