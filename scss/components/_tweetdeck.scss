@@ -180,8 +180,15 @@
   input { background: $dark-secondary !important; }
 }
 
+textarea[placeholder="What's happening?"].compose-text {
+  background: $dark-tertiary !important;
+  border-color: $dark-highlight;
+  color: $white;
+}
+
 .js-docked-compose {
   background: $dark-primary !important;
+
   .compose-reply-tweet { background: $dark-secondary !important; }
   .compose-text-container, .compose-text, .js-compose-message-recipient-input-container, .js-compose-message-account {
     background: $dark-tertiary !important;
