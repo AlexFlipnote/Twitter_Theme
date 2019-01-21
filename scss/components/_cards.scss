@@ -29,3 +29,7 @@ p.ProfileCard-bio {
 .fullname .ProfileNameTruncated-link .u-textInheritColor .js-nav, .account-group .username.u-textTruncate {
   color: $white;
 }
+
+.ProfileCard--wide {
+  .ProfileCardStats { background: transparent; }
+}

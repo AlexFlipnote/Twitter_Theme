@@ -293,10 +293,6 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .PermalinkOverlay .permalink-tweet { background-color: $dark-secondary; }
 
 // Polls
-html, body:not([class]):not([data-promote-url]) {
-  background-color: transparent !important;
-}
-
 .TwitterCard {
   [class*="PollXChoice-footer--"] { font-family: "Segoe UI", Arial, sans-serif; }
   .PollXChoice-choice--selected { filter: brightness(10); }

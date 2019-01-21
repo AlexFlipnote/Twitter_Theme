@@ -1,4 +1,4 @@
-body, body.ms-windows { background-color: $dark-tertiary !important; }
+html, body, body.ms-windows { background-color: $dark-tertiary !important; }
 .footer { background: $dark-tertiary !important; }
 #header { background: $dark-highlight; border-bottom: 0; }
 
@@ -112,5 +112,20 @@ input, input:focus { border-color: transparent; color: $white; }
   .follow-btn, .follow-button {
     @include transition('all 300ms ease');
     &:hover { @include transition('all 300ms ease'); }
+  }
+}
+
+// Error page
+.errorpage-topbar {
+  .errorpage-global-nav-inner { background: $dark-highlight; }
+}
+
+.errorpage-body-content {
+  .search-404 {
+    #search_q, .errorpage-btn {
+      background: $dark-primary;
+      border-radius: 0;
+      color: $white;
+    }
   }
 }
