@@ -12,7 +12,7 @@ function injectCSS(css) {
 chrome.storage.local.get({
   customcss: "",
   twittertheme: true
-},function(items) {
+}, function(items) {
   if (items.twittertheme == true) {
     if (isFirefox) {
       styleCss = document.createElement("link");

@@ -3,17 +3,17 @@
 
   "name": "AlexFlipnote/Twitter_Theme",
   "description": "A theme that changes the standard Twitter CSS to a bit more darker theme.",
-  "version": "0.0.4",
+  "version": "0.0.5",
 
   "icons": {
-    "128": "assets/images/128.png",
-    "48": "assets/images/48.png",
-    "32": "assets/images/32.png",
-    "16": "assets/images/16.png"
+    "128": "images/128.png",
+    "48": "images/48.png",
+    "32": "images/32.png",
+    "16": "images/16.png"
   },
 
   "content_scripts": [{
-    "js": ["assets/script.js"],
+    "js": ["script.js"],
     "matches": [
       "https://twitter.com/*", "https://*.twitter.com/*"
     ],
@@ -22,19 +22,19 @@
   }],
 
   "browser_action": {
-   "default_icon": "assets/images/logo.png",
-   "default_popup": "assets/window.html"
+   "default_icon": "images/logo.png",
+   "default_popup": "window.html"
   },
 
   "background": {
     "scripts": [
-      "assets/script.js",
-      "assets/options.js"
+      "script.js",
+      "options.js"
     ]
 	},
 
   "options_ui": {
-    "page": "assets/options.html",
+    "page": "options.html",
     "open_in_tab": true
   },
 

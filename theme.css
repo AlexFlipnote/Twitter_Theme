@@ -10,14 +10,14 @@
   border-top: 0; }
 
 html, body, body.ms-windows {
-  background-color: #303030 !important; }
-
-.footer {
   background: #303030 !important; }
 
 #header {
   background: #181818;
   border-bottom: 0; }
+
+.footer {
+  background: #303030 !important; }
 
 p {
   color: #fff; }
@@ -1159,7 +1159,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .TwitterCard .PollXChoice-optionContainer:first-child {
   margin-top: 2px; }
 .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart {
-  background: #222; }
+  background: #282828; }
 .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--input:checked + .PollXChoice-choice--radio {
   border-color: #0ea669 !important; }
 .TwitterCard .PollXChoice-optionContainer span {

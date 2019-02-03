@@ -1,6 +1,3 @@
-@import '../assets/colours';
-@import '../assets/animation';
-
 span[data-query-source="hashtag_click"] b { color: $white; }
 span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply pretty-link js-nav"] s { color: $blue; }
 .rich-editor em { background: $red; }
@@ -311,7 +308,7 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 
   .PollXChoice-optionContainer {
     &:first-child { margin-top: 2px; }
-    .PollXChoice-choice--chart { background: #222; }
+    .PollXChoice-choice--chart { background: $dark-secondary; }
     .PollXChoice-choice--input:checked+.PollXChoice-choice--radio { border-color: #0ea669 !important; }
 
     span {
