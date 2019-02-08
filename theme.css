@@ -173,17 +173,6 @@ input, input:focus {
     background: #212121;
     border-radius: 0; }
 
-.vellip, .vellip::before, .vellip::after,
-.conversation-module > li::after, .conversation-module > li::before,
-.ThreadedConversation--loneTweet::after,
-.ThreadedConversation-tweet:not(.is-hiddenAncestor) ~ .ThreadedConversation-tweet::before,
-.ThreadedConversation-tweet::after, .ThreadedConversation-moreReplies::before,
-.ThreadedConversation-viewOther::before, .ThreadedConversation-unavailableTweet::before,
-.ThreadedConversation-unavailableTweet::after, .ThreadedConversation--permalinkTweetWithAncestors::before,
-.mini-avatar-with-thread::before, .permalink.self-thread-permalink-with-descendant .permalink-tweet-container::after,
-.permalink.self-thread-permalink-with-descendant .inline-reply-tweetbox-container::after {
-  border-color: #ccc; }
-
 #profile-hover-container {
   background-color: transparent; }
 
