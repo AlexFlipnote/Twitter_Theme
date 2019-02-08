@@ -469,19 +469,8 @@ p.ProfileCard-bio {
 .ActivityItem-displayText {
   color: #fff; }
 
-.ActivityItem.has-clickAction {
-  transition: all 200ms ease;
-  -webkit-transition: all 200ms ease;
-  -ms-transition: all 200ms ease;
-  -moz-transition: all 200ms ease;
-  -o-transition: all 200ms ease; }
-  .ActivityItem.has-clickAction:hover {
-    transition: all 200ms ease;
-    -webkit-transition: all 200ms ease;
-    -ms-transition: all 200ms ease;
-    -moz-transition: all 200ms ease;
-    -o-transition: all 200ms ease;
-    background: #181818; }
+.ActivityItem.has-clickAction:hover {
+  background: #282828; }
 
 li.stream-item.highlighted.highlighted {
   background-color: #353535; }

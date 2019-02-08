@@ -16,12 +16,7 @@
 }
 
 .ActivityItem.has-clickAction {
-  @include transition('all 200ms ease');
-
-  &:hover {
-    @include transition('all 200ms ease');
-    background: $dark-highlight;
-  }
+  &:hover { background: $dark-secondary; }
 }
 
 li.stream-item.highlighted {
