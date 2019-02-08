@@ -899,11 +899,11 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .Gallery-content .Gallery-media {
   background: #181818 !important; }
 .Gallery-content:hover .tweet {
-  background: #181818 !important; }
+  background: rgba(24, 24, 24, 0.85) !important; }
 .Gallery-content .tweet {
   background: transparent !important; }
   .Gallery-content .tweet:hover {
-    background: #181818 !important; }
+    background: rgba(24, 24, 24, 0.85) !important; }
 .Gallery-content .stream-item-footer {
   background: #181818 !important;
   border-top: 0; }

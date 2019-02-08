@@ -59,11 +59,11 @@ span[class="twitter-atreply pretty-link js-nav"] b, span[class="twitter-atreply 
 .Gallery-content {
   .Gallery-media { background: $dark-highlight !important; }
 
-  &:hover .tweet { background: $dark-highlight !important; }
+  &:hover .tweet { background: rgba($dark-highlight, .85) !important; }
 
   .tweet {
     background: transparent !important;
-    &:hover { background: $dark-highlight !important; }
+    &:hover { background: rgba($dark-highlight, .85) !important; }
   }
 
   .stream-item-footer {
