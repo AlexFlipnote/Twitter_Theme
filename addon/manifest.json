@@ -3,7 +3,7 @@
 
   "name": "AlexFlipnote/Twitter_Theme",
   "description": "A theme that changes the standard Twitter CSS to a bit more darker theme.",
-  "version": "0.0.6",
+  "version": "0.0.6.1",
 
   "icons": {
     "128": "images/128.png",
