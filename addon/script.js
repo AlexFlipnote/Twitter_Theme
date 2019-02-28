@@ -16,12 +16,12 @@ chrome.storage.local.get({
   if (items.twittertheme == true) {
     if (isFirefox) {
       styleCss = document.createElement("link");
-      styleCss.href = "https://twittertheme.alexflipnote.xyz/theme.css";
+      styleCss.href = "https://twittertheme.alexflipnote.dev/theme.css";
       styleCss.type = "text/css";
       styleCss.rel = "stylesheet";
       document.head.appendChild(styleCss);
     } else {
-      injectCSS("@import url('https://twittertheme.alexflipnote.xyz/theme.css');");
+      injectCSS("@import url('https://twittertheme.alexflipnote.dev/theme.css');");
     }
   }
 
