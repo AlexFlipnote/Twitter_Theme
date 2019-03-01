@@ -23,8 +23,8 @@ Do you need more help? Join my server! **https://discord.gg/DpxkY3x**
 **I found a bug, what do I do?**<br>Make a **Pull Request / Issue**
 
 ## Screenshots
-![Preview 1](https://i.alexflipnote.xyz/864288.png)
+![Preview 1](https://i.alexflipnote.dev/864288.png)
 
-![Preview 2](https://i.alexflipnote.xyz/04bb4f.png)
+![Preview 2](https://i.alexflipnote.dev/04bb4f.png)
 
-![Preview 3](https://i.alexflipnote.xyz/97c8fa.png)
+![Preview 3](https://i.alexflipnote.dev/97c8fa.png)
